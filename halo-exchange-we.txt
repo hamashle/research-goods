@@ -1,0 +1,1792 @@
+l1bmp $lb256 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1792 $lm38
+l1bmp $lb1920 $lm58
+l1bmp $lb2048 $lm78
+l1bmp $lb2176 $lm98
+l1bmp $lb2304 $lm118
+l1bmp $lb2432 $lm138
+l1bmp $lb2560 $lm158
+l1bmp $lb2688 $lm178
+mask 0
+
+l1bmp $lb384 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2816 $lm20
+l1bmp $lb2944 $lm40
+l1bmp $lb3072 $lm60
+l1bmp $lb3200 $lm80
+l1bmp $lb3328 $lm100
+l1bmp $lb3456 $lm120
+l1bmp $lb3584 $lm140
+l1bmp $lb3712 $lm160
+mask 0
+
+l1bmp $lb258 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1794 $lm38
+l1bmp $lb1922 $lm58
+l1bmp $lb2050 $lm78
+l1bmp $lb2178 $lm98
+l1bmp $lb2306 $lm118
+l1bmp $lb2434 $lm138
+l1bmp $lb2562 $lm158
+l1bmp $lb2690 $lm178
+mask 0
+
+l1bmp $lb386 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2818 $lm20
+l1bmp $lb2946 $lm40
+l1bmp $lb3074 $lm60
+l1bmp $lb3202 $lm80
+l1bmp $lb3330 $lm100
+l1bmp $lb3458 $lm120
+l1bmp $lb3586 $lm140
+l1bmp $lb3714 $lm160
+mask 0
+
+l1bmp $lb260 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1796 $lm38
+l1bmp $lb1924 $lm58
+l1bmp $lb2052 $lm78
+l1bmp $lb2180 $lm98
+l1bmp $lb2308 $lm118
+l1bmp $lb2436 $lm138
+l1bmp $lb2564 $lm158
+l1bmp $lb2692 $lm178
+mask 0
+
+l1bmp $lb388 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2820 $lm20
+l1bmp $lb2948 $lm40
+l1bmp $lb3076 $lm60
+l1bmp $lb3204 $lm80
+l1bmp $lb3332 $lm100
+l1bmp $lb3460 $lm120
+l1bmp $lb3588 $lm140
+l1bmp $lb3716 $lm160
+mask 0
+
+l1bmp $lb262 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1798 $lm38
+l1bmp $lb1926 $lm58
+l1bmp $lb2054 $lm78
+l1bmp $lb2182 $lm98
+l1bmp $lb2310 $lm118
+l1bmp $lb2438 $lm138
+l1bmp $lb2566 $lm158
+l1bmp $lb2694 $lm178
+mask 0
+
+l1bmp $lb390 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2822 $lm20
+l1bmp $lb2950 $lm40
+l1bmp $lb3078 $lm60
+l1bmp $lb3206 $lm80
+l1bmp $lb3334 $lm100
+l1bmp $lb3462 $lm120
+l1bmp $lb3590 $lm140
+l1bmp $lb3718 $lm160
+mask 0
+
+l1bmp $lb264 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1800 $lm38
+l1bmp $lb1928 $lm58
+l1bmp $lb2056 $lm78
+l1bmp $lb2184 $lm98
+l1bmp $lb2312 $lm118
+l1bmp $lb2440 $lm138
+l1bmp $lb2568 $lm158
+l1bmp $lb2696 $lm178
+mask 0
+
+l1bmp $lb392 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2824 $lm20
+l1bmp $lb2952 $lm40
+l1bmp $lb3080 $lm60
+l1bmp $lb3208 $lm80
+l1bmp $lb3336 $lm100
+l1bmp $lb3464 $lm120
+l1bmp $lb3592 $lm140
+l1bmp $lb3720 $lm160
+mask 0
+
+l1bmp $lb266 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1802 $lm38
+l1bmp $lb1930 $lm58
+l1bmp $lb2058 $lm78
+l1bmp $lb2186 $lm98
+l1bmp $lb2314 $lm118
+l1bmp $lb2442 $lm138
+l1bmp $lb2570 $lm158
+l1bmp $lb2698 $lm178
+mask 0
+
+l1bmp $lb394 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2826 $lm20
+l1bmp $lb2954 $lm40
+l1bmp $lb3082 $lm60
+l1bmp $lb3210 $lm80
+l1bmp $lb3338 $lm100
+l1bmp $lb3466 $lm120
+l1bmp $lb3594 $lm140
+l1bmp $lb3722 $lm160
+mask 0
+
+l1bmp $lb268 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1804 $lm38
+l1bmp $lb1932 $lm58
+l1bmp $lb2060 $lm78
+l1bmp $lb2188 $lm98
+l1bmp $lb2316 $lm118
+l1bmp $lb2444 $lm138
+l1bmp $lb2572 $lm158
+l1bmp $lb2700 $lm178
+mask 0
+
+l1bmp $lb396 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2828 $lm20
+l1bmp $lb2956 $lm40
+l1bmp $lb3084 $lm60
+l1bmp $lb3212 $lm80
+l1bmp $lb3340 $lm100
+l1bmp $lb3468 $lm120
+l1bmp $lb3596 $lm140
+l1bmp $lb3724 $lm160
+mask 0
+
+l1bmp $lb270 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1806 $lm38
+l1bmp $lb1934 $lm58
+l1bmp $lb2062 $lm78
+l1bmp $lb2190 $lm98
+l1bmp $lb2318 $lm118
+l1bmp $lb2446 $lm138
+l1bmp $lb2574 $lm158
+l1bmp $lb2702 $lm178
+mask 0
+
+l1bmp $lb398 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2830 $lm20
+l1bmp $lb2958 $lm40
+l1bmp $lb3086 $lm60
+l1bmp $lb3214 $lm80
+l1bmp $lb3342 $lm100
+l1bmp $lb3470 $lm120
+l1bmp $lb3598 $lm140
+l1bmp $lb3726 $lm160
+mask 0
+
+l1bmp $lb272 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1808 $lm38
+l1bmp $lb1936 $lm58
+l1bmp $lb2064 $lm78
+l1bmp $lb2192 $lm98
+l1bmp $lb2320 $lm118
+l1bmp $lb2448 $lm138
+l1bmp $lb2576 $lm158
+l1bmp $lb2704 $lm178
+mask 0
+
+l1bmp $lb400 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2832 $lm20
+l1bmp $lb2960 $lm40
+l1bmp $lb3088 $lm60
+l1bmp $lb3216 $lm80
+l1bmp $lb3344 $lm100
+l1bmp $lb3472 $lm120
+l1bmp $lb3600 $lm140
+l1bmp $lb3728 $lm160
+mask 0
+
+l1bmp $lb274 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1810 $lm38
+l1bmp $lb1938 $lm58
+l1bmp $lb2066 $lm78
+l1bmp $lb2194 $lm98
+l1bmp $lb2322 $lm118
+l1bmp $lb2450 $lm138
+l1bmp $lb2578 $lm158
+l1bmp $lb2706 $lm178
+mask 0
+
+l1bmp $lb402 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2834 $lm20
+l1bmp $lb2962 $lm40
+l1bmp $lb3090 $lm60
+l1bmp $lb3218 $lm80
+l1bmp $lb3346 $lm100
+l1bmp $lb3474 $lm120
+l1bmp $lb3602 $lm140
+l1bmp $lb3730 $lm160
+mask 0
+
+l1bmp $lb276 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1812 $lm38
+l1bmp $lb1940 $lm58
+l1bmp $lb2068 $lm78
+l1bmp $lb2196 $lm98
+l1bmp $lb2324 $lm118
+l1bmp $lb2452 $lm138
+l1bmp $lb2580 $lm158
+l1bmp $lb2708 $lm178
+mask 0
+
+l1bmp $lb404 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2836 $lm20
+l1bmp $lb2964 $lm40
+l1bmp $lb3092 $lm60
+l1bmp $lb3220 $lm80
+l1bmp $lb3348 $lm100
+l1bmp $lb3476 $lm120
+l1bmp $lb3604 $lm140
+l1bmp $lb3732 $lm160
+mask 0
+
+l1bmp $lb278 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1814 $lm38
+l1bmp $lb1942 $lm58
+l1bmp $lb2070 $lm78
+l1bmp $lb2198 $lm98
+l1bmp $lb2326 $lm118
+l1bmp $lb2454 $lm138
+l1bmp $lb2582 $lm158
+l1bmp $lb2710 $lm178
+mask 0
+
+l1bmp $lb406 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2838 $lm20
+l1bmp $lb2966 $lm40
+l1bmp $lb3094 $lm60
+l1bmp $lb3222 $lm80
+l1bmp $lb3350 $lm100
+l1bmp $lb3478 $lm120
+l1bmp $lb3606 $lm140
+l1bmp $lb3734 $lm160
+mask 0
+
+l1bmp $lb280 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1816 $lm38
+l1bmp $lb1944 $lm58
+l1bmp $lb2072 $lm78
+l1bmp $lb2200 $lm98
+l1bmp $lb2328 $lm118
+l1bmp $lb2456 $lm138
+l1bmp $lb2584 $lm158
+l1bmp $lb2712 $lm178
+mask 0
+
+l1bmp $lb408 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2840 $lm20
+l1bmp $lb2968 $lm40
+l1bmp $lb3096 $lm60
+l1bmp $lb3224 $lm80
+l1bmp $lb3352 $lm100
+l1bmp $lb3480 $lm120
+l1bmp $lb3608 $lm140
+l1bmp $lb3736 $lm160
+mask 0
+
+l1bmp $lb282 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1818 $lm38
+l1bmp $lb1946 $lm58
+l1bmp $lb2074 $lm78
+l1bmp $lb2202 $lm98
+l1bmp $lb2330 $lm118
+l1bmp $lb2458 $lm138
+l1bmp $lb2586 $lm158
+l1bmp $lb2714 $lm178
+mask 0
+
+l1bmp $lb410 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2842 $lm20
+l1bmp $lb2970 $lm40
+l1bmp $lb3098 $lm60
+l1bmp $lb3226 $lm80
+l1bmp $lb3354 $lm100
+l1bmp $lb3482 $lm120
+l1bmp $lb3610 $lm140
+l1bmp $lb3738 $lm160
+mask 0
+
+l1bmp $lb284 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1820 $lm38
+l1bmp $lb1948 $lm58
+l1bmp $lb2076 $lm78
+l1bmp $lb2204 $lm98
+l1bmp $lb2332 $lm118
+l1bmp $lb2460 $lm138
+l1bmp $lb2588 $lm158
+l1bmp $lb2716 $lm178
+mask 0
+
+l1bmp $lb412 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2844 $lm20
+l1bmp $lb2972 $lm40
+l1bmp $lb3100 $lm60
+l1bmp $lb3228 $lm80
+l1bmp $lb3356 $lm100
+l1bmp $lb3484 $lm120
+l1bmp $lb3612 $lm140
+l1bmp $lb3740 $lm160
+mask 0
+
+l1bmp $lb286 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1822 $lm38
+l1bmp $lb1950 $lm58
+l1bmp $lb2078 $lm78
+l1bmp $lb2206 $lm98
+l1bmp $lb2334 $lm118
+l1bmp $lb2462 $lm138
+l1bmp $lb2590 $lm158
+l1bmp $lb2718 $lm178
+mask 0
+
+l1bmp $lb414 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2846 $lm20
+l1bmp $lb2974 $lm40
+l1bmp $lb3102 $lm60
+l1bmp $lb3230 $lm80
+l1bmp $lb3358 $lm100
+l1bmp $lb3486 $lm120
+l1bmp $lb3614 $lm140
+l1bmp $lb3742 $lm160
+mask 0
+
+l1bmp $lb288 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1824 $lm38
+l1bmp $lb1952 $lm58
+l1bmp $lb2080 $lm78
+l1bmp $lb2208 $lm98
+l1bmp $lb2336 $lm118
+l1bmp $lb2464 $lm138
+l1bmp $lb2592 $lm158
+l1bmp $lb2720 $lm178
+mask 0
+
+l1bmp $lb416 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2848 $lm20
+l1bmp $lb2976 $lm40
+l1bmp $lb3104 $lm60
+l1bmp $lb3232 $lm80
+l1bmp $lb3360 $lm100
+l1bmp $lb3488 $lm120
+l1bmp $lb3616 $lm140
+l1bmp $lb3744 $lm160
+mask 0
+
+l1bmp $lb290 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1826 $lm38
+l1bmp $lb1954 $lm58
+l1bmp $lb2082 $lm78
+l1bmp $lb2210 $lm98
+l1bmp $lb2338 $lm118
+l1bmp $lb2466 $lm138
+l1bmp $lb2594 $lm158
+l1bmp $lb2722 $lm178
+mask 0
+
+l1bmp $lb418 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2850 $lm20
+l1bmp $lb2978 $lm40
+l1bmp $lb3106 $lm60
+l1bmp $lb3234 $lm80
+l1bmp $lb3362 $lm100
+l1bmp $lb3490 $lm120
+l1bmp $lb3618 $lm140
+l1bmp $lb3746 $lm160
+mask 0
+
+l1bmp $lb292 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1828 $lm38
+l1bmp $lb1956 $lm58
+l1bmp $lb2084 $lm78
+l1bmp $lb2212 $lm98
+l1bmp $lb2340 $lm118
+l1bmp $lb2468 $lm138
+l1bmp $lb2596 $lm158
+l1bmp $lb2724 $lm178
+mask 0
+
+l1bmp $lb420 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2852 $lm20
+l1bmp $lb2980 $lm40
+l1bmp $lb3108 $lm60
+l1bmp $lb3236 $lm80
+l1bmp $lb3364 $lm100
+l1bmp $lb3492 $lm120
+l1bmp $lb3620 $lm140
+l1bmp $lb3748 $lm160
+mask 0
+
+l1bmp $lb294 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1830 $lm38
+l1bmp $lb1958 $lm58
+l1bmp $lb2086 $lm78
+l1bmp $lb2214 $lm98
+l1bmp $lb2342 $lm118
+l1bmp $lb2470 $lm138
+l1bmp $lb2598 $lm158
+l1bmp $lb2726 $lm178
+mask 0
+
+l1bmp $lb422 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2854 $lm20
+l1bmp $lb2982 $lm40
+l1bmp $lb3110 $lm60
+l1bmp $lb3238 $lm80
+l1bmp $lb3366 $lm100
+l1bmp $lb3494 $lm120
+l1bmp $lb3622 $lm140
+l1bmp $lb3750 $lm160
+mask 0
+
+l1bmp $lb296 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1832 $lm38
+l1bmp $lb1960 $lm58
+l1bmp $lb2088 $lm78
+l1bmp $lb2216 $lm98
+l1bmp $lb2344 $lm118
+l1bmp $lb2472 $lm138
+l1bmp $lb2600 $lm158
+l1bmp $lb2728 $lm178
+mask 0
+
+l1bmp $lb424 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2856 $lm20
+l1bmp $lb2984 $lm40
+l1bmp $lb3112 $lm60
+l1bmp $lb3240 $lm80
+l1bmp $lb3368 $lm100
+l1bmp $lb3496 $lm120
+l1bmp $lb3624 $lm140
+l1bmp $lb3752 $lm160
+mask 0
+
+l1bmp $lb298 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1834 $lm38
+l1bmp $lb1962 $lm58
+l1bmp $lb2090 $lm78
+l1bmp $lb2218 $lm98
+l1bmp $lb2346 $lm118
+l1bmp $lb2474 $lm138
+l1bmp $lb2602 $lm158
+l1bmp $lb2730 $lm178
+mask 0
+
+l1bmp $lb426 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2858 $lm20
+l1bmp $lb2986 $lm40
+l1bmp $lb3114 $lm60
+l1bmp $lb3242 $lm80
+l1bmp $lb3370 $lm100
+l1bmp $lb3498 $lm120
+l1bmp $lb3626 $lm140
+l1bmp $lb3754 $lm160
+mask 0
+
+l1bmp $lb300 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1836 $lm38
+l1bmp $lb1964 $lm58
+l1bmp $lb2092 $lm78
+l1bmp $lb2220 $lm98
+l1bmp $lb2348 $lm118
+l1bmp $lb2476 $lm138
+l1bmp $lb2604 $lm158
+l1bmp $lb2732 $lm178
+mask 0
+
+l1bmp $lb428 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2860 $lm20
+l1bmp $lb2988 $lm40
+l1bmp $lb3116 $lm60
+l1bmp $lb3244 $lm80
+l1bmp $lb3372 $lm100
+l1bmp $lb3500 $lm120
+l1bmp $lb3628 $lm140
+l1bmp $lb3756 $lm160
+mask 0
+
+l1bmp $lb302 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1838 $lm38
+l1bmp $lb1966 $lm58
+l1bmp $lb2094 $lm78
+l1bmp $lb2222 $lm98
+l1bmp $lb2350 $lm118
+l1bmp $lb2478 $lm138
+l1bmp $lb2606 $lm158
+l1bmp $lb2734 $lm178
+mask 0
+
+l1bmp $lb430 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2862 $lm20
+l1bmp $lb2990 $lm40
+l1bmp $lb3118 $lm60
+l1bmp $lb3246 $lm80
+l1bmp $lb3374 $lm100
+l1bmp $lb3502 $lm120
+l1bmp $lb3630 $lm140
+l1bmp $lb3758 $lm160
+mask 0
+
+l1bmp $lb304 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1840 $lm38
+l1bmp $lb1968 $lm58
+l1bmp $lb2096 $lm78
+l1bmp $lb2224 $lm98
+l1bmp $lb2352 $lm118
+l1bmp $lb2480 $lm138
+l1bmp $lb2608 $lm158
+l1bmp $lb2736 $lm178
+mask 0
+
+l1bmp $lb432 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2864 $lm20
+l1bmp $lb2992 $lm40
+l1bmp $lb3120 $lm60
+l1bmp $lb3248 $lm80
+l1bmp $lb3376 $lm100
+l1bmp $lb3504 $lm120
+l1bmp $lb3632 $lm140
+l1bmp $lb3760 $lm160
+mask 0
+
+l1bmp $lb306 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1842 $lm38
+l1bmp $lb1970 $lm58
+l1bmp $lb2098 $lm78
+l1bmp $lb2226 $lm98
+l1bmp $lb2354 $lm118
+l1bmp $lb2482 $lm138
+l1bmp $lb2610 $lm158
+l1bmp $lb2738 $lm178
+mask 0
+
+l1bmp $lb434 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2866 $lm20
+l1bmp $lb2994 $lm40
+l1bmp $lb3122 $lm60
+l1bmp $lb3250 $lm80
+l1bmp $lb3378 $lm100
+l1bmp $lb3506 $lm120
+l1bmp $lb3634 $lm140
+l1bmp $lb3762 $lm160
+mask 0
+
+l1bmp $lb308 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1844 $lm38
+l1bmp $lb1972 $lm58
+l1bmp $lb2100 $lm78
+l1bmp $lb2228 $lm98
+l1bmp $lb2356 $lm118
+l1bmp $lb2484 $lm138
+l1bmp $lb2612 $lm158
+l1bmp $lb2740 $lm178
+mask 0
+
+l1bmp $lb436 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2868 $lm20
+l1bmp $lb2996 $lm40
+l1bmp $lb3124 $lm60
+l1bmp $lb3252 $lm80
+l1bmp $lb3380 $lm100
+l1bmp $lb3508 $lm120
+l1bmp $lb3636 $lm140
+l1bmp $lb3764 $lm160
+mask 0
+
+l1bmp $lb310 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1846 $lm38
+l1bmp $lb1974 $lm58
+l1bmp $lb2102 $lm78
+l1bmp $lb2230 $lm98
+l1bmp $lb2358 $lm118
+l1bmp $lb2486 $lm138
+l1bmp $lb2614 $lm158
+l1bmp $lb2742 $lm178
+mask 0
+
+l1bmp $lb438 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2870 $lm20
+l1bmp $lb2998 $lm40
+l1bmp $lb3126 $lm60
+l1bmp $lb3254 $lm80
+l1bmp $lb3382 $lm100
+l1bmp $lb3510 $lm120
+l1bmp $lb3638 $lm140
+l1bmp $lb3766 $lm160
+mask 0
+
+l1bmp $lb312 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1848 $lm38
+l1bmp $lb1976 $lm58
+l1bmp $lb2104 $lm78
+l1bmp $lb2232 $lm98
+l1bmp $lb2360 $lm118
+l1bmp $lb2488 $lm138
+l1bmp $lb2616 $lm158
+l1bmp $lb2744 $lm178
+mask 0
+
+l1bmp $lb440 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2872 $lm20
+l1bmp $lb3000 $lm40
+l1bmp $lb3128 $lm60
+l1bmp $lb3256 $lm80
+l1bmp $lb3384 $lm100
+l1bmp $lb3512 $lm120
+l1bmp $lb3640 $lm140
+l1bmp $lb3768 $lm160
+mask 0
+
+l1bmp $lb314 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1850 $lm38
+l1bmp $lb1978 $lm58
+l1bmp $lb2106 $lm78
+l1bmp $lb2234 $lm98
+l1bmp $lb2362 $lm118
+l1bmp $lb2490 $lm138
+l1bmp $lb2618 $lm158
+l1bmp $lb2746 $lm178
+mask 0
+
+l1bmp $lb442 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2874 $lm20
+l1bmp $lb3002 $lm40
+l1bmp $lb3130 $lm60
+l1bmp $lb3258 $lm80
+l1bmp $lb3386 $lm100
+l1bmp $lb3514 $lm120
+l1bmp $lb3642 $lm140
+l1bmp $lb3770 $lm160
+mask 0
+
+l1bmp $lb316 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1852 $lm38
+l1bmp $lb1980 $lm58
+l1bmp $lb2108 $lm78
+l1bmp $lb2236 $lm98
+l1bmp $lb2364 $lm118
+l1bmp $lb2492 $lm138
+l1bmp $lb2620 $lm158
+l1bmp $lb2748 $lm178
+mask 0
+
+l1bmp $lb444 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2876 $lm20
+l1bmp $lb3004 $lm40
+l1bmp $lb3132 $lm60
+l1bmp $lb3260 $lm80
+l1bmp $lb3388 $lm100
+l1bmp $lb3516 $lm120
+l1bmp $lb3644 $lm140
+l1bmp $lb3772 $lm160
+mask 0
+
+l1bmp $lb318 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1854 $lm38
+l1bmp $lb1982 $lm58
+l1bmp $lb2110 $lm78
+l1bmp $lb2238 $lm98
+l1bmp $lb2366 $lm118
+l1bmp $lb2494 $lm138
+l1bmp $lb2622 $lm158
+l1bmp $lb2750 $lm178
+mask 0
+
+l1bmp $lb446 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2878 $lm20
+l1bmp $lb3006 $lm40
+l1bmp $lb3134 $lm60
+l1bmp $lb3262 $lm80
+l1bmp $lb3390 $lm100
+l1bmp $lb3518 $lm120
+l1bmp $lb3646 $lm140
+l1bmp $lb3774 $lm160
+mask 0
+
+l1bmp $lb320 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1856 $lm38
+l1bmp $lb1984 $lm58
+l1bmp $lb2112 $lm78
+l1bmp $lb2240 $lm98
+l1bmp $lb2368 $lm118
+l1bmp $lb2496 $lm138
+l1bmp $lb2624 $lm158
+l1bmp $lb2752 $lm178
+mask 0
+
+l1bmp $lb448 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2880 $lm20
+l1bmp $lb3008 $lm40
+l1bmp $lb3136 $lm60
+l1bmp $lb3264 $lm80
+l1bmp $lb3392 $lm100
+l1bmp $lb3520 $lm120
+l1bmp $lb3648 $lm140
+l1bmp $lb3776 $lm160
+mask 0
+
+l1bmp $lb322 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1858 $lm38
+l1bmp $lb1986 $lm58
+l1bmp $lb2114 $lm78
+l1bmp $lb2242 $lm98
+l1bmp $lb2370 $lm118
+l1bmp $lb2498 $lm138
+l1bmp $lb2626 $lm158
+l1bmp $lb2754 $lm178
+mask 0
+
+l1bmp $lb450 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2882 $lm20
+l1bmp $lb3010 $lm40
+l1bmp $lb3138 $lm60
+l1bmp $lb3266 $lm80
+l1bmp $lb3394 $lm100
+l1bmp $lb3522 $lm120
+l1bmp $lb3650 $lm140
+l1bmp $lb3778 $lm160
+mask 0
+
+l1bmp $lb324 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1860 $lm38
+l1bmp $lb1988 $lm58
+l1bmp $lb2116 $lm78
+l1bmp $lb2244 $lm98
+l1bmp $lb2372 $lm118
+l1bmp $lb2500 $lm138
+l1bmp $lb2628 $lm158
+l1bmp $lb2756 $lm178
+mask 0
+
+l1bmp $lb452 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2884 $lm20
+l1bmp $lb3012 $lm40
+l1bmp $lb3140 $lm60
+l1bmp $lb3268 $lm80
+l1bmp $lb3396 $lm100
+l1bmp $lb3524 $lm120
+l1bmp $lb3652 $lm140
+l1bmp $lb3780 $lm160
+mask 0
+
+l1bmp $lb326 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1862 $lm38
+l1bmp $lb1990 $lm58
+l1bmp $lb2118 $lm78
+l1bmp $lb2246 $lm98
+l1bmp $lb2374 $lm118
+l1bmp $lb2502 $lm138
+l1bmp $lb2630 $lm158
+l1bmp $lb2758 $lm178
+mask 0
+
+l1bmp $lb454 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2886 $lm20
+l1bmp $lb3014 $lm40
+l1bmp $lb3142 $lm60
+l1bmp $lb3270 $lm80
+l1bmp $lb3398 $lm100
+l1bmp $lb3526 $lm120
+l1bmp $lb3654 $lm140
+l1bmp $lb3782 $lm160
+mask 0
+
+l1bmp $lb328 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1864 $lm38
+l1bmp $lb1992 $lm58
+l1bmp $lb2120 $lm78
+l1bmp $lb2248 $lm98
+l1bmp $lb2376 $lm118
+l1bmp $lb2504 $lm138
+l1bmp $lb2632 $lm158
+l1bmp $lb2760 $lm178
+mask 0
+
+l1bmp $lb456 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2888 $lm20
+l1bmp $lb3016 $lm40
+l1bmp $lb3144 $lm60
+l1bmp $lb3272 $lm80
+l1bmp $lb3400 $lm100
+l1bmp $lb3528 $lm120
+l1bmp $lb3656 $lm140
+l1bmp $lb3784 $lm160
+mask 0
+
+l1bmp $lb330 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1866 $lm38
+l1bmp $lb1994 $lm58
+l1bmp $lb2122 $lm78
+l1bmp $lb2250 $lm98
+l1bmp $lb2378 $lm118
+l1bmp $lb2506 $lm138
+l1bmp $lb2634 $lm158
+l1bmp $lb2762 $lm178
+mask 0
+
+l1bmp $lb458 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2890 $lm20
+l1bmp $lb3018 $lm40
+l1bmp $lb3146 $lm60
+l1bmp $lb3274 $lm80
+l1bmp $lb3402 $lm100
+l1bmp $lb3530 $lm120
+l1bmp $lb3658 $lm140
+l1bmp $lb3786 $lm160
+mask 0
+
+l1bmp $lb332 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1868 $lm38
+l1bmp $lb1996 $lm58
+l1bmp $lb2124 $lm78
+l1bmp $lb2252 $lm98
+l1bmp $lb2380 $lm118
+l1bmp $lb2508 $lm138
+l1bmp $lb2636 $lm158
+l1bmp $lb2764 $lm178
+mask 0
+
+l1bmp $lb460 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2892 $lm20
+l1bmp $lb3020 $lm40
+l1bmp $lb3148 $lm60
+l1bmp $lb3276 $lm80
+l1bmp $lb3404 $lm100
+l1bmp $lb3532 $lm120
+l1bmp $lb3660 $lm140
+l1bmp $lb3788 $lm160
+mask 0
+
+l1bmp $lb334 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1870 $lm38
+l1bmp $lb1998 $lm58
+l1bmp $lb2126 $lm78
+l1bmp $lb2254 $lm98
+l1bmp $lb2382 $lm118
+l1bmp $lb2510 $lm138
+l1bmp $lb2638 $lm158
+l1bmp $lb2766 $lm178
+mask 0
+
+l1bmp $lb462 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2894 $lm20
+l1bmp $lb3022 $lm40
+l1bmp $lb3150 $lm60
+l1bmp $lb3278 $lm80
+l1bmp $lb3406 $lm100
+l1bmp $lb3534 $lm120
+l1bmp $lb3662 $lm140
+l1bmp $lb3790 $lm160
+mask 0
+
+l1bmp $lb336 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1872 $lm38
+l1bmp $lb2000 $lm58
+l1bmp $lb2128 $lm78
+l1bmp $lb2256 $lm98
+l1bmp $lb2384 $lm118
+l1bmp $lb2512 $lm138
+l1bmp $lb2640 $lm158
+l1bmp $lb2768 $lm178
+mask 0
+
+l1bmp $lb464 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2896 $lm20
+l1bmp $lb3024 $lm40
+l1bmp $lb3152 $lm60
+l1bmp $lb3280 $lm80
+l1bmp $lb3408 $lm100
+l1bmp $lb3536 $lm120
+l1bmp $lb3664 $lm140
+l1bmp $lb3792 $lm160
+mask 0
+
+l1bmp $lb338 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1874 $lm38
+l1bmp $lb2002 $lm58
+l1bmp $lb2130 $lm78
+l1bmp $lb2258 $lm98
+l1bmp $lb2386 $lm118
+l1bmp $lb2514 $lm138
+l1bmp $lb2642 $lm158
+l1bmp $lb2770 $lm178
+mask 0
+
+l1bmp $lb466 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2898 $lm20
+l1bmp $lb3026 $lm40
+l1bmp $lb3154 $lm60
+l1bmp $lb3282 $lm80
+l1bmp $lb3410 $lm100
+l1bmp $lb3538 $lm120
+l1bmp $lb3666 $lm140
+l1bmp $lb3794 $lm160
+mask 0
+
+l1bmp $lb340 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1876 $lm38
+l1bmp $lb2004 $lm58
+l1bmp $lb2132 $lm78
+l1bmp $lb2260 $lm98
+l1bmp $lb2388 $lm118
+l1bmp $lb2516 $lm138
+l1bmp $lb2644 $lm158
+l1bmp $lb2772 $lm178
+mask 0
+
+l1bmp $lb468 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2900 $lm20
+l1bmp $lb3028 $lm40
+l1bmp $lb3156 $lm60
+l1bmp $lb3284 $lm80
+l1bmp $lb3412 $lm100
+l1bmp $lb3540 $lm120
+l1bmp $lb3668 $lm140
+l1bmp $lb3796 $lm160
+mask 0
+
+l1bmp $lb342 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1878 $lm38
+l1bmp $lb2006 $lm58
+l1bmp $lb2134 $lm78
+l1bmp $lb2262 $lm98
+l1bmp $lb2390 $lm118
+l1bmp $lb2518 $lm138
+l1bmp $lb2646 $lm158
+l1bmp $lb2774 $lm178
+mask 0
+
+l1bmp $lb470 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2902 $lm20
+l1bmp $lb3030 $lm40
+l1bmp $lb3158 $lm60
+l1bmp $lb3286 $lm80
+l1bmp $lb3414 $lm100
+l1bmp $lb3542 $lm120
+l1bmp $lb3670 $lm140
+l1bmp $lb3798 $lm160
+mask 0
+
+l1bmp $lb344 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1880 $lm38
+l1bmp $lb2008 $lm58
+l1bmp $lb2136 $lm78
+l1bmp $lb2264 $lm98
+l1bmp $lb2392 $lm118
+l1bmp $lb2520 $lm138
+l1bmp $lb2648 $lm158
+l1bmp $lb2776 $lm178
+mask 0
+
+l1bmp $lb472 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2904 $lm20
+l1bmp $lb3032 $lm40
+l1bmp $lb3160 $lm60
+l1bmp $lb3288 $lm80
+l1bmp $lb3416 $lm100
+l1bmp $lb3544 $lm120
+l1bmp $lb3672 $lm140
+l1bmp $lb3800 $lm160
+mask 0
+
+l1bmp $lb346 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1882 $lm38
+l1bmp $lb2010 $lm58
+l1bmp $lb2138 $lm78
+l1bmp $lb2266 $lm98
+l1bmp $lb2394 $lm118
+l1bmp $lb2522 $lm138
+l1bmp $lb2650 $lm158
+l1bmp $lb2778 $lm178
+mask 0
+
+l1bmp $lb474 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2906 $lm20
+l1bmp $lb3034 $lm40
+l1bmp $lb3162 $lm60
+l1bmp $lb3290 $lm80
+l1bmp $lb3418 $lm100
+l1bmp $lb3546 $lm120
+l1bmp $lb3674 $lm140
+l1bmp $lb3802 $lm160
+mask 0
+
+l1bmp $lb348 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1884 $lm38
+l1bmp $lb2012 $lm58
+l1bmp $lb2140 $lm78
+l1bmp $lb2268 $lm98
+l1bmp $lb2396 $lm118
+l1bmp $lb2524 $lm138
+l1bmp $lb2652 $lm158
+l1bmp $lb2780 $lm178
+mask 0
+
+l1bmp $lb476 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2908 $lm20
+l1bmp $lb3036 $lm40
+l1bmp $lb3164 $lm60
+l1bmp $lb3292 $lm80
+l1bmp $lb3420 $lm100
+l1bmp $lb3548 $lm120
+l1bmp $lb3676 $lm140
+l1bmp $lb3804 $lm160
+mask 0
+
+l1bmp $lb350 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1886 $lm38
+l1bmp $lb2014 $lm58
+l1bmp $lb2142 $lm78
+l1bmp $lb2270 $lm98
+l1bmp $lb2398 $lm118
+l1bmp $lb2526 $lm138
+l1bmp $lb2654 $lm158
+l1bmp $lb2782 $lm178
+mask 0
+
+l1bmp $lb478 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2910 $lm20
+l1bmp $lb3038 $lm40
+l1bmp $lb3166 $lm60
+l1bmp $lb3294 $lm80
+l1bmp $lb3422 $lm100
+l1bmp $lb3550 $lm120
+l1bmp $lb3678 $lm140
+l1bmp $lb3806 $lm160
+mask 0
+
+l1bmp $lb352 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1888 $lm38
+l1bmp $lb2016 $lm58
+l1bmp $lb2144 $lm78
+l1bmp $lb2272 $lm98
+l1bmp $lb2400 $lm118
+l1bmp $lb2528 $lm138
+l1bmp $lb2656 $lm158
+l1bmp $lb2784 $lm178
+mask 0
+
+l1bmp $lb480 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2912 $lm20
+l1bmp $lb3040 $lm40
+l1bmp $lb3168 $lm60
+l1bmp $lb3296 $lm80
+l1bmp $lb3424 $lm100
+l1bmp $lb3552 $lm120
+l1bmp $lb3680 $lm140
+l1bmp $lb3808 $lm160
+mask 0
+
+l1bmp $lb354 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1890 $lm38
+l1bmp $lb2018 $lm58
+l1bmp $lb2146 $lm78
+l1bmp $lb2274 $lm98
+l1bmp $lb2402 $lm118
+l1bmp $lb2530 $lm138
+l1bmp $lb2658 $lm158
+l1bmp $lb2786 $lm178
+mask 0
+
+l1bmp $lb482 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2914 $lm20
+l1bmp $lb3042 $lm40
+l1bmp $lb3170 $lm60
+l1bmp $lb3298 $lm80
+l1bmp $lb3426 $lm100
+l1bmp $lb3554 $lm120
+l1bmp $lb3682 $lm140
+l1bmp $lb3810 $lm160
+mask 0
+
+l1bmp $lb356 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1892 $lm38
+l1bmp $lb2020 $lm58
+l1bmp $lb2148 $lm78
+l1bmp $lb2276 $lm98
+l1bmp $lb2404 $lm118
+l1bmp $lb2532 $lm138
+l1bmp $lb2660 $lm158
+l1bmp $lb2788 $lm178
+mask 0
+
+l1bmp $lb484 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2916 $lm20
+l1bmp $lb3044 $lm40
+l1bmp $lb3172 $lm60
+l1bmp $lb3300 $lm80
+l1bmp $lb3428 $lm100
+l1bmp $lb3556 $lm120
+l1bmp $lb3684 $lm140
+l1bmp $lb3812 $lm160
+mask 0
+
+l1bmp $lb358 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1894 $lm38
+l1bmp $lb2022 $lm58
+l1bmp $lb2150 $lm78
+l1bmp $lb2278 $lm98
+l1bmp $lb2406 $lm118
+l1bmp $lb2534 $lm138
+l1bmp $lb2662 $lm158
+l1bmp $lb2790 $lm178
+mask 0
+
+l1bmp $lb486 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2918 $lm20
+l1bmp $lb3046 $lm40
+l1bmp $lb3174 $lm60
+l1bmp $lb3302 $lm80
+l1bmp $lb3430 $lm100
+l1bmp $lb3558 $lm120
+l1bmp $lb3686 $lm140
+l1bmp $lb3814 $lm160
+mask 0
+
+l1bmp $lb360 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1896 $lm38
+l1bmp $lb2024 $lm58
+l1bmp $lb2152 $lm78
+l1bmp $lb2280 $lm98
+l1bmp $lb2408 $lm118
+l1bmp $lb2536 $lm138
+l1bmp $lb2664 $lm158
+l1bmp $lb2792 $lm178
+mask 0
+
+l1bmp $lb488 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2920 $lm20
+l1bmp $lb3048 $lm40
+l1bmp $lb3176 $lm60
+l1bmp $lb3304 $lm80
+l1bmp $lb3432 $lm100
+l1bmp $lb3560 $lm120
+l1bmp $lb3688 $lm140
+l1bmp $lb3816 $lm160
+mask 0
+
+l1bmp $lb362 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1898 $lm38
+l1bmp $lb2026 $lm58
+l1bmp $lb2154 $lm78
+l1bmp $lb2282 $lm98
+l1bmp $lb2410 $lm118
+l1bmp $lb2538 $lm138
+l1bmp $lb2666 $lm158
+l1bmp $lb2794 $lm178
+mask 0
+
+l1bmp $lb490 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2922 $lm20
+l1bmp $lb3050 $lm40
+l1bmp $lb3178 $lm60
+l1bmp $lb3306 $lm80
+l1bmp $lb3434 $lm100
+l1bmp $lb3562 $lm120
+l1bmp $lb3690 $lm140
+l1bmp $lb3818 $lm160
+mask 0
+
+l1bmp $lb364 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1900 $lm38
+l1bmp $lb2028 $lm58
+l1bmp $lb2156 $lm78
+l1bmp $lb2284 $lm98
+l1bmp $lb2412 $lm118
+l1bmp $lb2540 $lm138
+l1bmp $lb2668 $lm158
+l1bmp $lb2796 $lm178
+mask 0
+
+l1bmp $lb492 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2924 $lm20
+l1bmp $lb3052 $lm40
+l1bmp $lb3180 $lm60
+l1bmp $lb3308 $lm80
+l1bmp $lb3436 $lm100
+l1bmp $lb3564 $lm120
+l1bmp $lb3692 $lm140
+l1bmp $lb3820 $lm160
+mask 0
+
+l1bmp $lb366 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1902 $lm38
+l1bmp $lb2030 $lm58
+l1bmp $lb2158 $lm78
+l1bmp $lb2286 $lm98
+l1bmp $lb2414 $lm118
+l1bmp $lb2542 $lm138
+l1bmp $lb2670 $lm158
+l1bmp $lb2798 $lm178
+mask 0
+
+l1bmp $lb494 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2926 $lm20
+l1bmp $lb3054 $lm40
+l1bmp $lb3182 $lm60
+l1bmp $lb3310 $lm80
+l1bmp $lb3438 $lm100
+l1bmp $lb3566 $lm120
+l1bmp $lb3694 $lm140
+l1bmp $lb3822 $lm160
+mask 0
+
+l1bmp $lb368 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1904 $lm38
+l1bmp $lb2032 $lm58
+l1bmp $lb2160 $lm78
+l1bmp $lb2288 $lm98
+l1bmp $lb2416 $lm118
+l1bmp $lb2544 $lm138
+l1bmp $lb2672 $lm158
+l1bmp $lb2800 $lm178
+mask 0
+
+l1bmp $lb496 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2928 $lm20
+l1bmp $lb3056 $lm40
+l1bmp $lb3184 $lm60
+l1bmp $lb3312 $lm80
+l1bmp $lb3440 $lm100
+l1bmp $lb3568 $lm120
+l1bmp $lb3696 $lm140
+l1bmp $lb3824 $lm160
+mask 0
+
+l1bmp $lb370 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1906 $lm38
+l1bmp $lb2034 $lm58
+l1bmp $lb2162 $lm78
+l1bmp $lb2290 $lm98
+l1bmp $lb2418 $lm118
+l1bmp $lb2546 $lm138
+l1bmp $lb2674 $lm158
+l1bmp $lb2802 $lm178
+mask 0
+
+l1bmp $lb498 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2930 $lm20
+l1bmp $lb3058 $lm40
+l1bmp $lb3186 $lm60
+l1bmp $lb3314 $lm80
+l1bmp $lb3442 $lm100
+l1bmp $lb3570 $lm120
+l1bmp $lb3698 $lm140
+l1bmp $lb3826 $lm160
+mask 0
+
+l1bmp $lb372 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1908 $lm38
+l1bmp $lb2036 $lm58
+l1bmp $lb2164 $lm78
+l1bmp $lb2292 $lm98
+l1bmp $lb2420 $lm118
+l1bmp $lb2548 $lm138
+l1bmp $lb2676 $lm158
+l1bmp $lb2804 $lm178
+mask 0
+
+l1bmp $lb500 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2932 $lm20
+l1bmp $lb3060 $lm40
+l1bmp $lb3188 $lm60
+l1bmp $lb3316 $lm80
+l1bmp $lb3444 $lm100
+l1bmp $lb3572 $lm120
+l1bmp $lb3700 $lm140
+l1bmp $lb3828 $lm160
+mask 0
+
+l1bmp $lb374 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1910 $lm38
+l1bmp $lb2038 $lm58
+l1bmp $lb2166 $lm78
+l1bmp $lb2294 $lm98
+l1bmp $lb2422 $lm118
+l1bmp $lb2550 $lm138
+l1bmp $lb2678 $lm158
+l1bmp $lb2806 $lm178
+mask 0
+
+l1bmp $lb502 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2934 $lm20
+l1bmp $lb3062 $lm40
+l1bmp $lb3190 $lm60
+l1bmp $lb3318 $lm80
+l1bmp $lb3446 $lm100
+l1bmp $lb3574 $lm120
+l1bmp $lb3702 $lm140
+l1bmp $lb3830 $lm160
+mask 0
+
+l1bmp $lb376 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1912 $lm38
+l1bmp $lb2040 $lm58
+l1bmp $lb2168 $lm78
+l1bmp $lb2296 $lm98
+l1bmp $lb2424 $lm118
+l1bmp $lb2552 $lm138
+l1bmp $lb2680 $lm158
+l1bmp $lb2808 $lm178
+mask 0
+
+l1bmp $lb504 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2936 $lm20
+l1bmp $lb3064 $lm40
+l1bmp $lb3192 $lm60
+l1bmp $lb3320 $lm80
+l1bmp $lb3448 $lm100
+l1bmp $lb3576 $lm120
+l1bmp $lb3704 $lm140
+l1bmp $lb3832 $lm160
+mask 0
+
+l1bmp $lb378 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1914 $lm38
+l1bmp $lb2042 $lm58
+l1bmp $lb2170 $lm78
+l1bmp $lb2298 $lm98
+l1bmp $lb2426 $lm118
+l1bmp $lb2554 $lm138
+l1bmp $lb2682 $lm158
+l1bmp $lb2810 $lm178
+mask 0
+
+l1bmp $lb506 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2938 $lm20
+l1bmp $lb3066 $lm40
+l1bmp $lb3194 $lm60
+l1bmp $lb3322 $lm80
+l1bmp $lb3450 $lm100
+l1bmp $lb3578 $lm120
+l1bmp $lb3706 $lm140
+l1bmp $lb3834 $lm160
+mask 0
+
+l1bmp $lb380 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1916 $lm38
+l1bmp $lb2044 $lm58
+l1bmp $lb2172 $lm78
+l1bmp $lb2300 $lm98
+l1bmp $lb2428 $lm118
+l1bmp $lb2556 $lm138
+l1bmp $lb2684 $lm158
+l1bmp $lb2812 $lm178
+mask 0
+
+l1bmp $lb508 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2940 $lm20
+l1bmp $lb3068 $lm40
+l1bmp $lb3196 $lm60
+l1bmp $lb3324 $lm80
+l1bmp $lb3452 $lm100
+l1bmp $lb3580 $lm120
+l1bmp $lb3708 $lm140
+l1bmp $lb3836 $lm160
+mask 0
+
+l1bmp $lb382 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb1918 $lm38
+l1bmp $lb2046 $lm58
+l1bmp $lb2174 $lm78
+l1bmp $lb2302 $lm98
+l1bmp $lb2430 $lm118
+l1bmp $lb2558 $lm138
+l1bmp $lb2686 $lm158
+l1bmp $lb2814 $lm178
+mask 0
+
+l1bmp $lb510 $t
+lxor $ti $ln0v $t $omr2; nointr
+maskm 2
+
+l1bmp $lb2942 $lm20
+l1bmp $lb3070 $lm40
+l1bmp $lb3198 $lm60
+l1bmp $lb3326 $lm80
+l1bmp $lb3454 $lm100
+l1bmp $lb3582 $lm120
+l1bmp $lb3710 $lm140
+l1bmp $lb3838 $lm160
+mask 0
+
