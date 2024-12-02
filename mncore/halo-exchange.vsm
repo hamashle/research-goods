@@ -27,7 +27,7 @@ nop/3
 # 2x64x10 + 256 = 1536
 # N -> S　これが交互に続く　
 l1bmp $lb128 $t
-lxor $ti $ln0v $t $omr2; nointr
+lxor $ti $ln0v $t $omr2; nointr #nointr命令実行nop入らない
 maskm 2
 
 l1bmp $lb512 $lm182
