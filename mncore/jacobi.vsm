@@ -1,8 +1,8 @@
-d set $lm0m0p0 1 0000000000000004
-d set $lm2m0p0 1 0000000000000004
-d set $lm4m0p0 1 0000000000000004
-d set $lm6m0p0 1 0000000000000004
-d set $lm8m0p0 1 0000000000000004
+d set $lm0m0p0 1 0000000000000010
+d set $lm2m0p0 1 0000000000000010
+d set $lm4m0p0 1 0000000000000010
+d set $lm6m0p0 1 0000000000000010
+d set $lm8m0p0 1 0000000000000010
 d set $lm10m0p0 1 0000000000000000
 d set $lm12m0p0 1 0000000000000000
 d set $lm14m0p0 1 0000000000000000
@@ -24,9 +24,6 @@ d set $lm44m0p0 1 0000000000000000
 d set $lm46m0p0 1 0000000000000000
 d set $lm48m0p0 1 0000000000000000
 
-### シフト用のもの
-d set $ln50m0p0 1 0000000000000001
-
 ### i == 0 || i == L || j == 0 || j == L　の時は、そのまま保存する
 ### 一回目は、0~8までをln0v ~ ln8vに保存する。
 ipassa $lm0v $ln0v
@@ -36,3 +33,34 @@ ipassa $lm6v $ln6v
 ipassa $lm8v $ln8v
 
 ### ラプラス方程式の加算部分の実装
+### ひとけたのときは、シフトしないようにするひつようがある。
+## 一回目
+ipassa $lm2v $ln2v
+nop
+nop
+iadd $ln2v $lm10v $lr50v
+iadd $lm14v $aluf $lr50v
+iadd $lm22v $aluf $lr50v
+nop
+
+### 1/4倍のシフト命令
+imm i"4" $nowrite
+ilsr $lr50v $aluf $t
+nop
+ipassa $t $lr12v
+d get $lr12n0c0b0m0p0 1
+nop
+nop
+iadd $lr12v $lr12v $lm12v
+iadd $lr12v $aluf $lm12v
+iadd $lr12v $aluf $lm12v
+
+d get $lm12n0c0b0m0p0 1
+
+#ipassa $lm4v $ln4v
+#nop
+#nop
+#iadd $ln4v $lm12v $lr14v
+#iadd $lm16v $aluf $lr14v
+#iadd $lm24v $aluf $lr14v
+
