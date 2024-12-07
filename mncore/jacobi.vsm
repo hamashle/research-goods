@@ -56,6 +56,7 @@ iadd $lr12v $aluf $lm12v
 iadd $lr12v $aluf $lm12v
 
 d get $lm12n0c0b0m0p0 1
+### ここまでで、lm12vの処理
 
 #ipassa $lm4v $ln4v
 #nop

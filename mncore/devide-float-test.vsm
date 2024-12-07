@@ -1,0 +1,11 @@
+d set $lm0m0p0 1 4180000041800000
+
+imm f"0.25" $lr0
+
+d getf $lr0n0c0b0m0p0 1
+d getf $lm0n0c0b0m0p0 1
+nop
+nop
+fvmul $lm0v $lr0v $ln0v
+
+d getf $ln0n0c0b0m0p0 1
