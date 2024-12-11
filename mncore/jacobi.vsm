@@ -46,7 +46,7 @@ nop
 d getd $lr12n0c0b0m0p0 1
 
 ### 1/4倍
-imm f"0.25" $ln12v
+imm ui"0x3fd00000" $n12
 d getd $ln12n0c0b0m0p0 1
 nop
 nop
