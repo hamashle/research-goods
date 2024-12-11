@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
+#include <cstdint>
 
 void double_to_short_word(double x, std::string &h, std::string &l)
 {
