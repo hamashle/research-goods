@@ -1,0 +1,71 @@
+d set $lm2m0p0 1 4014000000000000
+d set $lm4m0p0 1 4014000000000000
+d set $lm6m0p0 1 4014000000000000
+d set $lm8m0p0 1 4014000000000000
+
+
+### ラプラス方程式の加算部分の実装
+## lm14~20
+dpassa $lm2v $ln2v
+d getd $ln2n0c0b0m0p0 1
+nop
+nop
+dvadd $ln2 $lm12 $lr14
+dvadd $lm16 $mauf $lr14
+dvadd $lm26 $mauf $lr14
+nop
+
+### 1/4倍
+imm ui"0x3fd00000" $n12
+nop
+nop
+dvmulu $lr14 $n12 $nowrite
+dvfmad $lr14 $n12 $mauf $lm14
+nop
+nop
+
+
+dvadd $ln4 $lm14 $lr16
+dvadd $lm18 $mauf $lr16
+dvadd $lm28 $mauf $lr16
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr16 $n12 $nowrite
+dvfmad $lr16 $n12 $mauf $lm16
+nop
+nop
+
+
+dvadd $ln6 $lm16 $lr18
+dvadd $lm20 $mauf $lr18
+dvadd $lm30 $mauf $lr18
+nop
+nop
+
+### 1/4倍
+dvmulu $lr18 $n12 $nowrite
+dvfmad $lr18 $n12 $mauf $lm18
+nop
+nop
+
+
+dvadd $ln8 $lm18 $lr20
+dvadd $lm22 $mauf $lr20
+dvadd $lm32 $mauf $lr20
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr20 $n12 $nowrite
+dvfmad $lr20 $n12 $mauf $lm20
+nop
+nop
+
+d getd $lm14n0c0b0m0p0 1
+d getd $lm16n0c0b0m0p0 1
+d getd $lm18n0c0b0m0p0 1
+d getd $lm20n0c0b0m0p0 1
