@@ -81,6 +81,7 @@ dvadd $ln14 $lm24 $lr26
 dvadd $lm28 $mauf $lr26
 dvadd $lm38 $mauf $lr26
 nop
+nop
 
 ### 1/4倍
 dvmulu $lr26 $n12 $nowrite
@@ -98,7 +99,7 @@ nop
 
 ### 1/4倍
 dvmulu $lr28 $n12 $nowrite
-dvfmad $lr28 $n12 $mauf $lm16
+dvfmad $lr28 $n12 $mauf $lm28
 nop
 nop
 
@@ -111,7 +112,7 @@ nop
 
 ### 1/4倍
 dvmulu $lr30 $n12 $nowrite
-dvfmad $lr30 $n12 $mauf $lm18
+dvfmad $lr30 $n12 $mauf $lm30
 nop
 nop
 
@@ -143,6 +144,7 @@ nop
 dvadd $ln26 $lm36 $lr38
 dvadd $lm40 $mauf $lr38
 dvadd $lm50 $mauf $lr38
+nop
 nop
 
 ### 1/4倍
@@ -179,7 +181,7 @@ nop
 nop
 
 
-dvadd $ln32 $lm40 $lr44
+dvadd $ln32 $lm42 $lr44
 dvadd $lm46 $mauf $lr44
 dvadd $lm56 $mauf $lr44
 nop
@@ -206,6 +208,7 @@ nop
 dvadd $ln38 $lm48 $lr50
 dvadd $lm52 $mauf $lr50
 dvadd $lm62 $mauf $lr50
+nop
 nop
 
 ### 1/4倍
