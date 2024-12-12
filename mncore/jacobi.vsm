@@ -1,28 +1,8 @@
-d set $lm0m0p0 1 4030000000000000
-d set $lm2m0p0 1 4030000000000000
-d set $lm4m0p0 1 4030000000000000
-d set $lm6m0p0 1 4030000000000000
-d set $lm8m0p0 1 4030000000000000
-d set $lm10m0p0 1 0000000000000000
-d set $lm12m0p0 1 0000000000000000
-d set $lm14m0p0 1 0000000000000000
-d set $lm16m0p0 1 0000000000000000
-d set $lm18m0p0 1 0000000000000000
-d set $lm20m0p0 1 0000000000000000
-d set $lm22m0p0 1 0000000000000000
-d set $lm24m0p0 1 0000000000000000
-d set $lm26m0p0 1 0000000000000000
-d set $lm28m0p0 1 0000000000000000
-d set $lm30m0p0 1 0000000000000000
-d set $lm32m0p0 1 0000000000000000
-d set $lm34m0p0 1 0000000000000000
-d set $lm36m0p0 1 0000000000000000
-d set $lm38m0p0 1 0000000000000000
-d set $lm40m0p0 1 0000000000000000
-d set $lm42m0p0 1 0000000000000000
-d set $lm44m0p0 1 0000000000000000
-d set $lm46m0p0 1 0000000000000000
-d set $lm48m0p0 1 0000000000000000
+d set $lm2m0p0 1 4014000000000000
+d set $lm4m0p0 1 4014000000000000
+d set $lm6m0p0 1 4014000000000000
+d set $lm8m0p0 1 4014000000000000
+
 
 ### i == 0 || i == L || j == 0 || j == L　の時は、そのまま保存する
 ### 一回目は、0~8までをln0v ~ ln8vに保存する。
@@ -33,24 +13,84 @@ d set $lm48m0p0 1 0000000000000000
 #ipassa $lm8v $ln8v
 
 ### ラプラス方程式の加算部分の実装
-## 一回目
+## lm14~20
 dpassa $lm2v $ln2v
 d getd $ln2n0c0b0m0p0 1
 nop
 nop
-dvadd $ln2v $lm10v $lr12v
-dvadd $lm14v $mauf $lr12v
-dvadd $lm22v $mauf $lr12v
+dvadd $ln2v $lm12v $lr14v
+dvadd $lm16v $mauf $lr14v
+dvadd $lm26v $mauf $lr14v
 nop
 
 d getd $lr12n0c0b0m0p0 1
 
 ### 1/4倍
 imm ui"0x3fd00000" $n12
-d getd $ln12n0c0b0m0p0 1
 nop
 nop
-dvmulu $lr12v $ln12v $nowrite
-dvfmad $lr12v $ln12v $mauf $lm12v
+dvmulu $lr14v $n12 $nowrite
+dvfmad $lr14v $n12 $mauf $lm14v
+nop
+nop
 
-d getd $lm12n0c0b0m0p0 1
+d getd $lm14n0c0b0m0p0 1
+d getd $lm16n0c0b0m0p0 1
+d getd $lm18n0c0b0m0p0 1
+d getd $lm20n0c0b0m0p0 1
+## lm26~32
+dpassa $lm14v $ln14v
+nop
+nop
+dvadd $ln14v $lm24v $lr26v
+dvadd $lm28v $mauf $lr26v
+dvadd $lm38v $mauf $lr26v
+nop
+nop
+dvmulu $lr26v $n12 $nowrite
+dvfmad $lr26v $n12 $mauf $lm26v
+nop
+nop
+
+d getd $lm26n0c0b0m0p0 1
+d getd $lm28n0c0b0m0p0 1
+d getd $lm30n0c0b0m0p0 1
+d getd $lm32n0c0b0m0p0 1
+
+## lm38~44
+dpassa $lm26v $ln26v
+nop
+nop
+dvadd $ln26v $lm36v $lr38v
+dvadd $lm40v $mauf $lr38v
+dvadd $lm50v $mauf $lr38v
+nop
+nop
+dvmulu $lr38v $n12 $nowrite
+dvfmad $lr38v $n12 $mauf $lm38v
+nop
+nop
+
+d getd $lm38n0c0b0m0p0 1
+d getd $lm40n0c0b0m0p0 1
+d getd $lm42n0c0b0m0p0 1
+d getd $lm44n0c0b0m0p0 1
+
+## lm50~56
+dpassa $lm38v $ln38v
+nop
+nop
+dvadd $ln38v $lm48v $lr50v
+dvadd $lm52v $mauf $lr50v
+dvadd $lm62v $mauf $lr50v
+nop
+nop
+dvmulu $lr50v $n12 $nowrite
+dvfmad $lr50v $n12 $mauf $lm50v
+nop
+nop
+
+d getd $lm50n0c0b0m0p0 1
+d getd $lm52n0c0b0m0p0 1
+d getd $lm54n0c0b0m0p0 1
+d getd $lm56n0c0b0m0p0 1
