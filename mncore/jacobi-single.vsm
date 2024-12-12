@@ -69,3 +69,195 @@ d getd $lm14n0c0b0m0p0 1
 d getd $lm16n0c0b0m0p0 1
 d getd $lm18n0c0b0m0p0 1
 d getd $lm20n0c0b0m0p0 1
+
+
+###################################################
+
+## lm26~28
+dpassa $lm14v $ln14v
+nop
+nop
+dvadd $ln14 $lm24 $lr26
+dvadd $lm28 $mauf $lr26
+dvadd $lm38 $mauf $lr26
+nop
+
+### 1/4倍
+dvmulu $lr26 $n12 $nowrite
+dvfmad $lr26 $n12 $mauf $lm26
+nop
+nop
+
+
+dvadd $ln16 $lm26 $lr28
+dvadd $lm30 $mauf $lr28
+dvadd $lm40 $mauf $lr28
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr28 $n12 $nowrite
+dvfmad $lr28 $n12 $mauf $lm16
+nop
+nop
+
+
+dvadd $ln18 $lm28 $lr30
+dvadd $lm32 $mauf $lr30
+dvadd $lm42 $mauf $lr30
+nop
+nop
+
+### 1/4倍
+dvmulu $lr30 $n12 $nowrite
+dvfmad $lr30 $n12 $mauf $lm18
+nop
+nop
+
+
+dvadd $ln20 $lm30 $lr32
+dvadd $lm34 $mauf $lr32
+dvadd $lm44 $mauf $lr32
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr32 $n12 $nowrite
+dvfmad $lr32 $n12 $mauf $lm32
+nop
+nop
+
+d getd $lm26n0c0b0m0p0 1
+d getd $lm28n0c0b0m0p0 1
+d getd $lm30n0c0b0m0p0 1
+d getd $lm32n0c0b0m0p0 1
+
+###################################################
+
+## lm38~44
+dpassa $lm26v $ln26v
+nop
+nop
+dvadd $ln26 $lm36 $lr38
+dvadd $lm40 $mauf $lr38
+dvadd $lm50 $mauf $lr38
+nop
+
+### 1/4倍
+dvmulu $lr38 $n12 $nowrite
+dvfmad $lr38 $n12 $mauf $lm38
+nop
+nop
+
+
+dvadd $ln28 $lm38 $lr40
+dvadd $lm42 $mauf $lr40
+dvadd $lm52 $mauf $lr40
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr40 $n12 $nowrite
+dvfmad $lr40 $n12 $mauf $lm40
+nop
+nop
+
+
+dvadd $ln30 $lm40 $lr42
+dvadd $lm44 $mauf $lr42
+dvadd $lm54 $mauf $lr42
+nop
+nop
+
+### 1/4倍
+dvmulu $lr42 $n12 $nowrite
+dvfmad $lr42 $n12 $mauf $lm42
+nop
+nop
+
+
+dvadd $ln32 $lm40 $lr44
+dvadd $lm46 $mauf $lr44
+dvadd $lm56 $mauf $lr44
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr44 $n12 $nowrite
+dvfmad $lr44 $n12 $mauf $lm44
+nop
+nop
+
+d getd $lm38n0c0b0m0p0 1
+d getd $lm40n0c0b0m0p0 1
+d getd $lm42n0c0b0m0p0 1
+d getd $lm44n0c0b0m0p0 1
+
+###################################################
+
+## lm50~52
+dpassa $lm38v $ln38v
+nop
+nop
+dvadd $ln38 $lm48 $lr50
+dvadd $lm52 $mauf $lr50
+dvadd $lm62 $mauf $lr50
+nop
+
+### 1/4倍
+dvmulu $lr50 $n12 $nowrite
+dvfmad $lr50 $n12 $mauf $lm50
+nop
+nop
+
+
+dvadd $ln40 $lm50 $lr52
+dvadd $lm54 $mauf $lr52
+dvadd $lm64 $mauf $lr52
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr52 $n12 $nowrite
+dvfmad $lr52 $n12 $mauf $lm52
+nop
+nop
+
+
+dvadd $ln42 $lm52 $lr54
+dvadd $lm56 $mauf $lr54
+dvadd $lm66 $mauf $lr54
+nop
+nop
+
+### 1/4倍
+dvmulu $lr54 $n12 $nowrite
+dvfmad $lr54 $n12 $mauf $lm54
+nop
+nop
+
+
+dvadd $ln44 $lm54 $lr56
+dvadd $lm58 $mauf $lr56
+dvadd $lm68 $mauf $lr56
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr56 $n12 $nowrite
+dvfmad $lr56 $n12 $mauf $lm56
+nop
+nop
+
+d getd $lm50n0c0b0m0p0 1
+d getd $lm52n0c0b0m0p0 1
+d getd $lm54n0c0b0m0p0 1
+d getd $lm56n0c0b0m0p0 1
+
+###################################################
