@@ -19,8 +19,8 @@ nop
 imm ui"0x3fd00000" $n12
 nop
 nop
-dvmulu $lr14 $n12 $nowrite
-dvfmad $lr14 $n12 $mauf $lm14
+dvmulu $lr14 $ln12 $nowrite
+dvfmad $lr14 $ln12 $mauf $lm14
 nop
 nop
 
@@ -33,8 +33,8 @@ nop
 
 
 ### 1/4倍
-dvmulu $lr16 $n12 $nowrite
-dvfmad $lr16 $n12 $mauf $lm16
+dvmulu $lr16 $ln12 $nowrite
+dvfmad $lr16 $ln12 $mauf $lm16
 nop
 nop
 
@@ -46,8 +46,8 @@ nop
 nop
 
 ### 1/4倍
-dvmulu $lr18 $n12 $nowrite
-dvfmad $lr18 $n12 $mauf $lm18
+dvmulu $lr18 $ln12 $nowrite
+dvfmad $lr18 $ln12 $mauf $lm18
 nop
 nop
 
@@ -60,8 +60,8 @@ nop
 
 
 ### 1/4倍
-dvmulu $lr20 $n12 $nowrite
-dvfmad $lr20 $n12 $mauf $lm20
+dvmulu $lr20 $ln12 $nowrite
+dvfmad $lr20 $ln12 $mauf $lm20
 nop
 nop
 
@@ -84,8 +84,8 @@ nop
 nop
 
 ### 1/4倍
-dvmulu $lr26 $n12 $nowrite
-dvfmad $lr26 $n12 $mauf $lm26
+dvmulu $lr26 $ln12 $nowrite
+dvfmad $lr26 $ln12 $mauf $lm26
 nop
 nop
 
@@ -98,8 +98,8 @@ nop
 
 
 ### 1/4倍
-dvmulu $lr28 $n12 $nowrite
-dvfmad $lr28 $n12 $mauf $lm28
+dvmulu $lr28 $ln12 $nowrite
+dvfmad $lr28 $ln12 $mauf $lm28
 nop
 nop
 
@@ -111,8 +111,8 @@ nop
 nop
 
 ### 1/4倍
-dvmulu $lr30 $n12 $nowrite
-dvfmad $lr30 $n12 $mauf $lm30
+dvmulu $lr30 $ln12 $nowrite
+dvfmad $lr30 $ln12 $mauf $lm30
 nop
 nop
 
@@ -125,8 +125,8 @@ nop
 
 
 ### 1/4倍
-dvmulu $lr32 $n12 $nowrite
-dvfmad $lr32 $n12 $mauf $lm32
+dvmulu $lr32 $ln12 $nowrite
+dvfmad $lr32 $ln12 $mauf $lm32
 nop
 nop
 
@@ -148,8 +148,8 @@ nop
 nop
 
 ### 1/4倍
-dvmulu $lr38 $n12 $nowrite
-dvfmad $lr38 $n12 $mauf $lm38
+dvmulu $lr38 $ln12 $nowrite
+dvfmad $lr38 $ln12 $mauf $lm38
 nop
 nop
 
@@ -162,8 +162,8 @@ nop
 
 
 ### 1/4倍
-dvmulu $lr40 $n12 $nowrite
-dvfmad $lr40 $n12 $mauf $lm40
+dvmulu $lr40 $ln12 $nowrite
+dvfmad $lr40 $ln12 $mauf $lm40
 nop
 nop
 
@@ -175,8 +175,8 @@ nop
 nop
 
 ### 1/4倍
-dvmulu $lr42 $n12 $nowrite
-dvfmad $lr42 $n12 $mauf $lm42
+dvmulu $lr42 $ln12 $nowrite
+dvfmad $lr42 $ln12 $mauf $lm42
 nop
 nop
 
@@ -189,8 +189,8 @@ nop
 
 
 ### 1/4倍
-dvmulu $lr44 $n12 $nowrite
-dvfmad $lr44 $n12 $mauf $lm44
+dvmulu $lr44 $ln12 $nowrite
+dvfmad $lr44 $ln12 $mauf $lm44
 nop
 nop
 
@@ -212,8 +212,8 @@ nop
 nop
 
 ### 1/4倍
-dvmulu $lr50 $n12 $nowrite
-dvfmad $lr50 $n12 $mauf $lm50
+dvmulu $lr50 $ln12 $nowrite
+dvfmad $lr50 $ln12 $mauf $lm50
 nop
 nop
 
@@ -226,8 +226,8 @@ nop
 
 
 ### 1/4倍
-dvmulu $lr52 $n12 $nowrite
-dvfmad $lr52 $n12 $mauf $lm52
+dvmulu $lr52 $ln12 $nowrite
+dvfmad $lr52 $ln12 $mauf $lm52
 nop
 nop
 
@@ -239,8 +239,8 @@ nop
 nop
 
 ### 1/4倍
-dvmulu $lr54 $n12 $nowrite
-dvfmad $lr54 $n12 $mauf $lm54
+dvmulu $lr54 $ln12 $nowrite
+dvfmad $lr54 $ln12 $mauf $lm54
 nop
 nop
 
@@ -253,8 +253,8 @@ nop
 
 
 ### 1/4倍
-dvmulu $lr56 $n12 $nowrite
-dvfmad $lr56 $n12 $mauf $lm56
+dvmulu $lr56 $ln12 $nowrite
+dvfmad $lr56 $ln12 $mauf $lm56
 nop
 nop
 
