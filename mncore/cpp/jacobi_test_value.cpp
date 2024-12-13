@@ -38,17 +38,20 @@ int main()
     print_phi(width, phi);
 
     // Perform the update
-    for (int i = 0; i < width; i++)
+    for (int k = 0; k < 2; k++) 
     {
-        for (int j = 0; j < width; j++)
+        for (int i = 0; i < width; i++)
         {
-            if (i == 0 || i == width - 1 || j == 0 || j == width - 1)
+            for (int j = 0; j < width; j++)
             {
-                continue;
-            }
-            else
-            {
-                phi[i][j] = (phi[i + 1][j] + phi[i - 1][j] + phi[i][j + 1] + phi[i][j - 1]) / 4.0;
+                if (i == 0 || i == width - 1 || j == 0 || j == width - 1)
+                {
+                    continue;
+                }
+                else
+                {
+                    phi[i][j] = (phi[i + 1][j] + phi[i - 1][j] + phi[i][j + 1] + phi[i][j - 1]) / 4.0;
+                }
             }
         }
     }
