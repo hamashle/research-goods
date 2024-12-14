@@ -1,0 +1,6 @@
+lpassa $peid $lr32v
+
+d get $lr32n0c0b0 1
+d get $lr34n0c0b0 1
+d get $lr36n0c0b0 1
+d get $lr38n0c0b0 1
