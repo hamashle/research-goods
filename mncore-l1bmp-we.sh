@@ -18,7 +18,7 @@ lm_increment=20
 
 # ループで文字列を生成
 echo "l1bmp \$lb${direction} \$t"
-echo "lxor \$ti \$ln0v \$t \$omr2; nointr"
+echo "lxor \$t \$ln0v \$t \$omr2;"
 echo -e "maskm 2\n"
 
 for (( j=1; j<=max_count; j++ ))

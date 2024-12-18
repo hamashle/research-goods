@@ -27,7 +27,9 @@ nop/3
 # 2x64x10 + 256 = 1536
 # N -> S　これが交互に続く　
 l1bmp $lb128 $t
-lxor $t $ln0v $t $omr2; #nointr #nointr命令実行nop入らない
+lxor $t $ln0v $t $omr2;  
+nop/2  
+nop/2命令実行nop入らない
 maskm 2
 
 l1bmp $lb512 $lm182
@@ -42,7 +44,8 @@ mask 0
 
 # S -> N これが交互に続く
 l1bmp $lb0 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1536 $lm2
@@ -56,7 +59,8 @@ l1bmp $lb2432 $lm16
 mask 0
 
 l1bmp $lb130 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb514 $lm182
@@ -70,7 +74,8 @@ l1bmp $lb1410 $lm196
 mask 0
 
 l1bmp $lb2 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1538 $lm2
@@ -84,7 +89,8 @@ l1bmp $lb2434 $lm16
 mask 0
 
 l1bmp $lb132 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb516 $lm182
@@ -98,7 +104,8 @@ l1bmp $lb1412 $lm196
 mask 0
 
 l1bmp $lb4 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1540 $lm2
@@ -112,7 +119,8 @@ l1bmp $lb2436 $lm16
 mask 0
 
 l1bmp $lb134 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb518 $lm182
@@ -126,7 +134,8 @@ l1bmp $lb1414 $lm196
 mask 0
 
 l1bmp $lb6 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1542 $lm2
@@ -140,7 +149,8 @@ l1bmp $lb2438 $lm16
 mask 0
 
 l1bmp $lb136 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb520 $lm182
@@ -154,7 +164,8 @@ l1bmp $lb1416 $lm196
 mask 0
 
 l1bmp $lb8 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1544 $lm2
@@ -168,7 +179,8 @@ l1bmp $lb2440 $lm16
 mask 0
 
 l1bmp $lb138 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb522 $lm182
@@ -182,7 +194,8 @@ l1bmp $lb1418 $lm196
 mask 0
 
 l1bmp $lb10 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1546 $lm2
@@ -196,7 +209,8 @@ l1bmp $lb2442 $lm16
 mask 0
 
 l1bmp $lb140 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb524 $lm182
@@ -210,7 +224,8 @@ l1bmp $lb1420 $lm196
 mask 0
 
 l1bmp $lb12 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1548 $lm2
@@ -224,7 +239,8 @@ l1bmp $lb2444 $lm16
 mask 0
 
 l1bmp $lb142 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb526 $lm182
@@ -238,7 +254,8 @@ l1bmp $lb1422 $lm196
 mask 0
 
 l1bmp $lb14 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1550 $lm2
@@ -252,7 +269,8 @@ l1bmp $lb2446 $lm16
 mask 0
 
 l1bmp $lb144 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb528 $lm182
@@ -266,7 +284,8 @@ l1bmp $lb1424 $lm196
 mask 0
 
 l1bmp $lb16 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1552 $lm2
@@ -280,7 +299,8 @@ l1bmp $lb2448 $lm16
 mask 0
 
 l1bmp $lb146 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb530 $lm182
@@ -294,7 +314,8 @@ l1bmp $lb1426 $lm196
 mask 0
 
 l1bmp $lb18 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1554 $lm2
@@ -308,7 +329,8 @@ l1bmp $lb2450 $lm16
 mask 0
 
 l1bmp $lb148 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb532 $lm182
@@ -322,7 +344,8 @@ l1bmp $lb1428 $lm196
 mask 0
 
 l1bmp $lb20 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1556 $lm2
@@ -336,7 +359,8 @@ l1bmp $lb2452 $lm16
 mask 0
 
 l1bmp $lb150 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb534 $lm182
@@ -350,7 +374,8 @@ l1bmp $lb1430 $lm196
 mask 0
 
 l1bmp $lb22 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1558 $lm2
@@ -364,7 +389,8 @@ l1bmp $lb2454 $lm16
 mask 0
 
 l1bmp $lb152 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb536 $lm182
@@ -378,7 +404,8 @@ l1bmp $lb1432 $lm196
 mask 0
 
 l1bmp $lb24 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1560 $lm2
@@ -392,7 +419,8 @@ l1bmp $lb2456 $lm16
 mask 0
 
 l1bmp $lb154 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb538 $lm182
@@ -406,7 +434,8 @@ l1bmp $lb1434 $lm196
 mask 0
 
 l1bmp $lb26 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1562 $lm2
@@ -420,7 +449,8 @@ l1bmp $lb2458 $lm16
 mask 0
 
 l1bmp $lb156 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb540 $lm182
@@ -434,7 +464,8 @@ l1bmp $lb1436 $lm196
 mask 0
 
 l1bmp $lb28 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1564 $lm2
@@ -448,7 +479,8 @@ l1bmp $lb2460 $lm16
 mask 0
 
 l1bmp $lb158 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb542 $lm182
@@ -462,7 +494,8 @@ l1bmp $lb1438 $lm196
 mask 0
 
 l1bmp $lb30 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1566 $lm2
@@ -476,7 +509,8 @@ l1bmp $lb2462 $lm16
 mask 0
 
 l1bmp $lb160 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb544 $lm182
@@ -490,7 +524,8 @@ l1bmp $lb1440 $lm196
 mask 0
 
 l1bmp $lb32 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1568 $lm2
@@ -504,7 +539,8 @@ l1bmp $lb2464 $lm16
 mask 0
 
 l1bmp $lb162 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb546 $lm182
@@ -518,7 +554,8 @@ l1bmp $lb1442 $lm196
 mask 0
 
 l1bmp $lb34 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1570 $lm2
@@ -532,7 +569,8 @@ l1bmp $lb2466 $lm16
 mask 0
 
 l1bmp $lb164 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb548 $lm182
@@ -546,7 +584,8 @@ l1bmp $lb1444 $lm196
 mask 0
 
 l1bmp $lb36 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1572 $lm2
@@ -560,7 +599,8 @@ l1bmp $lb2468 $lm16
 mask 0
 
 l1bmp $lb166 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb550 $lm182
@@ -574,7 +614,8 @@ l1bmp $lb1446 $lm196
 mask 0
 
 l1bmp $lb38 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1574 $lm2
@@ -588,7 +629,8 @@ l1bmp $lb2470 $lm16
 mask 0
 
 l1bmp $lb168 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb552 $lm182
@@ -602,7 +644,8 @@ l1bmp $lb1448 $lm196
 mask 0
 
 l1bmp $lb40 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1576 $lm2
@@ -616,7 +659,8 @@ l1bmp $lb2472 $lm16
 mask 0
 
 l1bmp $lb170 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb554 $lm182
@@ -630,7 +674,8 @@ l1bmp $lb1450 $lm196
 mask 0
 
 l1bmp $lb42 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1578 $lm2
@@ -644,7 +689,8 @@ l1bmp $lb2474 $lm16
 mask 0
 
 l1bmp $lb172 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb556 $lm182
@@ -658,7 +704,8 @@ l1bmp $lb1452 $lm196
 mask 0
 
 l1bmp $lb44 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1580 $lm2
@@ -672,7 +719,8 @@ l1bmp $lb2476 $lm16
 mask 0
 
 l1bmp $lb174 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb558 $lm182
@@ -686,7 +734,8 @@ l1bmp $lb1454 $lm196
 mask 0
 
 l1bmp $lb46 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1582 $lm2
@@ -700,7 +749,8 @@ l1bmp $lb2478 $lm16
 mask 0
 
 l1bmp $lb176 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb560 $lm182
@@ -714,7 +764,8 @@ l1bmp $lb1456 $lm196
 mask 0
 
 l1bmp $lb48 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1584 $lm2
@@ -728,7 +779,8 @@ l1bmp $lb2480 $lm16
 mask 0
 
 l1bmp $lb178 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb562 $lm182
@@ -742,7 +794,8 @@ l1bmp $lb1458 $lm196
 mask 0
 
 l1bmp $lb50 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1586 $lm2
@@ -756,7 +809,8 @@ l1bmp $lb2482 $lm16
 mask 0
 
 l1bmp $lb180 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb564 $lm182
@@ -770,7 +824,8 @@ l1bmp $lb1460 $lm196
 mask 0
 
 l1bmp $lb52 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1588 $lm2
@@ -784,7 +839,8 @@ l1bmp $lb2484 $lm16
 mask 0
 
 l1bmp $lb182 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb566 $lm182
@@ -798,7 +854,8 @@ l1bmp $lb1462 $lm196
 mask 0
 
 l1bmp $lb54 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1590 $lm2
@@ -812,7 +869,8 @@ l1bmp $lb2486 $lm16
 mask 0
 
 l1bmp $lb184 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb568 $lm182
@@ -826,7 +884,8 @@ l1bmp $lb1464 $lm196
 mask 0
 
 l1bmp $lb56 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1592 $lm2
@@ -840,7 +899,8 @@ l1bmp $lb2488 $lm16
 mask 0
 
 l1bmp $lb186 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb570 $lm182
@@ -854,7 +914,8 @@ l1bmp $lb1466 $lm196
 mask 0
 
 l1bmp $lb58 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1594 $lm2
@@ -868,7 +929,8 @@ l1bmp $lb2490 $lm16
 mask 0
 
 l1bmp $lb188 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb572 $lm182
@@ -896,7 +958,8 @@ l1bmp $lb2492 $lm16
 mask 0
 
 l1bmp $lb190 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb574 $lm182
@@ -910,7 +973,8 @@ l1bmp $lb1470 $lm196
 mask 0
 
 l1bmp $lb62 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1598 $lm2
@@ -924,7 +988,8 @@ l1bmp $lb2494 $lm16
 mask 0
 
 l1bmp $lb192 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb576 $lm182
@@ -938,7 +1003,8 @@ l1bmp $lb1472 $lm196
 mask 0
 
 l1bmp $lb64 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1600 $lm2
@@ -952,7 +1018,8 @@ l1bmp $lb2496 $lm16
 mask 0
 
 l1bmp $lb194 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb578 $lm182
@@ -966,7 +1033,8 @@ l1bmp $lb1474 $lm196
 mask 0
 
 l1bmp $lb66 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1602 $lm2
@@ -980,7 +1048,8 @@ l1bmp $lb2498 $lm16
 mask 0
 
 l1bmp $lb196 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb580 $lm182
@@ -994,7 +1063,8 @@ l1bmp $lb1476 $lm196
 mask 0
 
 l1bmp $lb68 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1604 $lm2
@@ -1008,7 +1078,8 @@ l1bmp $lb2500 $lm16
 mask 0
 
 l1bmp $lb198 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb582 $lm182
@@ -1022,7 +1093,8 @@ l1bmp $lb1478 $lm196
 mask 0
 
 l1bmp $lb70 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1606 $lm2
@@ -1036,7 +1108,8 @@ l1bmp $lb2502 $lm16
 mask 0
 
 l1bmp $lb200 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb584 $lm182
@@ -1050,7 +1123,8 @@ l1bmp $lb1480 $lm196
 mask 0
 
 l1bmp $lb72 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1608 $lm2
@@ -1064,7 +1138,8 @@ l1bmp $lb2504 $lm16
 mask 0
 
 l1bmp $lb202 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb586 $lm182
@@ -1078,7 +1153,8 @@ l1bmp $lb1482 $lm196
 mask 0
 
 l1bmp $lb74 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1610 $lm2
@@ -1092,7 +1168,8 @@ l1bmp $lb2506 $lm16
 mask 0
 
 l1bmp $lb204 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb588 $lm182
@@ -1106,7 +1183,8 @@ l1bmp $lb1484 $lm196
 mask 0
 
 l1bmp $lb76 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1612 $lm2
@@ -1120,7 +1198,8 @@ l1bmp $lb2508 $lm16
 mask 0
 
 l1bmp $lb206 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb590 $lm182
@@ -1134,7 +1213,8 @@ l1bmp $lb1486 $lm196
 mask 0
 
 l1bmp $lb78 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1614 $lm2
@@ -1148,7 +1228,8 @@ l1bmp $lb2510 $lm16
 mask 0
 
 l1bmp $lb208 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb592 $lm182
@@ -1162,7 +1243,8 @@ l1bmp $lb1488 $lm196
 mask 0
 
 l1bmp $lb80 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1616 $lm2
@@ -1176,7 +1258,8 @@ l1bmp $lb2512 $lm16
 mask 0
 
 l1bmp $lb210 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb594 $lm182
@@ -1190,7 +1273,8 @@ l1bmp $lb1490 $lm196
 mask 0
 
 l1bmp $lb82 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1618 $lm2
@@ -1204,7 +1288,8 @@ l1bmp $lb2514 $lm16
 mask 0
 
 l1bmp $lb212 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb596 $lm182
@@ -1218,7 +1303,8 @@ l1bmp $lb1492 $lm196
 mask 0
 
 l1bmp $lb84 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1620 $lm2
@@ -1232,7 +1318,8 @@ l1bmp $lb2516 $lm16
 mask 0
 
 l1bmp $lb214 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb598 $lm182
@@ -1246,7 +1333,8 @@ l1bmp $lb1494 $lm196
 mask 0
 
 l1bmp $lb86 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1622 $lm2
@@ -1260,7 +1348,8 @@ l1bmp $lb2518 $lm16
 mask 0
 
 l1bmp $lb216 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb600 $lm182
@@ -1274,7 +1363,8 @@ l1bmp $lb1496 $lm196
 mask 0
 
 l1bmp $lb88 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1624 $lm2
@@ -1288,7 +1378,8 @@ l1bmp $lb2520 $lm16
 mask 0
 
 l1bmp $lb218 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb602 $lm182
@@ -1302,7 +1393,8 @@ l1bmp $lb1498 $lm196
 mask 0
 
 l1bmp $lb90 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1626 $lm2
@@ -1316,7 +1408,8 @@ l1bmp $lb2522 $lm16
 mask 0
 
 l1bmp $lb220 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb604 $lm182
@@ -1330,7 +1423,8 @@ l1bmp $lb1500 $lm196
 mask 0
 
 l1bmp $lb92 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1628 $lm2
@@ -1344,7 +1438,8 @@ l1bmp $lb2524 $lm16
 mask 0
 
 l1bmp $lb222 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb606 $lm182
@@ -1358,7 +1453,8 @@ l1bmp $lb1502 $lm196
 mask 0
 
 l1bmp $lb94 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1630 $lm2
@@ -1372,7 +1468,8 @@ l1bmp $lb2526 $lm16
 mask 0
 
 l1bmp $lb224 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb608 $lm182
@@ -1386,7 +1483,8 @@ l1bmp $lb1504 $lm196
 mask 0
 
 l1bmp $lb96 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1632 $lm2
@@ -1400,7 +1498,8 @@ l1bmp $lb2528 $lm16
 mask 0
 
 l1bmp $lb226 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb610 $lm182
@@ -1414,7 +1513,8 @@ l1bmp $lb1506 $lm196
 mask 0
 
 l1bmp $lb98 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1634 $lm2
@@ -1428,7 +1528,8 @@ l1bmp $lb2530 $lm16
 mask 0
 
 l1bmp $lb228 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb612 $lm182
@@ -1442,7 +1543,8 @@ l1bmp $lb1508 $lm196
 mask 0
 
 l1bmp $lb100 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1636 $lm2
@@ -1456,7 +1558,8 @@ l1bmp $lb2532 $lm16
 mask 0
 
 l1bmp $lb230 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb614 $lm182
@@ -1470,7 +1573,8 @@ l1bmp $lb1510 $lm196
 mask 0
 
 l1bmp $lb102 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1638 $lm2
@@ -1484,7 +1588,8 @@ l1bmp $lb2534 $lm16
 mask 0
 
 l1bmp $lb232 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb616 $lm182
@@ -1498,7 +1603,8 @@ l1bmp $lb1512 $lm196
 mask 0
 
 l1bmp $lb104 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1640 $lm2
@@ -1512,7 +1618,8 @@ l1bmp $lb2536 $lm16
 mask 0
 
 l1bmp $lb234 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb618 $lm182
@@ -1526,7 +1633,8 @@ l1bmp $lb1514 $lm196
 mask 0
 
 l1bmp $lb106 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1642 $lm2
@@ -1540,7 +1648,8 @@ l1bmp $lb2538 $lm16
 mask 0
 
 l1bmp $lb236 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb620 $lm182
@@ -1554,7 +1663,8 @@ l1bmp $lb1516 $lm196
 mask 0
 
 l1bmp $lb108 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1644 $lm2
@@ -1568,7 +1678,8 @@ l1bmp $lb2540 $lm16
 mask 0
 
 l1bmp $lb238 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb622 $lm182
@@ -1582,7 +1693,8 @@ l1bmp $lb1518 $lm196
 mask 0
 
 l1bmp $lb110 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1646 $lm2
@@ -1596,7 +1708,8 @@ l1bmp $lb2542 $lm16
 mask 0
 
 l1bmp $lb240 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb624 $lm182
@@ -1610,7 +1723,8 @@ l1bmp $lb1520 $lm196
 mask 0
 
 l1bmp $lb112 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1648 $lm2
@@ -1624,7 +1738,8 @@ l1bmp $lb2544 $lm16
 mask 0
 
 l1bmp $lb242 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb626 $lm182
@@ -1638,7 +1753,8 @@ l1bmp $lb1522 $lm196
 mask 0
 
 l1bmp $lb114 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1650 $lm2
@@ -1652,7 +1768,8 @@ l1bmp $lb2546 $lm16
 mask 0
 
 l1bmp $lb244 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb628 $lm182
@@ -1666,7 +1783,8 @@ l1bmp $lb1524 $lm196
 mask 0
 
 l1bmp $lb116 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1652 $lm2
@@ -1680,7 +1798,8 @@ l1bmp $lb2548 $lm16
 mask 0
 
 l1bmp $lb246 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb630 $lm182
@@ -1694,7 +1813,8 @@ l1bmp $lb1526 $lm196
 mask 0
 
 l1bmp $lb118 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1654 $lm2
@@ -1708,7 +1828,8 @@ l1bmp $lb2550 $lm16
 mask 0
 
 l1bmp $lb248 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb632 $lm182
@@ -1722,7 +1843,8 @@ l1bmp $lb1528 $lm196
 mask 0
 
 l1bmp $lb120 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1656 $lm2
@@ -1736,7 +1858,8 @@ l1bmp $lb2552 $lm16
 mask 0
 
 l1bmp $lb250 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb634 $lm182
@@ -1750,7 +1873,8 @@ l1bmp $lb1530 $lm196
 mask 0
 
 l1bmp $lb122 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1658 $lm2
@@ -1764,7 +1888,8 @@ l1bmp $lb2554 $lm16
 mask 0
 
 l1bmp $lb252 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb636 $lm182
@@ -1778,7 +1903,8 @@ l1bmp $lb1532 $lm196
 mask 0
 
 l1bmp $lb124 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1660 $lm2
@@ -1792,7 +1918,8 @@ l1bmp $lb2556 $lm16
 mask 0
 
 l1bmp $lb254 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb638 $lm182
@@ -1806,7 +1933,8 @@ l1bmp $lb1534 $lm196
 mask 0
 
 l1bmp $lb126 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1662 $lm2
@@ -1842,7 +1970,8 @@ nop/3
 
 # W->E
 l1bmp $lb256 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1792 $lm38
@@ -1857,7 +1986,8 @@ mask 0
 
 # E->W
 l1bmp $lb384 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2816 $lm20
@@ -1871,7 +2001,8 @@ l1bmp $lb3712 $lm160
 mask 0
 
 l1bmp $lb258 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1794 $lm38
@@ -1885,7 +2016,8 @@ l1bmp $lb2690 $lm178
 mask 0
 
 l1bmp $lb386 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2818 $lm20
@@ -1899,7 +2031,8 @@ l1bmp $lb3714 $lm160
 mask 0
 
 l1bmp $lb260 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1796 $lm38
@@ -1913,7 +2046,8 @@ l1bmp $lb2692 $lm178
 mask 0
 
 l1bmp $lb388 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2820 $lm20
@@ -1927,7 +2061,8 @@ l1bmp $lb3716 $lm160
 mask 0
 
 l1bmp $lb262 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1798 $lm38
@@ -1941,7 +2076,8 @@ l1bmp $lb2694 $lm178
 mask 0
 
 l1bmp $lb390 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2822 $lm20
@@ -1955,7 +2091,8 @@ l1bmp $lb3718 $lm160
 mask 0
 
 l1bmp $lb264 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1800 $lm38
@@ -1969,7 +2106,8 @@ l1bmp $lb2696 $lm178
 mask 0
 
 l1bmp $lb392 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2824 $lm20
@@ -1983,7 +2121,8 @@ l1bmp $lb3720 $lm160
 mask 0
 
 l1bmp $lb266 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1802 $lm38
@@ -1997,7 +2136,8 @@ l1bmp $lb2698 $lm178
 mask 0
 
 l1bmp $lb394 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2826 $lm20
@@ -2011,7 +2151,8 @@ l1bmp $lb3722 $lm160
 mask 0
 
 l1bmp $lb268 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1804 $lm38
@@ -2025,7 +2166,8 @@ l1bmp $lb2700 $lm178
 mask 0
 
 l1bmp $lb396 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2828 $lm20
@@ -2039,7 +2181,8 @@ l1bmp $lb3724 $lm160
 mask 0
 
 l1bmp $lb270 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1806 $lm38
@@ -2053,7 +2196,8 @@ l1bmp $lb2702 $lm178
 mask 0
 
 l1bmp $lb398 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2830 $lm20
@@ -2067,7 +2211,8 @@ l1bmp $lb3726 $lm160
 mask 0
 
 l1bmp $lb272 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1808 $lm38
@@ -2081,7 +2226,8 @@ l1bmp $lb2704 $lm178
 mask 0
 
 l1bmp $lb400 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2832 $lm20
@@ -2095,7 +2241,8 @@ l1bmp $lb3728 $lm160
 mask 0
 
 l1bmp $lb274 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1810 $lm38
@@ -2109,7 +2256,8 @@ l1bmp $lb2706 $lm178
 mask 0
 
 l1bmp $lb402 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2834 $lm20
@@ -2123,7 +2271,8 @@ l1bmp $lb3730 $lm160
 mask 0
 
 l1bmp $lb276 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1812 $lm38
@@ -2137,7 +2286,8 @@ l1bmp $lb2708 $lm178
 mask 0
 
 l1bmp $lb404 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2836 $lm20
@@ -2151,7 +2301,8 @@ l1bmp $lb3732 $lm160
 mask 0
 
 l1bmp $lb278 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1814 $lm38
@@ -2165,7 +2316,8 @@ l1bmp $lb2710 $lm178
 mask 0
 
 l1bmp $lb406 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2838 $lm20
@@ -2179,7 +2331,8 @@ l1bmp $lb3734 $lm160
 mask 0
 
 l1bmp $lb280 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1816 $lm38
@@ -2193,7 +2346,8 @@ l1bmp $lb2712 $lm178
 mask 0
 
 l1bmp $lb408 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2840 $lm20
@@ -2207,7 +2361,8 @@ l1bmp $lb3736 $lm160
 mask 0
 
 l1bmp $lb282 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1818 $lm38
@@ -2221,7 +2376,8 @@ l1bmp $lb2714 $lm178
 mask 0
 
 l1bmp $lb410 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2842 $lm20
@@ -2235,7 +2391,8 @@ l1bmp $lb3738 $lm160
 mask 0
 
 l1bmp $lb284 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1820 $lm38
@@ -2249,7 +2406,8 @@ l1bmp $lb2716 $lm178
 mask 0
 
 l1bmp $lb412 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2844 $lm20
@@ -2263,7 +2421,8 @@ l1bmp $lb3740 $lm160
 mask 0
 
 l1bmp $lb286 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1822 $lm38
@@ -2277,7 +2436,8 @@ l1bmp $lb2718 $lm178
 mask 0
 
 l1bmp $lb414 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2846 $lm20
@@ -2291,7 +2451,8 @@ l1bmp $lb3742 $lm160
 mask 0
 
 l1bmp $lb288 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1824 $lm38
@@ -2305,7 +2466,8 @@ l1bmp $lb2720 $lm178
 mask 0
 
 l1bmp $lb416 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2848 $lm20
@@ -2319,7 +2481,8 @@ l1bmp $lb3744 $lm160
 mask 0
 
 l1bmp $lb290 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1826 $lm38
@@ -2333,7 +2496,8 @@ l1bmp $lb2722 $lm178
 mask 0
 
 l1bmp $lb418 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2850 $lm20
@@ -2347,7 +2511,8 @@ l1bmp $lb3746 $lm160
 mask 0
 
 l1bmp $lb292 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1828 $lm38
@@ -2361,7 +2526,8 @@ l1bmp $lb2724 $lm178
 mask 0
 
 l1bmp $lb420 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2852 $lm20
@@ -2375,7 +2541,8 @@ l1bmp $lb3748 $lm160
 mask 0
 
 l1bmp $lb294 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1830 $lm38
@@ -2389,7 +2556,8 @@ l1bmp $lb2726 $lm178
 mask 0
 
 l1bmp $lb422 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2854 $lm20
@@ -2417,7 +2585,8 @@ l1bmp $lb2728 $lm178
 mask 0
 
 l1bmp $lb424 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2856 $lm20
@@ -2431,7 +2600,8 @@ l1bmp $lb3752 $lm160
 mask 0
 
 l1bmp $lb298 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1834 $lm38
@@ -2445,7 +2615,8 @@ l1bmp $lb2730 $lm178
 mask 0
 
 l1bmp $lb426 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2858 $lm20
@@ -2459,7 +2630,8 @@ l1bmp $lb3754 $lm160
 mask 0
 
 l1bmp $lb300 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1836 $lm38
@@ -2473,7 +2645,8 @@ l1bmp $lb2732 $lm178
 mask 0
 
 l1bmp $lb428 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2860 $lm20
@@ -2487,7 +2660,8 @@ l1bmp $lb3756 $lm160
 mask 0
 
 l1bmp $lb302 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1838 $lm38
@@ -2501,7 +2675,8 @@ l1bmp $lb2734 $lm178
 mask 0
 
 l1bmp $lb430 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2862 $lm20
@@ -2515,7 +2690,8 @@ l1bmp $lb3758 $lm160
 mask 0
 
 l1bmp $lb304 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1840 $lm38
@@ -2529,7 +2705,8 @@ l1bmp $lb2736 $lm178
 mask 0
 
 l1bmp $lb432 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2864 $lm20
@@ -2543,7 +2720,8 @@ l1bmp $lb3760 $lm160
 mask 0
 
 l1bmp $lb306 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1842 $lm38
@@ -2557,7 +2735,8 @@ l1bmp $lb2738 $lm178
 mask 0
 
 l1bmp $lb434 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2866 $lm20
@@ -2571,7 +2750,8 @@ l1bmp $lb3762 $lm160
 mask 0
 
 l1bmp $lb308 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1844 $lm38
@@ -2585,7 +2765,8 @@ l1bmp $lb2740 $lm178
 mask 0
 
 l1bmp $lb436 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2868 $lm20
@@ -2599,7 +2780,8 @@ l1bmp $lb3764 $lm160
 mask 0
 
 l1bmp $lb310 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1846 $lm38
@@ -2613,7 +2795,8 @@ l1bmp $lb2742 $lm178
 mask 0
 
 l1bmp $lb438 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2870 $lm20
@@ -2627,7 +2810,8 @@ l1bmp $lb3766 $lm160
 mask 0
 
 l1bmp $lb312 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1848 $lm38
@@ -2641,7 +2825,8 @@ l1bmp $lb2744 $lm178
 mask 0
 
 l1bmp $lb440 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2872 $lm20
@@ -2655,7 +2840,8 @@ l1bmp $lb3768 $lm160
 mask 0
 
 l1bmp $lb314 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1850 $lm38
@@ -2669,7 +2855,8 @@ l1bmp $lb2746 $lm178
 mask 0
 
 l1bmp $lb442 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2874 $lm20
@@ -2683,7 +2870,8 @@ l1bmp $lb3770 $lm160
 mask 0
 
 l1bmp $lb316 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1852 $lm38
@@ -2697,7 +2885,8 @@ l1bmp $lb2748 $lm178
 mask 0
 
 l1bmp $lb444 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb2876 $lm20
@@ -2711,7 +2900,8 @@ l1bmp $lb3772 $lm160
 mask 0
 
 l1bmp $lb318 $t
-lxor $t $ln0v $t $omr2; #nointr
+lxor $t $ln0v $t $omr2;  
+nop/2
 maskm 2
 
 l1bmp $lb1854 $lm38
