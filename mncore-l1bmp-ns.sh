@@ -18,6 +18,7 @@ lm_increment=2
 
 # ループで文字列を生成
 echo "l1bmp \$lb${direction} \$t"
+echo "nop\n"
 echo "lxor \$t \$ln0v \$t \$omr2;"
 echo -e "maskm 2\n"
 
