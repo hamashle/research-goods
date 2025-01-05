@@ -1,7 +1,7 @@
-lpassa $peid $lr0v
-imm i"8" $s1
-nop/2
-imm i"1" $s3 
+lpassa $peid $ln0v
+#imm i"8" $s1
+#nop/2
+#imm i"1" $s3 
 
 nop/2
 isub $lr0 $ls0 $lr32
