@@ -832,7 +832,10 @@ d set $lm4m15p3 1 4014000000000000
 d set $lm6m15p3 1 4014000000000000
 d set $lm8m15p3 1 4014000000000000
 
-
+d getd $lr32n0c0b0 1
+d getd $lr34n0c0b0 1
+d getd $lr36n0c0b0 1
+d getd $lr38n0c0b0 1
 
 ### i == 0 || i == L || j == 0 || j == L　の時は、そのまま保存する
 ### 一回目は、0~8までをln0v ~ ln8vに保存する。
