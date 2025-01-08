@@ -7,7 +7,7 @@ output_file="output_016.txt"
 > "$output_file"
 
 # 固定値
-minus_one="BFF0000000000000"
+minus_one="0000000000000100"
 
 # PE番号（#0 ~ #63）
 for pe_number in $(seq 0 63); do
