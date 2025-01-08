@@ -1363,24 +1363,25 @@ nop
 
 ### halo-exchange
 lpassa $peid $ln0v
-l1bmd $lr32 $lb0 # N
-l1bmd $lr34 $lb128 # S
-l1bmd $lr36 $lb256 # E
-l1bmd $lr38 $lb384 # W 長語で64x2なので128ずつ増加
+l1bmd $lr32v $lb0 # N debug lb0
+d getd $lb0n0c0b0 256
+#l1bmd $lr34 $lb128 # S
+#l1bmd $lr36 $lb256 # E
+#l1bmd $lr38 $lb384 # W 長語で64x2なので128ずつ増加
 
 #d getd $ln0n0c0b0 1 
 
 ## PE -> L1B for N PEで計算したものをL1Bで保存する
-l1bmd $lm14 $lb512 # (1,1)
-l1bmd $lm16 $lb640 # (1,2)
-l1bmd $lm18 $lb768 # (1,3)
-l1bmd $lm20 $lb896 # (1,4)
+l1bmd $lm14v $lb512 # (1,1)
+#l1bmd $lm16 $lb640 # (1,2)
+#l1bmd $lm18 $lb768 # (1,3)
+#l1bmd $lm20 $lb896 # (1,4)
 
 ## PE -> L1B for S
-l1bmd $lm50 $lb1024 # (4,1)
-l1bmd $lm52 $lb1152 # (4,2)
-l1bmd $lm54 $lb1280 # (4,3)
-l1bmd $lm56 $lb1408 # (4,4)
+l1bmd $lm50v $lb1024 # (4,1)
+#l1bmd $lm52 $lb1152 # (4,2)
+#l1bmd $lm54 $lb1280 # (4,3)
+#l1bmd $lm56 $lb1408 # (4,4)
 nop
 nop
 
