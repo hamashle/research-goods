@@ -320,10 +320,523 @@ d set $lr34m15p3 1 0000000000000100 #PEID=000000000000003F (DOWN=000000000000010
 d set $lr36m15p3 1 0000000000000100 #PEID=000000000000003F (RIGHT=0000000000000100)
 d set $lr38m15p3 1 000000000000003E #PEID=000000000000003F (LEFT=000000000000003E)
 
-d set $lm50m0p0 1 0000000000005000
-d set $lm52m0p0 1 0000000000005200 
-d set $lm54m0p0 1 0000000000005400 
-d set $lm56m0p0 1 0000000000005600
+d set $lm14m0p0 1 0000000000140000
+d set $lm16m0p0 1 0000000000160000
+d set $lm18m0p0 1 0000000000180000
+d set $lm20m0p0 1 0000000000200000
+d set $lm14m0p1 1 0000000000140001
+d set $lm16m0p1 1 0000000000160001
+d set $lm18m0p1 1 0000000000180001
+d set $lm20m0p1 1 0000000000200001
+d set $lm14m0p2 1 0000000000140002
+d set $lm16m0p2 1 0000000000160002
+d set $lm18m0p2 1 0000000000180002
+d set $lm20m0p2 1 0000000000200002
+d set $lm14m0p3 1 0000000000140003
+d set $lm16m0p3 1 0000000000160003
+d set $lm18m0p3 1 0000000000180003
+d set $lm20m0p3 1 0000000000200003
+d set $lm14m1p0 1 0000000000140100
+d set $lm16m1p0 1 0000000000160100
+d set $lm18m1p0 1 0000000000180100
+d set $lm20m1p0 1 0000000000200100
+d set $lm14m1p1 1 0000000000140101
+d set $lm16m1p1 1 0000000000160101
+d set $lm18m1p1 1 0000000000180101
+d set $lm20m1p1 1 0000000000200101
+d set $lm14m1p2 1 0000000000140102
+d set $lm16m1p2 1 0000000000160102
+d set $lm18m1p2 1 0000000000180102
+d set $lm20m1p2 1 0000000000200102
+d set $lm14m1p3 1 0000000000140103
+d set $lm16m1p3 1 0000000000160103
+d set $lm18m1p3 1 0000000000180103
+d set $lm20m1p3 1 0000000000200103
+d set $lm14m2p0 1 0000000000140200
+d set $lm16m2p0 1 0000000000160200
+d set $lm18m2p0 1 0000000000180200
+d set $lm20m2p0 1 0000000000200200
+d set $lm14m2p1 1 0000000000140201
+d set $lm16m2p1 1 0000000000160201
+d set $lm18m2p1 1 0000000000180201
+d set $lm20m2p1 1 0000000000200201
+d set $lm14m2p2 1 0000000000140202
+d set $lm16m2p2 1 0000000000160202
+d set $lm18m2p2 1 0000000000180202
+d set $lm20m2p2 1 0000000000200202
+d set $lm14m2p3 1 0000000000140203
+d set $lm16m2p3 1 0000000000160203
+d set $lm18m2p3 1 0000000000180203
+d set $lm20m2p3 1 0000000000200203
+d set $lm14m3p0 1 0000000000140300
+d set $lm16m3p0 1 0000000000160300
+d set $lm18m3p0 1 0000000000180300
+d set $lm20m3p0 1 0000000000200300
+d set $lm14m3p1 1 0000000000140301
+d set $lm16m3p1 1 0000000000160301
+d set $lm18m3p1 1 0000000000180301
+d set $lm20m3p1 1 0000000000200301
+d set $lm14m3p2 1 0000000000140302
+d set $lm16m3p2 1 0000000000160302
+d set $lm18m3p2 1 0000000000180302
+d set $lm20m3p2 1 0000000000200302
+d set $lm14m3p3 1 0000000000140303
+d set $lm16m3p3 1 0000000000160303
+d set $lm18m3p3 1 0000000000180303
+d set $lm20m3p3 1 0000000000200303
+d set $lm14m4p0 1 0000000000140400
+d set $lm16m4p0 1 0000000000160400
+d set $lm18m4p0 1 0000000000180400
+d set $lm20m4p0 1 0000000000200400
+d set $lm14m4p1 1 0000000000140401
+d set $lm16m4p1 1 0000000000160401
+d set $lm18m4p1 1 0000000000180401
+d set $lm20m4p1 1 0000000000200401
+d set $lm14m4p2 1 0000000000140402
+d set $lm16m4p2 1 0000000000160402
+d set $lm18m4p2 1 0000000000180402
+d set $lm20m4p2 1 0000000000200402
+d set $lm14m4p3 1 0000000000140403
+d set $lm16m4p3 1 0000000000160403
+d set $lm18m4p3 1 0000000000180403
+d set $lm20m4p3 1 0000000000200403
+d set $lm14m5p0 1 0000000000140500
+d set $lm16m5p0 1 0000000000160500
+d set $lm18m5p0 1 0000000000180500
+d set $lm20m5p0 1 0000000000200500
+d set $lm14m5p1 1 0000000000140501
+d set $lm16m5p1 1 0000000000160501
+d set $lm18m5p1 1 0000000000180501
+d set $lm20m5p1 1 0000000000200501
+d set $lm14m5p2 1 0000000000140502
+d set $lm16m5p2 1 0000000000160502
+d set $lm18m5p2 1 0000000000180502
+d set $lm20m5p2 1 0000000000200502
+d set $lm14m5p3 1 0000000000140503
+d set $lm16m5p3 1 0000000000160503
+d set $lm18m5p3 1 0000000000180503
+d set $lm20m5p3 1 0000000000200503
+d set $lm14m6p0 1 0000000000140600
+d set $lm16m6p0 1 0000000000160600
+d set $lm18m6p0 1 0000000000180600
+d set $lm20m6p0 1 0000000000200600
+d set $lm14m6p1 1 0000000000140601
+d set $lm16m6p1 1 0000000000160601
+d set $lm18m6p1 1 0000000000180601
+d set $lm20m6p1 1 0000000000200601
+d set $lm14m6p2 1 0000000000140602
+d set $lm16m6p2 1 0000000000160602
+d set $lm18m6p2 1 0000000000180602
+d set $lm20m6p2 1 0000000000200602
+d set $lm14m6p3 1 0000000000140603
+d set $lm16m6p3 1 0000000000160603
+d set $lm18m6p3 1 0000000000180603
+d set $lm20m6p3 1 0000000000200603
+d set $lm14m7p0 1 0000000000140700
+d set $lm16m7p0 1 0000000000160700
+d set $lm18m7p0 1 0000000000180700
+d set $lm20m7p0 1 0000000000200700
+d set $lm14m7p1 1 0000000000140701
+d set $lm16m7p1 1 0000000000160701
+d set $lm18m7p1 1 0000000000180701
+d set $lm20m7p1 1 0000000000200701
+d set $lm14m7p2 1 0000000000140702
+d set $lm16m7p2 1 0000000000160702
+d set $lm18m7p2 1 0000000000180702
+d set $lm20m7p2 1 0000000000200702
+d set $lm14m7p3 1 0000000000140703
+d set $lm16m7p3 1 0000000000160703
+d set $lm18m7p3 1 0000000000180703
+d set $lm20m7p3 1 0000000000200703
+d set $lm14m8p0 1 0000000000140800
+d set $lm16m8p0 1 0000000000160800
+d set $lm18m8p0 1 0000000000180800
+d set $lm20m8p0 1 0000000000200800
+d set $lm14m8p1 1 0000000000140801
+d set $lm16m8p1 1 0000000000160801
+d set $lm18m8p1 1 0000000000180801
+d set $lm20m8p1 1 0000000000200801
+d set $lm14m8p2 1 0000000000140802
+d set $lm16m8p2 1 0000000000160802
+d set $lm18m8p2 1 0000000000180802
+d set $lm20m8p2 1 0000000000200802
+d set $lm14m8p3 1 0000000000140803
+d set $lm16m8p3 1 0000000000160803
+d set $lm18m8p3 1 0000000000180803
+d set $lm20m8p3 1 0000000000200803
+d set $lm14m9p0 1 0000000000140900
+d set $lm16m9p0 1 0000000000160900
+d set $lm18m9p0 1 0000000000180900
+d set $lm20m9p0 1 0000000000200900
+d set $lm14m9p1 1 0000000000140901
+d set $lm16m9p1 1 0000000000160901
+d set $lm18m9p1 1 0000000000180901
+d set $lm20m9p1 1 0000000000200901
+d set $lm14m9p2 1 0000000000140902
+d set $lm16m9p2 1 0000000000160902
+d set $lm18m9p2 1 0000000000180902
+d set $lm20m9p2 1 0000000000200902
+d set $lm14m9p3 1 0000000000140903
+d set $lm16m9p3 1 0000000000160903
+d set $lm18m9p3 1 0000000000180903
+d set $lm20m9p3 1 0000000000200903
+d set $lm14m10p0 1 0000000000140A00
+d set $lm16m10p0 1 0000000000160A00
+d set $lm18m10p0 1 0000000000180A00
+d set $lm20m10p0 1 0000000000200A00
+d set $lm14m10p1 1 0000000000140A01
+d set $lm16m10p1 1 0000000000160A01
+d set $lm18m10p1 1 0000000000180A01
+d set $lm20m10p1 1 0000000000200A01
+d set $lm14m10p2 1 0000000000140A02
+d set $lm16m10p2 1 0000000000160A02
+d set $lm18m10p2 1 0000000000180A02
+d set $lm20m10p2 1 0000000000200A02
+d set $lm14m10p3 1 0000000000140A03
+d set $lm16m10p3 1 0000000000160A03
+d set $lm18m10p3 1 0000000000180A03
+d set $lm20m10p3 1 0000000000200A03
+d set $lm14m11p0 1 0000000000140B00
+d set $lm16m11p0 1 0000000000160B00
+d set $lm18m11p0 1 0000000000180B00
+d set $lm20m11p0 1 0000000000200B00
+d set $lm14m11p1 1 0000000000140B01
+d set $lm16m11p1 1 0000000000160B01
+d set $lm18m11p1 1 0000000000180B01
+d set $lm20m11p1 1 0000000000200B01
+d set $lm14m11p2 1 0000000000140B02
+d set $lm16m11p2 1 0000000000160B02
+d set $lm18m11p2 1 0000000000180B02
+d set $lm20m11p2 1 0000000000200B02
+d set $lm14m11p3 1 0000000000140B03
+d set $lm16m11p3 1 0000000000160B03
+d set $lm18m11p3 1 0000000000180B03
+d set $lm20m11p3 1 0000000000200B03
+d set $lm14m12p0 1 0000000000140C00
+d set $lm16m12p0 1 0000000000160C00
+d set $lm18m12p0 1 0000000000180C00
+d set $lm20m12p0 1 0000000000200C00
+d set $lm14m12p1 1 0000000000140C01
+d set $lm16m12p1 1 0000000000160C01
+d set $lm18m12p1 1 0000000000180C01
+d set $lm20m12p1 1 0000000000200C01
+d set $lm14m12p2 1 0000000000140C02
+d set $lm16m12p2 1 0000000000160C02
+d set $lm18m12p2 1 0000000000180C02
+d set $lm20m12p2 1 0000000000200C02
+d set $lm14m12p3 1 0000000000140C03
+d set $lm16m12p3 1 0000000000160C03
+d set $lm18m12p3 1 0000000000180C03
+d set $lm20m12p3 1 0000000000200C03
+d set $lm14m13p0 1 0000000000140D00
+d set $lm16m13p0 1 0000000000160D00
+d set $lm18m13p0 1 0000000000180D00
+d set $lm20m13p0 1 0000000000200D00
+d set $lm14m13p1 1 0000000000140D01
+d set $lm16m13p1 1 0000000000160D01
+d set $lm18m13p1 1 0000000000180D01
+d set $lm20m13p1 1 0000000000200D01
+d set $lm14m13p2 1 0000000000140D02
+d set $lm16m13p2 1 0000000000160D02
+d set $lm18m13p2 1 0000000000180D02
+d set $lm20m13p2 1 0000000000200D02
+d set $lm14m13p3 1 0000000000140D03
+d set $lm16m13p3 1 0000000000160D03
+d set $lm18m13p3 1 0000000000180D03
+d set $lm20m13p3 1 0000000000200D03
+d set $lm14m14p0 1 0000000000140E00
+d set $lm16m14p0 1 0000000000160E00
+d set $lm18m14p0 1 0000000000180E00
+d set $lm20m14p0 1 0000000000200E00
+d set $lm14m14p1 1 0000000000140E01
+d set $lm16m14p1 1 0000000000160E01
+d set $lm18m14p1 1 0000000000180E01
+d set $lm20m14p1 1 0000000000200E01
+d set $lm14m14p2 1 0000000000140E02
+d set $lm16m14p2 1 0000000000160E02
+d set $lm18m14p2 1 0000000000180E02
+d set $lm20m14p2 1 0000000000200E02
+d set $lm14m14p3 1 0000000000140E03
+d set $lm16m14p3 1 0000000000160E03
+d set $lm18m14p3 1 0000000000180E03
+d set $lm20m14p3 1 0000000000200E03
+d set $lm14m15p0 1 0000000000140F00
+d set $lm16m15p0 1 0000000000160F00
+d set $lm18m15p0 1 0000000000180F00
+d set $lm20m15p0 1 0000000000200F00
+d set $lm14m15p1 1 0000000000140F01
+d set $lm16m15p1 1 0000000000160F01
+d set $lm18m15p1 1 0000000000180F01
+d set $lm20m15p1 1 0000000000200F01
+d set $lm14m15p2 1 0000000000140F02
+d set $lm16m15p2 1 0000000000160F02
+d set $lm18m15p2 1 0000000000180F02
+d set $lm20m15p2 1 0000000000200F02
+d set $lm14m15p3 1 0000000000140F03
+d set $lm16m15p3 1 0000000000160F03
+d set $lm18m15p3 1 0000000000180F03
+d set $lm20m15p3 1 0000000000200F03
+
+d set $lm50m0p0 1 0000000000500000
+d set $lm52m0p0 1 0000000000520000
+d set $lm54m0p0 1 0000000000540000
+d set $lm56m0p0 1 0000000000560000
+d set $lm50m0p1 1 0000000000500001
+d set $lm52m0p1 1 0000000000520001
+d set $lm54m0p1 1 0000000000540001
+d set $lm56m0p1 1 0000000000560001
+d set $lm50m0p2 1 0000000000500002
+d set $lm52m0p2 1 0000000000520002
+d set $lm54m0p2 1 0000000000540002
+d set $lm56m0p2 1 0000000000560002
+d set $lm50m0p3 1 0000000000500003
+d set $lm52m0p3 1 0000000000520003
+d set $lm54m0p3 1 0000000000540003
+d set $lm56m0p3 1 0000000000560003
+d set $lm50m1p0 1 0000000000500100
+d set $lm52m1p0 1 0000000000520100
+d set $lm54m1p0 1 0000000000540100
+d set $lm56m1p0 1 0000000000560100
+d set $lm50m1p1 1 0000000000500101
+d set $lm52m1p1 1 0000000000520101
+d set $lm54m1p1 1 0000000000540101
+d set $lm56m1p1 1 0000000000560101
+d set $lm50m1p2 1 0000000000500102
+d set $lm52m1p2 1 0000000000520102
+d set $lm54m1p2 1 0000000000540102
+d set $lm56m1p2 1 0000000000560102
+d set $lm50m1p3 1 0000000000500103
+d set $lm52m1p3 1 0000000000520103
+d set $lm54m1p3 1 0000000000540103
+d set $lm56m1p3 1 0000000000560103
+d set $lm50m2p0 1 0000000000500200
+d set $lm52m2p0 1 0000000000520200
+d set $lm54m2p0 1 0000000000540200
+d set $lm56m2p0 1 0000000000560200
+d set $lm50m2p1 1 0000000000500201
+d set $lm52m2p1 1 0000000000520201
+d set $lm54m2p1 1 0000000000540201
+d set $lm56m2p1 1 0000000000560201
+d set $lm50m2p2 1 0000000000500202
+d set $lm52m2p2 1 0000000000520202
+d set $lm54m2p2 1 0000000000540202
+d set $lm56m2p2 1 0000000000560202
+d set $lm50m2p3 1 0000000000500203
+d set $lm52m2p3 1 0000000000520203
+d set $lm54m2p3 1 0000000000540203
+d set $lm56m2p3 1 0000000000560203
+d set $lm50m3p0 1 0000000000500300
+d set $lm52m3p0 1 0000000000520300
+d set $lm54m3p0 1 0000000000540300
+d set $lm56m3p0 1 0000000000560300
+d set $lm50m3p1 1 0000000000500301
+d set $lm52m3p1 1 0000000000520301
+d set $lm54m3p1 1 0000000000540301
+d set $lm56m3p1 1 0000000000560301
+d set $lm50m3p2 1 0000000000500302
+d set $lm52m3p2 1 0000000000520302
+d set $lm54m3p2 1 0000000000540302
+d set $lm56m3p2 1 0000000000560302
+d set $lm50m3p3 1 0000000000500303
+d set $lm52m3p3 1 0000000000520303
+d set $lm54m3p3 1 0000000000540303
+d set $lm56m3p3 1 0000000000560303
+d set $lm50m4p0 1 0000000000500400
+d set $lm52m4p0 1 0000000000520400
+d set $lm54m4p0 1 0000000000540400
+d set $lm56m4p0 1 0000000000560400
+d set $lm50m4p1 1 0000000000500401
+d set $lm52m4p1 1 0000000000520401
+d set $lm54m4p1 1 0000000000540401
+d set $lm56m4p1 1 0000000000560401
+d set $lm50m4p2 1 0000000000500402
+d set $lm52m4p2 1 0000000000520402
+d set $lm54m4p2 1 0000000000540402
+d set $lm56m4p2 1 0000000000560402
+d set $lm50m4p3 1 0000000000500403
+d set $lm52m4p3 1 0000000000520403
+d set $lm54m4p3 1 0000000000540403
+d set $lm56m4p3 1 0000000000560403
+d set $lm50m5p0 1 0000000000500500
+d set $lm52m5p0 1 0000000000520500
+d set $lm54m5p0 1 0000000000540500
+d set $lm56m5p0 1 0000000000560500
+d set $lm50m5p1 1 0000000000500501
+d set $lm52m5p1 1 0000000000520501
+d set $lm54m5p1 1 0000000000540501
+d set $lm56m5p1 1 0000000000560501
+d set $lm50m5p2 1 0000000000500502
+d set $lm52m5p2 1 0000000000520502
+d set $lm54m5p2 1 0000000000540502
+d set $lm56m5p2 1 0000000000560502
+d set $lm50m5p3 1 0000000000500503
+d set $lm52m5p3 1 0000000000520503
+d set $lm54m5p3 1 0000000000540503
+d set $lm56m5p3 1 0000000000560503
+d set $lm50m6p0 1 0000000000500600
+d set $lm52m6p0 1 0000000000520600
+d set $lm54m6p0 1 0000000000540600
+d set $lm56m6p0 1 0000000000560600
+d set $lm50m6p1 1 0000000000500601
+d set $lm52m6p1 1 0000000000520601
+d set $lm54m6p1 1 0000000000540601
+d set $lm56m6p1 1 0000000000560601
+d set $lm50m6p2 1 0000000000500602
+d set $lm52m6p2 1 0000000000520602
+d set $lm54m6p2 1 0000000000540602
+d set $lm56m6p2 1 0000000000560602
+d set $lm50m6p3 1 0000000000500603
+d set $lm52m6p3 1 0000000000520603
+d set $lm54m6p3 1 0000000000540603
+d set $lm56m6p3 1 0000000000560603
+d set $lm50m7p0 1 0000000000500700
+d set $lm52m7p0 1 0000000000520700
+d set $lm54m7p0 1 0000000000540700
+d set $lm56m7p0 1 0000000000560700
+d set $lm50m7p1 1 0000000000500701
+d set $lm52m7p1 1 0000000000520701
+d set $lm54m7p1 1 0000000000540701
+d set $lm56m7p1 1 0000000000560701
+d set $lm50m7p2 1 0000000000500702
+d set $lm52m7p2 1 0000000000520702
+d set $lm54m7p2 1 0000000000540702
+d set $lm56m7p2 1 0000000000560702
+d set $lm50m7p3 1 0000000000500703
+d set $lm52m7p3 1 0000000000520703
+d set $lm54m7p3 1 0000000000540703
+d set $lm56m7p3 1 0000000000560703
+d set $lm50m8p0 1 0000000000500800
+d set $lm52m8p0 1 0000000000520800
+d set $lm54m8p0 1 0000000000540800
+d set $lm56m8p0 1 0000000000560800
+d set $lm50m8p1 1 0000000000500801
+d set $lm52m8p1 1 0000000000520801
+d set $lm54m8p1 1 0000000000540801
+d set $lm56m8p1 1 0000000000560801
+d set $lm50m8p2 1 0000000000500802
+d set $lm52m8p2 1 0000000000520802
+d set $lm54m8p2 1 0000000000540802
+d set $lm56m8p2 1 0000000000560802
+d set $lm50m8p3 1 0000000000500803
+d set $lm52m8p3 1 0000000000520803
+d set $lm54m8p3 1 0000000000540803
+d set $lm56m8p3 1 0000000000560803
+d set $lm50m9p0 1 0000000000500900
+d set $lm52m9p0 1 0000000000520900
+d set $lm54m9p0 1 0000000000540900
+d set $lm56m9p0 1 0000000000560900
+d set $lm50m9p1 1 0000000000500901
+d set $lm52m9p1 1 0000000000520901
+d set $lm54m9p1 1 0000000000540901
+d set $lm56m9p1 1 0000000000560901
+d set $lm50m9p2 1 0000000000500902
+d set $lm52m9p2 1 0000000000520902
+d set $lm54m9p2 1 0000000000540902
+d set $lm56m9p2 1 0000000000560902
+d set $lm50m9p3 1 0000000000500903
+d set $lm52m9p3 1 0000000000520903
+d set $lm54m9p3 1 0000000000540903
+d set $lm56m9p3 1 0000000000560903
+d set $lm50m10p0 1 0000000000500A00
+d set $lm52m10p0 1 0000000000520A00
+d set $lm54m10p0 1 0000000000540A00
+d set $lm56m10p0 1 0000000000560A00
+d set $lm50m10p1 1 0000000000500A01
+d set $lm52m10p1 1 0000000000520A01
+d set $lm54m10p1 1 0000000000540A01
+d set $lm56m10p1 1 0000000000560A01
+d set $lm50m10p2 1 0000000000500A02
+d set $lm52m10p2 1 0000000000520A02
+d set $lm54m10p2 1 0000000000540A02
+d set $lm56m10p2 1 0000000000560A02
+d set $lm50m10p3 1 0000000000500A03
+d set $lm52m10p3 1 0000000000520A03
+d set $lm54m10p3 1 0000000000540A03
+d set $lm56m10p3 1 0000000000560A03
+d set $lm50m11p0 1 0000000000500B00
+d set $lm52m11p0 1 0000000000520B00
+d set $lm54m11p0 1 0000000000540B00
+d set $lm56m11p0 1 0000000000560B00
+d set $lm50m11p1 1 0000000000500B01
+d set $lm52m11p1 1 0000000000520B01
+d set $lm54m11p1 1 0000000000540B01
+d set $lm56m11p1 1 0000000000560B01
+d set $lm50m11p2 1 0000000000500B02
+d set $lm52m11p2 1 0000000000520B02
+d set $lm54m11p2 1 0000000000540B02
+d set $lm56m11p2 1 0000000000560B02
+d set $lm50m11p3 1 0000000000500B03
+d set $lm52m11p3 1 0000000000520B03
+d set $lm54m11p3 1 0000000000540B03
+d set $lm56m11p3 1 0000000000560B03
+d set $lm50m12p0 1 0000000000500C00
+d set $lm52m12p0 1 0000000000520C00
+d set $lm54m12p0 1 0000000000540C00
+d set $lm56m12p0 1 0000000000560C00
+d set $lm50m12p1 1 0000000000500C01
+d set $lm52m12p1 1 0000000000520C01
+d set $lm54m12p1 1 0000000000540C01
+d set $lm56m12p1 1 0000000000560C01
+d set $lm50m12p2 1 0000000000500C02
+d set $lm52m12p2 1 0000000000520C02
+d set $lm54m12p2 1 0000000000540C02
+d set $lm56m12p2 1 0000000000560C02
+d set $lm50m12p3 1 0000000000500C03
+d set $lm52m12p3 1 0000000000520C03
+d set $lm54m12p3 1 0000000000540C03
+d set $lm56m12p3 1 0000000000560C03
+d set $lm50m13p0 1 0000000000500D00
+d set $lm52m13p0 1 0000000000520D00
+d set $lm54m13p0 1 0000000000540D00
+d set $lm56m13p0 1 0000000000560D00
+d set $lm50m13p1 1 0000000000500D01
+d set $lm52m13p1 1 0000000000520D01
+d set $lm54m13p1 1 0000000000540D01
+d set $lm56m13p1 1 0000000000560D01
+d set $lm50m13p2 1 0000000000500D02
+d set $lm52m13p2 1 0000000000520D02
+d set $lm54m13p2 1 0000000000540D02
+d set $lm56m13p2 1 0000000000560D02
+d set $lm50m13p3 1 0000000000500D03
+d set $lm52m13p3 1 0000000000520D03
+d set $lm54m13p3 1 0000000000540D03
+d set $lm56m13p3 1 0000000000560D03
+d set $lm50m14p0 1 0000000000500E00
+d set $lm52m14p0 1 0000000000520E00
+d set $lm54m14p0 1 0000000000540E00
+d set $lm56m14p0 1 0000000000560E00
+d set $lm50m14p1 1 0000000000500E01
+d set $lm52m14p1 1 0000000000520E01
+d set $lm54m14p1 1 0000000000540E01
+d set $lm56m14p1 1 0000000000560E01
+d set $lm50m14p2 1 0000000000500E02
+d set $lm52m14p2 1 0000000000520E02
+d set $lm54m14p2 1 0000000000540E02
+d set $lm56m14p2 1 0000000000560E02
+d set $lm50m14p3 1 0000000000500E03
+d set $lm52m14p3 1 0000000000520E03
+d set $lm54m14p3 1 0000000000540E03
+d set $lm56m14p3 1 0000000000560E03
+d set $lm50m15p0 1 0000000000500F00
+d set $lm52m15p0 1 0000000000520F00
+d set $lm54m15p0 1 0000000000540F00
+d set $lm56m15p0 1 0000000000560F00
+d set $lm50m15p1 1 0000000000500F01
+d set $lm52m15p1 1 0000000000520F01
+d set $lm54m15p1 1 0000000000540F01
+d set $lm56m15p1 1 0000000000560F01
+d set $lm50m15p2 1 0000000000500F02
+d set $lm52m15p2 1 0000000000520F02
+d set $lm54m15p2 1 0000000000540F02
+d set $lm56m15p2 1 0000000000560F02
+d set $lm50m15p3 1 0000000000500F03
+d set $lm52m15p3 1 0000000000520F03
+d set $lm54m15p3 1 0000000000540F03
+d set $lm56m15p3 1 0000000000560F03
+
+
+
+
 
 ############################################# halo-exchange
 lpassa $peid $ln0v
@@ -478,438 +991,6 @@ l1bmp $lb444 $lm66
 l1bmp $lb508 $lm68
 mask 0
 
-l1bmp $lb64 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb320 $lm62
-l1bmp $lb384 $lm64
-l1bmp $lb448 $lm66
-l1bmp $lb512 $lm68
-mask 0
-
-l1bmp $lb68 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb324 $lm62
-l1bmp $lb388 $lm64
-l1bmp $lb452 $lm66
-l1bmp $lb516 $lm68
-mask 0
-
-l1bmp $lb72 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb328 $lm62
-l1bmp $lb392 $lm64
-l1bmp $lb456 $lm66
-l1bmp $lb520 $lm68
-mask 0
-
-l1bmp $lb76 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb332 $lm62
-l1bmp $lb396 $lm64
-l1bmp $lb460 $lm66
-l1bmp $lb524 $lm68
-mask 0
-
-l1bmp $lb80 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb336 $lm62
-l1bmp $lb400 $lm64
-l1bmp $lb464 $lm66
-l1bmp $lb528 $lm68
-mask 0
-
-l1bmp $lb84 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb340 $lm62
-l1bmp $lb404 $lm64
-l1bmp $lb468 $lm66
-l1bmp $lb532 $lm68
-mask 0
-
-l1bmp $lb88 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb344 $lm62
-l1bmp $lb408 $lm64
-l1bmp $lb472 $lm66
-l1bmp $lb536 $lm68
-mask 0
-
-l1bmp $lb92 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb348 $lm62
-l1bmp $lb412 $lm64
-l1bmp $lb476 $lm66
-l1bmp $lb540 $lm68
-mask 0
-
-l1bmp $lb96 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb352 $lm62
-l1bmp $lb416 $lm64
-l1bmp $lb480 $lm66
-l1bmp $lb544 $lm68
-mask 0
-
-l1bmp $lb100 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb356 $lm62
-l1bmp $lb420 $lm64
-l1bmp $lb484 $lm66
-l1bmp $lb548 $lm68
-mask 0
-
-l1bmp $lb104 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb360 $lm62
-l1bmp $lb424 $lm64
-l1bmp $lb488 $lm66
-l1bmp $lb552 $lm68
-mask 0
-
-l1bmp $lb108 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb364 $lm62
-l1bmp $lb428 $lm64
-l1bmp $lb492 $lm66
-l1bmp $lb556 $lm68
-mask 0
-
-l1bmp $lb112 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb368 $lm62
-l1bmp $lb432 $lm64
-l1bmp $lb496 $lm66
-l1bmp $lb560 $lm68
-mask 0
-
-l1bmp $lb116 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb372 $lm62
-l1bmp $lb436 $lm64
-l1bmp $lb500 $lm66
-l1bmp $lb564 $lm68
-mask 0
-
-l1bmp $lb120 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb376 $lm62
-l1bmp $lb440 $lm64
-l1bmp $lb504 $lm66
-l1bmp $lb568 $lm68
-mask 0
-
-l1bmp $lb124 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb380 $lm62
-l1bmp $lb444 $lm64
-l1bmp $lb508 $lm66
-l1bmp $lb572 $lm68
-mask 0
-
-l1bmp $lb128 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb384 $lm62
-l1bmp $lb448 $lm64
-l1bmp $lb512 $lm66
-l1bmp $lb576 $lm68
-mask 0
-
-l1bmp $lb132 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb388 $lm62
-l1bmp $lb452 $lm64
-l1bmp $lb516 $lm66
-l1bmp $lb580 $lm68
-mask 0
-
-l1bmp $lb136 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb392 $lm62
-l1bmp $lb456 $lm64
-l1bmp $lb520 $lm66
-l1bmp $lb584 $lm68
-mask 0
-
-l1bmp $lb140 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb396 $lm62
-l1bmp $lb460 $lm64
-l1bmp $lb524 $lm66
-l1bmp $lb588 $lm68
-mask 0
-
-l1bmp $lb144 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb400 $lm62
-l1bmp $lb464 $lm64
-l1bmp $lb528 $lm66
-l1bmp $lb592 $lm68
-mask 0
-
-l1bmp $lb148 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb404 $lm62
-l1bmp $lb468 $lm64
-l1bmp $lb532 $lm66
-l1bmp $lb596 $lm68
-mask 0
-
-l1bmp $lb152 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb408 $lm62
-l1bmp $lb472 $lm64
-l1bmp $lb536 $lm66
-l1bmp $lb600 $lm68
-mask 0
-
-l1bmp $lb156 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb412 $lm62
-l1bmp $lb476 $lm64
-l1bmp $lb540 $lm66
-l1bmp $lb604 $lm68
-mask 0
-
-l1bmp $lb160 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb416 $lm62
-l1bmp $lb480 $lm64
-l1bmp $lb544 $lm66
-l1bmp $lb608 $lm68
-mask 0
-
-l1bmp $lb164 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb420 $lm62
-l1bmp $lb484 $lm64
-l1bmp $lb548 $lm66
-l1bmp $lb612 $lm68
-mask 0
-
-l1bmp $lb168 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb424 $lm62
-l1bmp $lb488 $lm64
-l1bmp $lb552 $lm66
-l1bmp $lb616 $lm68
-mask 0
-
-l1bmp $lb172 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb428 $lm62
-l1bmp $lb492 $lm64
-l1bmp $lb556 $lm66
-l1bmp $lb620 $lm68
-mask 0
-
-l1bmp $lb176 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb432 $lm62
-l1bmp $lb496 $lm64
-l1bmp $lb560 $lm66
-l1bmp $lb624 $lm68
-mask 0
-
-l1bmp $lb180 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb436 $lm62
-l1bmp $lb500 $lm64
-l1bmp $lb564 $lm66
-l1bmp $lb628 $lm68
-mask 0
-
-l1bmp $lb184 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb440 $lm62
-l1bmp $lb504 $lm64
-l1bmp $lb568 $lm66
-l1bmp $lb632 $lm68
-mask 0
-
-l1bmp $lb188 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb444 $lm62
-l1bmp $lb508 $lm64
-l1bmp $lb572 $lm66
-l1bmp $lb636 $lm68
-mask 0
-
-l1bmp $lb192 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb448 $lm62
-l1bmp $lb512 $lm64
-l1bmp $lb576 $lm66
-l1bmp $lb640 $lm68
-mask 0
-
-l1bmp $lb196 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb452 $lm62
-l1bmp $lb516 $lm64
-l1bmp $lb580 $lm66
-l1bmp $lb644 $lm68
-mask 0
-
-l1bmp $lb200 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb456 $lm62
-l1bmp $lb520 $lm64
-l1bmp $lb584 $lm66
-l1bmp $lb648 $lm68
-mask 0
-
-l1bmp $lb204 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb460 $lm62
-l1bmp $lb524 $lm64
-l1bmp $lb588 $lm66
-l1bmp $lb652 $lm68
-mask 0
-
-l1bmp $lb208 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb464 $lm62
-l1bmp $lb528 $lm64
-l1bmp $lb592 $lm66
-l1bmp $lb656 $lm68
-mask 0
-
-l1bmp $lb212 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb468 $lm62
-l1bmp $lb532 $lm64
-l1bmp $lb596 $lm66
-l1bmp $lb660 $lm68
-mask 0
-
-l1bmp $lb216 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb472 $lm62
-l1bmp $lb536 $lm64
-l1bmp $lb600 $lm66
-l1bmp $lb664 $lm68
-mask 0
-
-l1bmp $lb220 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb476 $lm62
-l1bmp $lb540 $lm64
-l1bmp $lb604 $lm66
-l1bmp $lb668 $lm68
-mask 0
-
-l1bmp $lb224 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb480 $lm62
-l1bmp $lb544 $lm64
-l1bmp $lb608 $lm66
-l1bmp $lb672 $lm68
-mask 0
-
-l1bmp $lb228 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb484 $lm62
-l1bmp $lb548 $lm64
-l1bmp $lb612 $lm66
-l1bmp $lb676 $lm68
-mask 0
-
-l1bmp $lb232 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb488 $lm62
-l1bmp $lb552 $lm64
-l1bmp $lb616 $lm66
-l1bmp $lb680 $lm68
-mask 0
-
-l1bmp $lb236 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb492 $lm62
-l1bmp $lb556 $lm64
-l1bmp $lb620 $lm66
-l1bmp $lb684 $lm68
-mask 0
-
-l1bmp $lb240 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb496 $lm62
-l1bmp $lb560 $lm64
-l1bmp $lb624 $lm66
-l1bmp $lb688 $lm68
-mask 0
-
-l1bmp $lb244 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb500 $lm62
-l1bmp $lb564 $lm64
-l1bmp $lb628 $lm66
-l1bmp $lb692 $lm68
-mask 0
-
-l1bmp $lb248 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb504 $lm62
-l1bmp $lb568 $lm64
-l1bmp $lb632 $lm66
-l1bmp $lb696 $lm68
-mask 0
-
-l1bmp $lb252 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb508 $lm62
-l1bmp $lb572 $lm64
-l1bmp $lb636 $lm66
-l1bmp $lb700 $lm68
-mask 0
-
 ################################### S->N
 nop
 nop
@@ -925,11 +1006,6 @@ l1bmp $lb320 $lm4
 l1bmp $lb384 $lm6
 l1bmp $lb448 $lm8
 mask 0
-
-d getd $lm2n0c0b0m2p0 1
-d getd $lm4n0c0b0m2p0 1
-d getd $lm6n0c0b0m2p0 1
-d getd $lm8n0c0b0m2p0 1
 
 l1bmp $lb68 $t
 lxor $lbf $ln0v $t $omr2;
@@ -1066,458 +1142,327 @@ l1bmp $lb444 $lm6
 l1bmp $lb508 $lm8
 mask 0
 
+nop
+nop
+
+######################################## E->W
+l1bmd $lm20v12 $lb256 # 64 * 4個分書き込まれる $lm20v $address の部分
+nop
+nop
+
 l1bmp $lb128 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb320 $lm2
-l1bmp $lb384 $lm4
-l1bmp $lb448 $lm6
-l1bmp $lb512 $lm8
+l1bmp $lb256 $lm12
+l1bmp $lb320 $lm24
+l1bmp $lb384 $lm36
+l1bmp $lb448 $lm48
 mask 0
 
 l1bmp $lb132 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb324 $lm2
-l1bmp $lb388 $lm4
-l1bmp $lb452 $lm6
-l1bmp $lb516 $lm8
+l1bmp $lb260 $lm12
+l1bmp $lb324 $lm24
+l1bmp $lb388 $lm36
+l1bmp $lb452 $lm48
 mask 0
 
 l1bmp $lb136 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb328 $lm2
-l1bmp $lb392 $lm4
-l1bmp $lb456 $lm6
-l1bmp $lb520 $lm8
+l1bmp $lb264 $lm12
+l1bmp $lb328 $lm24
+l1bmp $lb392 $lm36
+l1bmp $lb456 $lm48
 mask 0
 
 l1bmp $lb140 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb332 $lm2
-l1bmp $lb396 $lm4
-l1bmp $lb460 $lm6
-l1bmp $lb524 $lm8
+l1bmp $lb268 $lm12
+l1bmp $lb332 $lm24
+l1bmp $lb396 $lm36
+l1bmp $lb460 $lm48
 mask 0
 
 l1bmp $lb144 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb336 $lm2
-l1bmp $lb400 $lm4
-l1bmp $lb464 $lm6
-l1bmp $lb528 $lm8
+l1bmp $lb272 $lm12
+l1bmp $lb336 $lm24
+l1bmp $lb400 $lm36
+l1bmp $lb464 $lm48
 mask 0
 
 l1bmp $lb148 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb340 $lm2
-l1bmp $lb404 $lm4
-l1bmp $lb468 $lm6
-l1bmp $lb532 $lm8
+l1bmp $lb276 $lm12
+l1bmp $lb340 $lm24
+l1bmp $lb404 $lm36
+l1bmp $lb468 $lm48
 mask 0
 
 l1bmp $lb152 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb344 $lm2
-l1bmp $lb408 $lm4
-l1bmp $lb472 $lm6
-l1bmp $lb536 $lm8
+l1bmp $lb280 $lm12
+l1bmp $lb344 $lm24
+l1bmp $lb408 $lm36
+l1bmp $lb472 $lm48
 mask 0
 
 l1bmp $lb156 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb348 $lm2
-l1bmp $lb412 $lm4
-l1bmp $lb476 $lm6
-l1bmp $lb540 $lm8
+l1bmp $lb284 $lm12
+l1bmp $lb348 $lm24
+l1bmp $lb412 $lm36
+l1bmp $lb476 $lm48
 mask 0
 
 l1bmp $lb160 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb352 $lm2
-l1bmp $lb416 $lm4
-l1bmp $lb480 $lm6
-l1bmp $lb544 $lm8
+l1bmp $lb288 $lm12
+l1bmp $lb352 $lm24
+l1bmp $lb416 $lm36
+l1bmp $lb480 $lm48
 mask 0
 
 l1bmp $lb164 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb356 $lm2
-l1bmp $lb420 $lm4
-l1bmp $lb484 $lm6
-l1bmp $lb548 $lm8
+l1bmp $lb292 $lm12
+l1bmp $lb356 $lm24
+l1bmp $lb420 $lm36
+l1bmp $lb484 $lm48
 mask 0
 
 l1bmp $lb168 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb360 $lm2
-l1bmp $lb424 $lm4
-l1bmp $lb488 $lm6
-l1bmp $lb552 $lm8
+l1bmp $lb296 $lm12
+l1bmp $lb360 $lm24
+l1bmp $lb424 $lm36
+l1bmp $lb488 $lm48
 mask 0
 
 l1bmp $lb172 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb364 $lm2
-l1bmp $lb428 $lm4
-l1bmp $lb492 $lm6
-l1bmp $lb556 $lm8
+l1bmp $lb300 $lm12
+l1bmp $lb364 $lm24
+l1bmp $lb428 $lm36
+l1bmp $lb492 $lm48
 mask 0
 
 l1bmp $lb176 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb368 $lm2
-l1bmp $lb432 $lm4
-l1bmp $lb496 $lm6
-l1bmp $lb560 $lm8
+l1bmp $lb304 $lm12
+l1bmp $lb368 $lm24
+l1bmp $lb432 $lm36
+l1bmp $lb496 $lm48
 mask 0
 
 l1bmp $lb180 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb372 $lm2
-l1bmp $lb436 $lm4
-l1bmp $lb500 $lm6
-l1bmp $lb564 $lm8
+l1bmp $lb308 $lm12
+l1bmp $lb372 $lm24
+l1bmp $lb436 $lm36
+l1bmp $lb500 $lm48
 mask 0
 
 l1bmp $lb184 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb376 $lm2
-l1bmp $lb440 $lm4
-l1bmp $lb504 $lm6
-l1bmp $lb568 $lm8
+l1bmp $lb312 $lm12
+l1bmp $lb376 $lm24
+l1bmp $lb440 $lm36
+l1bmp $lb504 $lm48
 mask 0
 
 l1bmp $lb188 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb380 $lm2
-l1bmp $lb444 $lm4
-l1bmp $lb508 $lm6
-l1bmp $lb572 $lm8
+l1bmp $lb316 $lm12
+l1bmp $lb380 $lm24
+l1bmp $lb444 $lm36
+l1bmp $lb508 $lm48
 mask 0
+
+nop
+nop
+
+##################################################### W->E
+
+l1bmd $lm14v12 $lb256 # 64 * 4個分書き込まれる $lm14v $address の部分
+nop
+nop
 
 l1bmp $lb192 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb384 $lm2
-l1bmp $lb448 $lm4
-l1bmp $lb512 $lm6
-l1bmp $lb576 $lm8
+l1bmp $lb256 $lm22
+l1bmp $lb320 $lm34
+l1bmp $lb384 $lm46
+l1bmp $lb448 $lm58
 mask 0
 
 l1bmp $lb196 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb388 $lm2
-l1bmp $lb452 $lm4
-l1bmp $lb516 $lm6
-l1bmp $lb580 $lm8
+l1bmp $lb260 $lm22
+l1bmp $lb324 $lm34
+l1bmp $lb388 $lm46
+l1bmp $lb452 $lm58
 mask 0
 
 l1bmp $lb200 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb392 $lm2
-l1bmp $lb456 $lm4
-l1bmp $lb520 $lm6
-l1bmp $lb584 $lm8
+l1bmp $lb264 $lm22
+l1bmp $lb328 $lm34
+l1bmp $lb392 $lm46
+l1bmp $lb456 $lm58
 mask 0
 
 l1bmp $lb204 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb396 $lm2
-l1bmp $lb460 $lm4
-l1bmp $lb524 $lm6
-l1bmp $lb588 $lm8
+l1bmp $lb268 $lm22
+l1bmp $lb332 $lm34
+l1bmp $lb396 $lm46
+l1bmp $lb460 $lm58
 mask 0
 
 l1bmp $lb208 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb400 $lm2
-l1bmp $lb464 $lm4
-l1bmp $lb528 $lm6
-l1bmp $lb592 $lm8
+l1bmp $lb272 $lm22
+l1bmp $lb336 $lm34
+l1bmp $lb400 $lm46
+l1bmp $lb464 $lm58
 mask 0
 
 l1bmp $lb212 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb404 $lm2
-l1bmp $lb468 $lm4
-l1bmp $lb532 $lm6
-l1bmp $lb596 $lm8
+l1bmp $lb276 $lm22
+l1bmp $lb340 $lm34
+l1bmp $lb404 $lm46
+l1bmp $lb468 $lm58
 mask 0
 
 l1bmp $lb216 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb408 $lm2
-l1bmp $lb472 $lm4
-l1bmp $lb536 $lm6
-l1bmp $lb600 $lm8
+l1bmp $lb280 $lm22
+l1bmp $lb344 $lm34
+l1bmp $lb408 $lm46
+l1bmp $lb472 $lm58
 mask 0
 
 l1bmp $lb220 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb412 $lm2
-l1bmp $lb476 $lm4
-l1bmp $lb540 $lm6
-l1bmp $lb604 $lm8
+l1bmp $lb284 $lm22
+l1bmp $lb348 $lm34
+l1bmp $lb412 $lm46
+l1bmp $lb476 $lm58
 mask 0
 
 l1bmp $lb224 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb416 $lm2
-l1bmp $lb480 $lm4
-l1bmp $lb544 $lm6
-l1bmp $lb608 $lm8
+l1bmp $lb288 $lm22
+l1bmp $lb352 $lm34
+l1bmp $lb416 $lm46
+l1bmp $lb480 $lm58
 mask 0
 
 l1bmp $lb228 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb420 $lm2
-l1bmp $lb484 $lm4
-l1bmp $lb548 $lm6
-l1bmp $lb612 $lm8
+l1bmp $lb292 $lm22
+l1bmp $lb356 $lm34
+l1bmp $lb420 $lm46
+l1bmp $lb484 $lm58
 mask 0
 
 l1bmp $lb232 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb424 $lm2
-l1bmp $lb488 $lm4
-l1bmp $lb552 $lm6
-l1bmp $lb616 $lm8
+l1bmp $lb296 $lm22
+l1bmp $lb360 $lm34
+l1bmp $lb424 $lm46
+l1bmp $lb488 $lm58
 mask 0
 
 l1bmp $lb236 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb428 $lm2
-l1bmp $lb492 $lm4
-l1bmp $lb556 $lm6
-l1bmp $lb620 $lm8
+l1bmp $lb300 $lm22
+l1bmp $lb364 $lm34
+l1bmp $lb428 $lm46
+l1bmp $lb492 $lm58
 mask 0
 
 l1bmp $lb240 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb432 $lm2
-l1bmp $lb496 $lm4
-l1bmp $lb560 $lm6
-l1bmp $lb624 $lm8
+l1bmp $lb304 $lm22
+l1bmp $lb368 $lm34
+l1bmp $lb432 $lm46
+l1bmp $lb496 $lm58
 mask 0
 
 l1bmp $lb244 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb436 $lm2
-l1bmp $lb500 $lm4
-l1bmp $lb564 $lm6
-l1bmp $lb628 $lm8
+l1bmp $lb308 $lm22
+l1bmp $lb372 $lm34
+l1bmp $lb436 $lm46
+l1bmp $lb500 $lm58
 mask 0
 
 l1bmp $lb248 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb440 $lm2
-l1bmp $lb504 $lm4
-l1bmp $lb568 $lm6
-l1bmp $lb632 $lm8
+l1bmp $lb312 $lm22
+l1bmp $lb376 $lm34
+l1bmp $lb440 $lm46
+l1bmp $lb504 $lm58
 mask 0
 
 l1bmp $lb252 $t
 lxor $lbf $ln0v $t $omr2;
 maskm 2
-l1bmp $lb444 $lm2
-l1bmp $lb508 $lm4
-l1bmp $lb572 $lm6
-l1bmp $lb636 $lm8
+l1bmp $lb316 $lm22
+l1bmp $lb380 $lm34
+l1bmp $lb444 $lm46
+l1bmp $lb508 $lm58
 mask 0
 
-l1bmp $lb256 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb448 $lm2
-l1bmp $lb512 $lm4
-l1bmp $lb576 $lm6
-l1bmp $lb640 $lm8
-mask 0
-
-l1bmp $lb260 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb452 $lm2
-l1bmp $lb516 $lm4
-l1bmp $lb580 $lm6
-l1bmp $lb644 $lm8
-mask 0
-
-l1bmp $lb264 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb456 $lm2
-l1bmp $lb520 $lm4
-l1bmp $lb584 $lm6
-l1bmp $lb648 $lm8
-mask 0
-
-l1bmp $lb268 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb460 $lm2
-l1bmp $lb524 $lm4
-l1bmp $lb588 $lm6
-l1bmp $lb652 $lm8
-mask 0
-
-l1bmp $lb272 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb464 $lm2
-l1bmp $lb528 $lm4
-l1bmp $lb592 $lm6
-l1bmp $lb656 $lm8
-mask 0
-
-l1bmp $lb276 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb468 $lm2
-l1bmp $lb532 $lm4
-l1bmp $lb596 $lm6
-l1bmp $lb660 $lm8
-mask 0
-
-l1bmp $lb280 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb472 $lm2
-l1bmp $lb536 $lm4
-l1bmp $lb600 $lm6
-l1bmp $lb664 $lm8
-mask 0
-
-l1bmp $lb284 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb476 $lm2
-l1bmp $lb540 $lm4
-l1bmp $lb604 $lm6
-l1bmp $lb668 $lm8
-mask 0
-
-l1bmp $lb288 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb480 $lm2
-l1bmp $lb544 $lm4
-l1bmp $lb608 $lm6
-l1bmp $lb672 $lm8
-mask 0
-
-l1bmp $lb292 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb484 $lm2
-l1bmp $lb548 $lm4
-l1bmp $lb612 $lm6
-l1bmp $lb676 $lm8
-mask 0
-
-l1bmp $lb296 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb488 $lm2
-l1bmp $lb552 $lm4
-l1bmp $lb616 $lm6
-l1bmp $lb680 $lm8
-mask 0
-
-l1bmp $lb300 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb492 $lm2
-l1bmp $lb556 $lm4
-l1bmp $lb620 $lm6
-l1bmp $lb684 $lm8
-mask 0
-
-l1bmp $lb304 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb496 $lm2
-l1bmp $lb560 $lm4
-l1bmp $lb624 $lm6
-l1bmp $lb688 $lm8
-mask 0
-
-l1bmp $lb308 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb500 $lm2
-l1bmp $lb564 $lm4
-l1bmp $lb628 $lm6
-l1bmp $lb692 $lm8
-mask 0
-
-l1bmp $lb312 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb504 $lm2
-l1bmp $lb568 $lm4
-l1bmp $lb632 $lm6
-l1bmp $lb696 $lm8
-mask 0
-
-l1bmp $lb316 $t
-lxor $lbf $ln0v $t $omr2;
-maskm 2
-l1bmp $lb508 $lm2
-l1bmp $lb572 $lm4
-l1bmp $lb636 $lm6
-l1bmp $lb700 $lm8
-mask 0
-
-# N
 d getd $lm2n0c0b0 1
 d getd $lm4n0c0b0 1
 d getd $lm6n0c0b0 1
 d getd $lm8n0c0b0 1
 
-# S
-d getd $lm62n0c0b0 1
-d getd $lm64n0c0b0 1
-d getd $lm66n0c0b0 1
-d getd $lm68n0c0b0 1
+d getd $lm12n0c0b0 1
+d getd $lm24n0c0b0 1
+d getd $lm36n0c0b0 1
+d getd $lm48n0c0b0 1
 
-# E
 d getd $lm22n0c0b0 1
 d getd $lm34n0c0b0 1
 d getd $lm46n0c0b0 1
 d getd $lm58n0c0b0 1
 
-# W
-d getd $lm12n0c0b0 1
-d getd $lm24n0c0b0 1
-d getd $lm36n0c0b0 1
-d getd $lm48n0c0b0 1
+d getd $lm62n0c0b0 1
+d getd $lm64n0c0b0 1
+d getd $lm66n0c0b0 1
+d getd $lm68n0c0b0 1
