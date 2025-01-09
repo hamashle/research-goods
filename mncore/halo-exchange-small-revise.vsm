@@ -1,3 +1,740 @@
+d set $lm2m0p0 1 4014000000000000
+d set $lm4m0p0 1 4014000000000000
+d set $lm6m0p0 1 4014000000000000
+d set $lm8m0p0 1 4014000000000000
+d set $lm2m0p1 1 4014000000000000
+d set $lm4m0p1 1 4014000000000000
+d set $lm6m0p1 1 4014000000000000
+d set $lm8m0p1 1 4014000000000000
+d set $lm2m0p2 1 4014000000000000
+d set $lm4m0p2 1 4014000000000000
+d set $lm6m0p2 1 4014000000000000
+d set $lm8m0p2 1 4014000000000000
+d set $lm2m0p3 1 4014000000000000
+d set $lm4m0p3 1 4014000000000000
+d set $lm6m0p3 1 4014000000000000
+d set $lm8m0p3 1 4014000000000000
+d set $lm2m1p0 1 4014000000000000
+d set $lm4m1p0 1 4014000000000000
+d set $lm6m1p0 1 4014000000000000
+d set $lm8m1p0 1 4014000000000000
+d set $lm2m1p1 1 4014000000000000
+d set $lm4m1p1 1 4014000000000000
+d set $lm6m1p1 1 4014000000000000
+d set $lm8m1p1 1 4014000000000000
+d set $lm2m1p2 1 4014000000000000
+d set $lm4m1p2 1 4014000000000000
+d set $lm6m1p2 1 4014000000000000
+d set $lm8m1p2 1 4014000000000000
+d set $lm2m1p3 1 4014000000000000
+d set $lm4m1p3 1 4014000000000000
+d set $lm6m1p3 1 4014000000000000
+d set $lm8m1p3 1 4014000000000000
+d set $lm2m2p0 1 4014000000000000
+d set $lm4m2p0 1 4014000000000000
+d set $lm6m2p0 1 4014000000000000
+d set $lm8m2p0 1 4014000000000000
+d set $lm2m2p1 1 4014000000000000
+d set $lm4m2p1 1 4014000000000000
+d set $lm6m2p1 1 4014000000000000
+d set $lm8m2p1 1 4014000000000000
+d set $lm2m2p2 1 4014000000000000
+d set $lm4m2p2 1 4014000000000000
+d set $lm6m2p2 1 4014000000000000
+d set $lm8m2p2 1 4014000000000000
+d set $lm2m2p3 1 4014000000000000
+d set $lm4m2p3 1 4014000000000000
+d set $lm6m2p3 1 4014000000000000
+d set $lm8m2p3 1 4014000000000000
+d set $lm2m3p0 1 4014000000000000
+d set $lm4m3p0 1 4014000000000000
+d set $lm6m3p0 1 4014000000000000
+d set $lm8m3p0 1 4014000000000000
+d set $lm2m3p1 1 4014000000000000
+d set $lm4m3p1 1 4014000000000000
+d set $lm6m3p1 1 4014000000000000
+d set $lm8m3p1 1 4014000000000000
+d set $lm2m3p2 1 4014000000000000
+d set $lm4m3p2 1 4014000000000000
+d set $lm6m3p2 1 4014000000000000
+d set $lm8m3p2 1 4014000000000000
+d set $lm2m3p3 1 4014000000000000
+d set $lm4m3p3 1 4014000000000000
+d set $lm6m3p3 1 4014000000000000
+d set $lm8m3p3 1 4014000000000000
+d set $lm2m4p0 1 4014000000000000
+d set $lm4m4p0 1 4014000000000000
+d set $lm6m4p0 1 4014000000000000
+d set $lm8m4p0 1 4014000000000000
+d set $lm2m4p1 1 4014000000000000
+d set $lm4m4p1 1 4014000000000000
+d set $lm6m4p1 1 4014000000000000
+d set $lm8m4p1 1 4014000000000000
+d set $lm2m4p2 1 4014000000000000
+d set $lm4m4p2 1 4014000000000000
+d set $lm6m4p2 1 4014000000000000
+d set $lm8m4p2 1 4014000000000000
+d set $lm2m4p3 1 4014000000000000
+d set $lm4m4p3 1 4014000000000000
+d set $lm6m4p3 1 4014000000000000
+d set $lm8m4p3 1 4014000000000000
+d set $lm2m5p0 1 4014000000000000
+d set $lm4m5p0 1 4014000000000000
+d set $lm6m5p0 1 4014000000000000
+d set $lm8m5p0 1 4014000000000000
+d set $lm2m5p1 1 4014000000000000
+d set $lm4m5p1 1 4014000000000000
+d set $lm6m5p1 1 4014000000000000
+d set $lm8m5p1 1 4014000000000000
+d set $lm2m5p2 1 4014000000000000
+d set $lm4m5p2 1 4014000000000000
+d set $lm6m5p2 1 4014000000000000
+d set $lm8m5p2 1 4014000000000000
+d set $lm2m5p3 1 4014000000000000
+d set $lm4m5p3 1 4014000000000000
+d set $lm6m5p3 1 4014000000000000
+d set $lm8m5p3 1 4014000000000000
+d set $lm2m6p0 1 4014000000000000
+d set $lm4m6p0 1 4014000000000000
+d set $lm6m6p0 1 4014000000000000
+d set $lm8m6p0 1 4014000000000000
+d set $lm2m6p1 1 4014000000000000
+d set $lm4m6p1 1 4014000000000000
+d set $lm6m6p1 1 4014000000000000
+d set $lm8m6p1 1 4014000000000000
+d set $lm2m6p2 1 4014000000000000
+d set $lm4m6p2 1 4014000000000000
+d set $lm6m6p2 1 4014000000000000
+d set $lm8m6p2 1 4014000000000000
+d set $lm2m6p3 1 4014000000000000
+d set $lm4m6p3 1 4014000000000000
+d set $lm6m6p3 1 4014000000000000
+d set $lm8m6p3 1 4014000000000000
+d set $lm2m7p0 1 4014000000000000
+d set $lm4m7p0 1 4014000000000000
+d set $lm6m7p0 1 4014000000000000
+d set $lm8m7p0 1 4014000000000000
+d set $lm2m7p1 1 4014000000000000
+d set $lm4m7p1 1 4014000000000000
+d set $lm6m7p1 1 4014000000000000
+d set $lm8m7p1 1 4014000000000000
+d set $lm2m7p2 1 4014000000000000
+d set $lm4m7p2 1 4014000000000000
+d set $lm6m7p2 1 4014000000000000
+d set $lm8m7p2 1 4014000000000000
+d set $lm2m7p3 1 4014000000000000
+d set $lm4m7p3 1 4014000000000000
+d set $lm6m7p3 1 4014000000000000
+d set $lm8m7p3 1 4014000000000000
+d set $lm2m8p0 1 4014000000000000
+d set $lm4m8p0 1 4014000000000000
+d set $lm6m8p0 1 4014000000000000
+d set $lm8m8p0 1 4014000000000000
+d set $lm2m8p1 1 4014000000000000
+d set $lm4m8p1 1 4014000000000000
+d set $lm6m8p1 1 4014000000000000
+d set $lm8m8p1 1 4014000000000000
+d set $lm2m8p2 1 4014000000000000
+d set $lm4m8p2 1 4014000000000000
+d set $lm6m8p2 1 4014000000000000
+d set $lm8m8p2 1 4014000000000000
+d set $lm2m8p3 1 4014000000000000
+d set $lm4m8p3 1 4014000000000000
+d set $lm6m8p3 1 4014000000000000
+d set $lm8m8p3 1 4014000000000000
+d set $lm2m9p0 1 4014000000000000
+d set $lm4m9p0 1 4014000000000000
+d set $lm6m9p0 1 4014000000000000
+d set $lm8m9p0 1 4014000000000000
+d set $lm2m9p1 1 4014000000000000
+d set $lm4m9p1 1 4014000000000000
+d set $lm6m9p1 1 4014000000000000
+d set $lm8m9p1 1 4014000000000000
+d set $lm2m9p2 1 4014000000000000
+d set $lm4m9p2 1 4014000000000000
+d set $lm6m9p2 1 4014000000000000
+d set $lm8m9p2 1 4014000000000000
+d set $lm2m9p3 1 4014000000000000
+d set $lm4m9p3 1 4014000000000000
+d set $lm6m9p3 1 4014000000000000
+d set $lm8m9p3 1 4014000000000000
+d set $lm2m10p0 1 4014000000000000
+d set $lm4m10p0 1 4014000000000000
+d set $lm6m10p0 1 4014000000000000
+d set $lm8m10p0 1 4014000000000000
+d set $lm2m10p1 1 4014000000000000
+d set $lm4m10p1 1 4014000000000000
+d set $lm6m10p1 1 4014000000000000
+d set $lm8m10p1 1 4014000000000000
+d set $lm2m10p2 1 4014000000000000
+d set $lm4m10p2 1 4014000000000000
+d set $lm6m10p2 1 4014000000000000
+d set $lm8m10p2 1 4014000000000000
+d set $lm2m10p3 1 4014000000000000
+d set $lm4m10p3 1 4014000000000000
+d set $lm6m10p3 1 4014000000000000
+d set $lm8m10p3 1 4014000000000000
+d set $lm2m11p0 1 4014000000000000
+d set $lm4m11p0 1 4014000000000000
+d set $lm6m11p0 1 4014000000000000
+d set $lm8m11p0 1 4014000000000000
+d set $lm2m11p1 1 4014000000000000
+d set $lm4m11p1 1 4014000000000000
+d set $lm6m11p1 1 4014000000000000
+d set $lm8m11p1 1 4014000000000000
+d set $lm2m11p2 1 4014000000000000
+d set $lm4m11p2 1 4014000000000000
+d set $lm6m11p2 1 4014000000000000
+d set $lm8m11p2 1 4014000000000000
+d set $lm2m11p3 1 4014000000000000
+d set $lm4m11p3 1 4014000000000000
+d set $lm6m11p3 1 4014000000000000
+d set $lm8m11p3 1 4014000000000000
+d set $lm2m12p0 1 4014000000000000
+d set $lm4m12p0 1 4014000000000000
+d set $lm6m12p0 1 4014000000000000
+d set $lm8m12p0 1 4014000000000000
+d set $lm2m12p1 1 4014000000000000
+d set $lm4m12p1 1 4014000000000000
+d set $lm6m12p1 1 4014000000000000
+d set $lm8m12p1 1 4014000000000000
+d set $lm2m12p2 1 4014000000000000
+d set $lm4m12p2 1 4014000000000000
+d set $lm6m12p2 1 4014000000000000
+d set $lm8m12p2 1 4014000000000000
+d set $lm2m12p3 1 4014000000000000
+d set $lm4m12p3 1 4014000000000000
+d set $lm6m12p3 1 4014000000000000
+d set $lm8m12p3 1 4014000000000000
+d set $lm2m13p0 1 4014000000000000
+d set $lm4m13p0 1 4014000000000000
+d set $lm6m13p0 1 4014000000000000
+d set $lm8m13p0 1 4014000000000000
+d set $lm2m13p1 1 4014000000000000
+d set $lm4m13p1 1 4014000000000000
+d set $lm6m13p1 1 4014000000000000
+d set $lm8m13p1 1 4014000000000000
+d set $lm2m13p2 1 4014000000000000
+d set $lm4m13p2 1 4014000000000000
+d set $lm6m13p2 1 4014000000000000
+d set $lm8m13p2 1 4014000000000000
+d set $lm2m13p3 1 4014000000000000
+d set $lm4m13p3 1 4014000000000000
+d set $lm6m13p3 1 4014000000000000
+d set $lm8m13p3 1 4014000000000000
+d set $lm2m14p0 1 4014000000000000
+d set $lm4m14p0 1 4014000000000000
+d set $lm6m14p0 1 4014000000000000
+d set $lm8m14p0 1 4014000000000000
+d set $lm2m14p1 1 4014000000000000
+d set $lm4m14p1 1 4014000000000000
+d set $lm6m14p1 1 4014000000000000
+d set $lm8m14p1 1 4014000000000000
+d set $lm2m14p2 1 4014000000000000
+d set $lm4m14p2 1 4014000000000000
+d set $lm6m14p2 1 4014000000000000
+d set $lm8m14p2 1 4014000000000000
+d set $lm2m14p3 1 4014000000000000
+d set $lm4m14p3 1 4014000000000000
+d set $lm6m14p3 1 4014000000000000
+d set $lm8m14p3 1 4014000000000000
+d set $lm2m15p0 1 4014000000000000
+d set $lm4m15p0 1 4014000000000000
+d set $lm6m15p0 1 4014000000000000
+d set $lm8m15p0 1 4014000000000000
+d set $lm2m15p1 1 4014000000000000
+d set $lm4m15p1 1 4014000000000000
+d set $lm6m15p1 1 4014000000000000
+d set $lm8m15p1 1 4014000000000000
+d set $lm2m15p2 1 4014000000000000
+d set $lm4m15p2 1 4014000000000000
+d set $lm6m15p2 1 4014000000000000
+d set $lm8m15p2 1 4014000000000000
+d set $lm2m15p3 1 4014000000000000
+d set $lm4m15p3 1 4014000000000000
+d set $lm6m15p3 1 4014000000000000
+d set $lm8m15p3 1 4014000000000000
+###################################################
+
+### ラプラス方程式の加算部分の実装
+### 一回目 ###
+## lm14~20
+dpassa $lm2v $ln2v
+d getd $ln2n0c0b0m0p0 1
+nop
+nop
+dvadd $ln2 $lm12 $lr14
+dvadd $lm16 $mauf $lr14
+dvadd $lm26 $mauf $lr14
+nop
+
+### 1/4倍
+imm ui"0x3fd00000" $n12
+nop
+nop
+dvmulu $lr14 $ln12 $nowrite
+dvfmad $lr14 $ln12 $mauf $lm14
+nop
+nop
+
+
+dvadd $ln4 $lm14 $lr16
+dvadd $lm18 $mauf $lr16
+dvadd $lm28 $mauf $lr16
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr16 $ln12 $nowrite
+dvfmad $lr16 $ln12 $mauf $lm16
+nop
+nop
+
+
+dvadd $ln6 $lm16 $lr18
+dvadd $lm20 $mauf $lr18
+dvadd $lm30 $mauf $lr18
+nop
+nop
+
+### 1/4倍
+dvmulu $lr18 $ln12 $nowrite
+dvfmad $lr18 $ln12 $mauf $lm18
+nop
+nop
+
+
+dvadd $ln8 $lm18 $lr20
+dvadd $lm22 $mauf $lr20
+dvadd $lm32 $mauf $lr20
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr20 $ln12 $nowrite
+dvfmad $lr20 $ln12 $mauf $lm20
+nop
+nop
+
+
+###################################################
+
+## lm26~28
+dpassa $lm14v $ln14v
+nop
+nop
+dvadd $ln14 $lm24 $lr26
+dvadd $lm28 $mauf $lr26
+dvadd $lm38 $mauf $lr26
+nop
+nop
+
+### 1/4倍
+dvmulu $lr26 $ln12 $nowrite
+dvfmad $lr26 $ln12 $mauf $lm26
+nop
+nop
+
+
+dvadd $ln16 $lm26 $lr28
+dvadd $lm30 $mauf $lr28
+dvadd $lm40 $mauf $lr28
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr28 $ln12 $nowrite
+dvfmad $lr28 $ln12 $mauf $lm28
+nop
+nop
+
+
+dvadd $ln18 $lm28 $lr30
+dvadd $lm32 $mauf $lr30
+dvadd $lm42 $mauf $lr30
+nop
+nop
+
+### 1/4倍
+dvmulu $lr30 $ln12 $nowrite
+dvfmad $lr30 $ln12 $mauf $lm30
+nop
+nop
+
+
+dvadd $ln20 $lm30 $lr32
+dvadd $lm34 $mauf $lr32
+dvadd $lm44 $mauf $lr32
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr32 $ln12 $nowrite
+dvfmad $lr32 $ln12 $mauf $lm32
+nop
+nop
+
+
+###################################################
+
+## lm38~44
+dpassa $lm26v $ln26v
+nop
+nop
+dvadd $ln26 $lm36 $lr38
+dvadd $lm40 $mauf $lr38
+dvadd $lm50 $mauf $lr38
+nop
+nop
+
+### 1/4倍
+dvmulu $lr38 $ln12 $nowrite
+dvfmad $lr38 $ln12 $mauf $lm38
+nop
+nop
+
+
+dvadd $ln28 $lm38 $lr40
+dvadd $lm42 $mauf $lr40
+dvadd $lm52 $mauf $lr40
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr40 $ln12 $nowrite
+dvfmad $lr40 $ln12 $mauf $lm40
+nop
+nop
+
+
+dvadd $ln30 $lm40 $lr42
+dvadd $lm44 $mauf $lr42
+dvadd $lm54 $mauf $lr42
+nop
+nop
+
+### 1/4倍
+dvmulu $lr42 $ln12 $nowrite
+dvfmad $lr42 $ln12 $mauf $lm42
+nop
+nop
+
+
+dvadd $ln32 $lm42 $lr44
+dvadd $lm46 $mauf $lr44
+dvadd $lm56 $mauf $lr44
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr44 $ln12 $nowrite
+dvfmad $lr44 $ln12 $mauf $lm44
+nop
+nop
+
+###################################################
+
+## lm50~52
+dpassa $lm38v $ln38v
+nop
+nop
+dvadd $ln38 $lm48 $lr50
+dvadd $lm52 $mauf $lr50
+dvadd $lm62 $mauf $lr50
+nop
+nop
+
+### 1/4倍
+dvmulu $lr50 $ln12 $nowrite
+dvfmad $lr50 $ln12 $mauf $lm50
+nop
+nop
+
+
+dvadd $ln40 $lm50 $lr52
+dvadd $lm54 $mauf $lr52
+dvadd $lm64 $mauf $lr52
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr52 $ln12 $nowrite
+dvfmad $lr52 $ln12 $mauf $lm52
+nop
+nop
+
+
+dvadd $ln42 $lm52 $lr54
+dvadd $lm56 $mauf $lr54
+dvadd $lm66 $mauf $lr54
+nop
+nop
+
+### 1/4倍
+dvmulu $lr54 $ln12 $nowrite
+dvfmad $lr54 $ln12 $mauf $lm54
+nop
+nop
+
+
+dvadd $ln44 $lm54 $lr56
+dvadd $lm58 $mauf $lr56
+dvadd $lm68 $mauf $lr56
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr56 $ln12 $nowrite
+dvfmad $lr56 $ln12 $mauf $lm56
+nop
+nop
+
+
+###################################################
+### 二回目 ###
+
+## lm14~20
+dvadd $ln2 $lm12 $lr14
+dvadd $lm16 $mauf $lr14
+dvadd $lm26 $mauf $lr14
+nop
+nop
+
+### 1/4倍
+dvmulu $lr14 $ln12 $nowrite
+dvfmad $lr14 $ln12 $mauf $lm14
+nop
+nop
+
+
+dvadd $ln4 $lm14 $lr16
+dvadd $lm18 $mauf $lr16
+dvadd $lm28 $mauf $lr16
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr16 $ln12 $nowrite
+dvfmad $lr16 $ln12 $mauf $lm16
+nop
+nop
+
+
+dvadd $ln6 $lm16 $lr18
+dvadd $lm20 $mauf $lr18
+dvadd $lm30 $mauf $lr18
+nop
+nop
+
+### 1/4倍
+dvmulu $lr18 $ln12 $nowrite
+dvfmad $lr18 $ln12 $mauf $lm18
+nop
+nop
+
+
+dvadd $ln8 $lm18 $lr20
+dvadd $lm22 $mauf $lr20
+dvadd $lm32 $mauf $lr20
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr20 $ln12 $nowrite
+dvfmad $lr20 $ln12 $mauf $lm20
+nop
+nop
+
+###################################################
+
+## lm26~28
+dpassa $lm14v $ln14v
+nop
+nop
+dvadd $ln14 $lm24 $lr26
+dvadd $lm28 $mauf $lr26
+dvadd $lm38 $mauf $lr26
+nop
+nop
+
+### 1/4倍
+dvmulu $lr26 $ln12 $nowrite
+dvfmad $lr26 $ln12 $mauf $lm26
+nop
+nop
+
+
+dvadd $ln16 $lm26 $lr28
+dvadd $lm30 $mauf $lr28
+dvadd $lm40 $mauf $lr28
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr28 $ln12 $nowrite
+dvfmad $lr28 $ln12 $mauf $lm28
+nop
+nop
+
+
+dvadd $ln18 $lm28 $lr30
+dvadd $lm32 $mauf $lr30
+dvadd $lm42 $mauf $lr30
+nop
+nop
+
+### 1/4倍
+dvmulu $lr30 $ln12 $nowrite
+dvfmad $lr30 $ln12 $mauf $lm30
+nop
+nop
+
+
+dvadd $ln20 $lm30 $lr32
+dvadd $lm34 $mauf $lr32
+dvadd $lm44 $mauf $lr32
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr32 $ln12 $nowrite
+dvfmad $lr32 $ln12 $mauf $lm32
+nop
+nop
+
+
+###################################################
+
+## lm38~44
+dpassa $lm26v $ln26v
+nop
+nop
+dvadd $ln26 $lm36 $lr38
+dvadd $lm40 $mauf $lr38
+dvadd $lm50 $mauf $lr38
+nop
+nop
+
+### 1/4倍
+dvmulu $lr38 $ln12 $nowrite
+dvfmad $lr38 $ln12 $mauf $lm38
+nop
+nop
+
+
+dvadd $ln28 $lm38 $lr40
+dvadd $lm42 $mauf $lr40
+dvadd $lm52 $mauf $lr40
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr40 $ln12 $nowrite
+dvfmad $lr40 $ln12 $mauf $lm40
+nop
+nop
+
+
+dvadd $ln30 $lm40 $lr42
+dvadd $lm44 $mauf $lr42
+dvadd $lm54 $mauf $lr42
+nop
+nop
+
+### 1/4倍
+dvmulu $lr42 $ln12 $nowrite
+dvfmad $lr42 $ln12 $mauf $lm42
+nop
+nop
+
+
+dvadd $ln32 $lm42 $lr44
+dvadd $lm46 $mauf $lr44
+dvadd $lm56 $mauf $lr44
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr44 $ln12 $nowrite
+dvfmad $lr44 $ln12 $mauf $lm44
+nop
+nop
+
+
+###################################################
+
+## lm50~52
+dpassa $lm38v $ln38v
+nop
+nop
+dvadd $ln38 $lm48 $lr50
+dvadd $lm52 $mauf $lr50
+dvadd $lm62 $mauf $lr50
+nop
+nop
+
+### 1/4倍
+dvmulu $lr50 $ln12 $nowrite
+dvfmad $lr50 $ln12 $mauf $lm50
+nop
+nop
+
+
+dvadd $ln40 $lm50 $lr52
+dvadd $lm54 $mauf $lr52
+dvadd $lm64 $mauf $lr52
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr52 $ln12 $nowrite
+dvfmad $lr52 $ln12 $mauf $lm52
+nop
+nop
+
+
+dvadd $ln42 $lm52 $lr54
+dvadd $lm56 $mauf $lr54
+dvadd $lm66 $mauf $lr54
+nop
+nop
+
+### 1/4倍
+dvmulu $lr54 $ln12 $nowrite
+dvfmad $lr54 $ln12 $mauf $lm54
+nop
+nop
+
+
+dvadd $ln44 $lm54 $lr56
+dvadd $lm58 $mauf $lr56
+dvadd $lm68 $mauf $lr56
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr56 $ln12 $nowrite
+dvfmad $lr56 $ln12 $mauf $lm56
+nop
+nop
+
+
 ###################################################
 
 d set $lr32m0p0 1 0000000000000100 #PEID=0000000000000000 (UP=0000000000000100)
@@ -319,13 +1056,6 @@ d set $lr32m15p3 1 0000000000000037 #PEID=000000000000003F (UP=0000000000000037)
 d set $lr34m15p3 1 0000000000000100 #PEID=000000000000003F (DOWN=0000000000000100)
 d set $lr36m15p3 1 0000000000000100 #PEID=000000000000003F (RIGHT=0000000000000100)
 d set $lr38m15p3 1 000000000000003E #PEID=000000000000003F (LEFT=000000000000003E)
-
-d set $lm50m0p0 1 0000000000005000
-d set $lm52m0p0 1 0000000000005200 
-d set $lm54m0p0 1 0000000000005400 
-d set $lm56m0p0 1 0000000000005600
-
-############################################# halo-exchange
 
 ############################################# halo-exchange
 lpassa $peid $ln0v
