@@ -1,0 +1,147 @@
+l1bmd $lm14v12 $lb256 # 64 * 4個分書き込まれる $lm14v $address の部分
+nop
+nop
+
+l1bmp $lb192 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb256 $lm22
+l1bmp $lb320 $lm34
+l1bmp $lb384 $lm46
+l1bmp $lb448 $lm58
+mask 0
+
+l1bmp $lb196 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb260 $lm22
+l1bmp $lb324 $lm34
+l1bmp $lb388 $lm46
+l1bmp $lb452 $lm58
+mask 0
+
+l1bmp $lb200 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb264 $lm22
+l1bmp $lb328 $lm34
+l1bmp $lb392 $lm46
+l1bmp $lb456 $lm58
+mask 0
+
+l1bmp $lb204 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb268 $lm22
+l1bmp $lb332 $lm34
+l1bmp $lb396 $lm46
+l1bmp $lb460 $lm58
+mask 0
+
+l1bmp $lb208 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb272 $lm22
+l1bmp $lb336 $lm34
+l1bmp $lb400 $lm46
+l1bmp $lb464 $lm58
+mask 0
+
+l1bmp $lb212 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb276 $lm22
+l1bmp $lb340 $lm34
+l1bmp $lb404 $lm46
+l1bmp $lb468 $lm58
+mask 0
+
+l1bmp $lb216 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb280 $lm22
+l1bmp $lb344 $lm34
+l1bmp $lb408 $lm46
+l1bmp $lb472 $lm58
+mask 0
+
+l1bmp $lb220 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb284 $lm22
+l1bmp $lb348 $lm34
+l1bmp $lb412 $lm46
+l1bmp $lb476 $lm58
+mask 0
+
+l1bmp $lb224 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb288 $lm22
+l1bmp $lb352 $lm34
+l1bmp $lb416 $lm46
+l1bmp $lb480 $lm58
+mask 0
+
+l1bmp $lb228 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb292 $lm22
+l1bmp $lb356 $lm34
+l1bmp $lb420 $lm46
+l1bmp $lb484 $lm58
+mask 0
+
+l1bmp $lb232 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb296 $lm22
+l1bmp $lb360 $lm34
+l1bmp $lb424 $lm46
+l1bmp $lb488 $lm58
+mask 0
+
+l1bmp $lb236 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb300 $lm22
+l1bmp $lb364 $lm34
+l1bmp $lb428 $lm46
+l1bmp $lb492 $lm58
+mask 0
+
+l1bmp $lb240 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb304 $lm22
+l1bmp $lb368 $lm34
+l1bmp $lb432 $lm46
+l1bmp $lb496 $lm58
+mask 0
+
+l1bmp $lb244 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb308 $lm22
+l1bmp $lb372 $lm34
+l1bmp $lb436 $lm46
+l1bmp $lb500 $lm58
+mask 0
+
+l1bmp $lb248 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb312 $lm22
+l1bmp $lb376 $lm34
+l1bmp $lb440 $lm46
+l1bmp $lb504 $lm58
+mask 0
+
+l1bmp $lb252 $t
+lxor $lbf $ln0v $t $omr2;
+maskm 2
+l1bmp $lb316 $lm22
+l1bmp $lb380 $lm34
+l1bmp $lb444 $lm46
+l1bmp $lb508 $lm58
+mask 0

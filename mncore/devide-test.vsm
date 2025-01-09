@@ -1,15 +1,16 @@
-d set $lm0m0p0 1 0000000000000040
-d set $ln0m0p0 1 0000000000000001
+d set $lm0m0p0 1 0000000000000010
 
-ilsr $ln0v $lm0v $t
+imm i"4" $nowrite
+
+ilsr $lm0v $aluf  $t
 nop
 ipassa $t $lr0v
+d get $lr0n0c0b0m0p0 1
 nop
 nop
 iadd $lr0v $lr0v $lm0v
 iadd $lr0v $aluf $lm0v
 iadd $lr0v $aluf $lm0v
-
 d get $lm0n0c0b0m0p0 1
 
 

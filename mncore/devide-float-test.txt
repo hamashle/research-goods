@@ -1,0 +1,3 @@
+DEBUG-GREG0(n0c0b0m0p0,0):(0.25, 0.25) (0x3e800000, 0x3e800000) #d getf $lr0n0c0b0m0p0 1
+DEBUG-LM0(n0c0b0m0p0,0):(16, 16) (0x41800000, 0x41800000) #d getf $lm0n0c0b0m0p0 1
+DEBUG-LM1(n0c0b0m0p0,0):(4, 4) (0x40800000, 0x40800000) #d getf $ln0n0c0b0m0p0 1

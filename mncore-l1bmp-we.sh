@@ -14,11 +14,12 @@ lb_increment=$4 # lbのインクリメント値
 direction=$5 # 方角の値
 
 # lmのインクリメント値は固定値（2）
-lm_increment=20
+lm_increment=12
 
 # ループで文字列を生成
 echo "l1bmp \$lb${direction} \$t"
-echo "lxor \$ti \$ln0v \$t \$omr2; nointr"
+echo -e "nop"
+echo "lxor \$t \$ln0 \$t \$omr2;"
 echo -e "maskm 2\n"
 
 for (( j=1; j<=max_count; j++ ))

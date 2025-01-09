@@ -24,23 +24,23 @@ initial_lm2=$6       # 初期値lm2
 direction2=$7        # 方角の値2
 
 # 定数
-max_count=8   # 最大カウント
+max_count=4   # 最大カウント
 repeat=128     # 必要な回数に変更可能
 
 # 出力ファイルを初期化
-output_file="halo-exchange-we.txt"
+output_file="halo-exchange-we-l1b1-ln0.txt"
 
 # 処理を交互に繰り返す
 for (( i=0; i<repeat; i++ )); do
   if (( i % 2 == 0 )); then
     # セット1の処理
-    lb=$((initial_lb1 + (i / 2) * 2))  # 初期値lb1を2ずつ増加
-    dir=$((direction1 + (i / 2) * 2))  # 方角の値1を2ずつ増加
+    lb=$((initial_lb1 + (i / 2)))  # 初期値lb1を1ずつ増加
+    dir=$((direction1 + (i / 2)))  # 方角の値1を1ずつ増加
     bash "$child_script" $lb $initial_lm1 $max_count $lb_increment $dir >> "$output_file"
   else
     # セット2の処理
-    lb=$((initial_lb2 + (i / 2) * 2))  # 初期値lb2を2ずつ増加
-    dir=$((direction2 + (i / 2) * 2))  # 方角の値2を2ずつ増加
+    lb=$((initial_lb2 + (i / 2)))  # 初期値lb2を1ずつ増加
+    dir=$((direction2 + (i / 2)))  # 方角の値2を1ずつ増加
     bash "$child_script" $lb $initial_lm2 $max_count $lb_increment $dir >> "$output_file"
   fi
 done

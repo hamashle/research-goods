@@ -1,0 +1,18 @@
+lpassa $peid $ln0v
+#imm i"8" $s1
+#nop/2
+#imm i"1" $s3 
+
+nop/2
+isub $lr0 $ls0 $lr32
+nop/2
+iadd $lr0 $ls0 $lr34
+nop/2
+iadd $lr0 $ls2 $lr36
+nop/2
+isub $lr0 $ls2 $lr38
+
+d get $lr32n0c0b0 1
+d get $lr34n0c0b0 1
+d get $lr36n0c0b0 1
+d get $lr38n0c0b0 1
