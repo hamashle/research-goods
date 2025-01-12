@@ -33,7 +33,7 @@ void dump_set_dv(std::ostringstream &vsm, char mem, double *x, int n, int addr)
         tmp.v = x[i];
         for (int k = 0; k < 4; k++)
         {
-            vsm << "d set $l" << mem << (8 * i + 2 * k + addr) << "n0c0b0m0p0 1 l"
+            vsm << "d set $l" << mem << (8 * i + 2 * k + addr) << "n0c0b0m0p0 1 "
                 << std::hex << tmp.i << std::dec << "\n";
         }
     }
@@ -44,9 +44,26 @@ void dump_set_d(std::ostringstream &vsm, char mem, double *x, int n, int addr)
     for (int i = 0; i < n; i++)
     {
         union binary64 tmp;
-        tmp.v = x[i];
-        vsm << "d set $l" << mem << (2 * i + addr) << "n0c0b0m0p0 1 l"
+        tmp.v = x[i]; // LM0[i];
+        vsm << "d set $l" << mem << (2 * i + addr) << "n0c0b0m0p0 1 "
             << std::hex << tmp.i << std::dec << "\n";
+    }
+}
+
+void dump_set_d_flexible_mab_pe(std::ostringstream &vsm, char mem, double *x, int n, int addr)
+{
+    for (int mab = 0; mab < 2; j++)
+    {
+        for (int peid = 0; peid < 4; k++) // peid
+        {
+            for (int i = 1; i < 5; i++)
+            {
+                union binary64 tmp;
+                tmp.v = 5.0; // LM0[i]; 一旦5.0で初期化
+                vsm << "d set $l" << mem << (addr * i) << "n0c0b0m" << mab << "p" << peid << " 1 "
+                    << std::hex << tmp.i << std::dec << "\n";
+            }
+        }
     }
 }
 
@@ -145,8 +162,9 @@ struct pe_emulator
         memcpy(LM0, arg_LM0, sizeof(double) * nn);
         memcpy(LM1, arg_LM1, sizeof(double) * nn);
 
-        dump_set_d(vsm, 'm', LM0, nn, 0);
-        dump_set_d(vsm, 'n', LM1, nn, 0);
+        // dump_set_d(vsm, 'm', LM0, nn, 0);
+        // dump_set_d(vsm, 'n', LM1, nn, 0);
+        dump_set_d_flexible_mab_pe(vsm, 'm', LM0, nn, 2);
 
         std::ifstream ifs_kernel(kernelfile);
         if (!ifs_kernel.is_open())
