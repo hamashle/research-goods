@@ -149,6 +149,8 @@ struct pe_emulator
     static const int n = 2048;
     double LM0[8192];
     double LM1[8192];
+    int debug_mab = 0;
+    int debug_address_offset = 14;
 
     std::ostringstream vsm;
 
@@ -175,8 +177,27 @@ struct pe_emulator
         std::string kernel_string((std::istreambuf_iterator<char>(ifs_kernel)), std::istreambuf_iterator<char>());
         vsm << kernel_string;
 
-        dump_get_d(vsm, 'm', nn, 0);
-        dump_get_d(vsm, 'n', nn, 0);
+        for (int i = 0; i < 8; i++)
+        {
+            for (int j = 0; j < 4; j++)
+            {
+                for (int k = 0; k < 2; k++)
+                {
+                    for (int debug_pe = 0; debug_pe < 4; debug_pe++)
+                    {
+                        dump_get_d(vsm, 'm', 4, debug_address_offset, debug_pe, debug_mab);
+                    }
+                    debug_mab++;
+                }
+                debug_mab -= 2;
+                debug_address_offset += 12;
+            }
+            debug_mab += 2;
+            debug_address_offset = 14;
+        }
+
+        // dump_get_d(vsm, 'm', nn, 0);
+        // dump_get_d(vsm, 'n', nn, 0);
 
         std::ofstream ofs(vsmfile);
         ofs << vsm.str() << std::endl;
