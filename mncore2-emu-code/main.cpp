@@ -103,7 +103,7 @@ int main()
     for (int i = 0; i < 48; i++)
     {
         LM0[i] = 5.0;
-        LM1[i] = 5.0;
+        LM1[i] = 0.0;
     }
 
     memcpy(LM0_ref, LM0, sizeof(double) * n);
@@ -111,13 +111,17 @@ int main()
 
     emu.execute_kernel("source.vsm", LM0, LM1, nvec);
 
+    for(int i = 0; i < 100; i++) {
+        std::cerr << "LM0[" << i << "] = " << LM0[i] << ", LM1[" << i << "] = " << LM1[i] << std::endl;
+    }
+
     // CPU側で計算したものの値をLM1_ref, LM2_refに入れる
     mncore_kernel(LM0_ref, LM1_ref);
 
     // MN-Coreの結果とCPU側の結果を比較する
     for (int i = 0; i < 2304; i++)
     {
-        double b_emu = LM0[i];
+        double b_emu = LM1[i];
         double b_ref = LM1_ref[i];
         double diff = (b_emu - b_ref) / b_ref;
         std::cout << i << " " << b_ref << " " << b_emu << " " << diff << "\n";

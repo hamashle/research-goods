@@ -223,10 +223,14 @@ struct pe_emulator
             union binary64 tmp;
             tmp.i = std::stoull(m[1].str().substr(0, 16), nullptr, 16);
             values.push_back(tmp.v);
+            std::cerr << "Extracted value :" << tmp.v << std::endl;
         }
-
-        memcpy(arg_LM0, values.data(), sizeof(double) * nn);
-        memcpy(arg_LM1, values.data() + nn, sizeof(double) * nn);
+        int counter = 0;
+        
+        std::cerr << counter << std::endl;
+        memcpy(arg_LM0, values.data(), sizeof(double) * 2048);
+        std::cerr << "this is nn " << nn << std::endl;
+        memcpy(arg_LM1, values.data() + nn, sizeof(double) * 2048);
 
         vsm.str("");
         vsm.clear();
