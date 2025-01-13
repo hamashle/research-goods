@@ -22,12 +22,71 @@ double LM1_ref[n];
 
 const int nvec = 48;
 
+const double V = 5.0;
+const double convergence_criterion = 1e-5;
+
 void mncore_kernel(double *LM0, double *LM1)
 {
-    // ここのコードは今回、jacobi.cppのコードをそのまま移植する
-    for (int i = 0; i < nvec; i++)
+    auto result = jacobi();
+    int width = result.size();
+
+    // 2次元配列を1次元配列に変換してLM1に格納
+    int index = 0;
+    for (int i = 0; i < width; i++)
     {
-        LM1[i] = cos(LM0[i]);
+        for (int j = 0; j < width; j++)
+        {
+            LM1[index++] = result[i][j];
+        }
+    }
+}
+
+void initialize_grid(int width, std::vector<std::vector<double>> &grid)
+{
+    for (int i = 0; i < width; i++)
+    {
+
+        grid[0][i] = V;
+    }
+}
+
+std::vector<std::vector<double>> jacobi()
+{
+    int width = 48;
+    std::vector<std::vector<double>> grid(width, std::vector<double>(width, 0.0));
+    std::vector<std::vector<double>> new_grid(width, std::vector<double>(width, 0.0));
+
+    initialize_grid(width, grid);
+
+    double delta = 1.0; // ループに入る前のチェック用
+
+    // Perform the update
+    while (delta > convergence_criterion)
+    {
+        for (int i = 0; i < width; i++)
+        {
+            for (int j = 0; j < width; j++)
+            {
+                if (i == 0 || i == width - 1 || j == 0 || j == width - 1)
+                {
+                    new_grid[i][j] = grid[i][j];
+                }
+                else
+                {
+                    new_grid[i][j] = (grid[i + 1][j] + grid[i - 1][j] + grid[i][j + 1] + grid[i][j - 1]) / 4.0;
+                }
+            }
+        }
+        delta = 0.0;
+        for (int i = 0; i < width; i++)
+        {
+            for (int j = 0; j < width; j++)
+            {
+                delta = std::max(delta, std::abs(grid[i][j] - new_grid[i][j]));
+            }
+        }
+
+        grid.swap(new_grid);
     }
 }
 
@@ -42,8 +101,8 @@ int main()
 
     for (int i = 0; i < nvec; i++)
     {
-        LM0[i] = distr(mt);
-        LM1[i] = 0.0;
+        LM0[i] = 5.0;
+        LM1[i] = 5.0;
     }
 
     memcpy(LM0_ref, LM0, sizeof(double) * n);
@@ -55,7 +114,7 @@ int main()
     mncore_kernel(LM0_ref, LM1_ref);
 
     // MN-Coreの結果とCPU側の結果を比較する
-    for (int i = 0; i < nvec; i++)
+    for (int i = 0; i < 2304; i++)
     {
         double b_emu = LM1[i];
         double b_ref = LM1_ref[i];
