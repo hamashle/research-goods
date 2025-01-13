@@ -1,6 +1,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <cstring>
 
 union binary64
 {
@@ -52,11 +53,11 @@ void dump_set_d(std::ostringstream &vsm, char mem, double *x, int n, int addr)
 
 void dump_set_d_flexible_mab_pe(std::ostringstream &vsm, char mem, double *x, int n, int addr)
 {
-    for (int mab = 0; mab < 2; j++)
+    for (int mab = 0; mab < 2; mab++)
     {
-        for (int peid = 0; peid < 4; k++) // peid
+        for (int peid = 0; peid < 4; peid++) // peid
         {
-            for (int i = 1; i < 5; i++)
+            for (int i = 0; i <= 5; i++)
             {
                 union binary64 tmp;
                 tmp.v = 5.0; // LM0[i]; 一旦5.0で初期化
@@ -72,7 +73,7 @@ void dump_get_d(std::ostringstream &vsm, char mem, int n, int addr_offset, int p
     int addr = addr_offset;
     for (int i = 0; i < n; i++)
     {
-        vsm << "d getd $l" << mem << addr << "n0c0b0m" << std::hex << m << std::dec << "p" << pe << " " << 1 << " \n";
+        vsm << "d getd $l" << mem << addr << "n0c0b0m" << m << std::dec << "p" << pe << " " << 1 << " \n";
         addr += 2;
     }
 }
@@ -150,7 +151,7 @@ struct pe_emulator
     double LM0[8192];
     double LM1[8192];
     int debug_mab = 0;
-    int debug_address_offset = 14;
+    int debug_address_offset = 0;
 
     std::ostringstream vsm;
 
@@ -185,7 +186,7 @@ struct pe_emulator
                 {
                     for (int debug_pe = 0; debug_pe < 4; debug_pe++)
                     {
-                        dump_get_d(vsm, 'm', 4, debug_address_offset, debug_pe, debug_mab);
+                        dump_get_d(vsm, 'm', 6, debug_address_offset, debug_pe, debug_mab);
                     }
                     debug_mab++;
                 }
@@ -193,7 +194,7 @@ struct pe_emulator
                 debug_address_offset += 12;
             }
             debug_mab += 2;
-            debug_address_offset = 14;
+            debug_address_offset = 0;
         }
 
         // dump_get_d(vsm, 'm', nn, 0);
@@ -205,8 +206,8 @@ struct pe_emulator
 
         std::ostringstream assembler;
         std::ostringstream simulator;
-        assembler << "./mncore2_emuenv_20240826/assemble3 " << vsmfile << " >| " << asmfile;
-        simulator << "./mncore2_emuenv_20240826/gpfn3_package_main -i " << asmfile << " -d " << resfile << " >| " << simfile;
+        assembler << "../mncore2_emuenv_20240826/assemble3 " << vsmfile << " >| " << asmfile;
+        simulator << "../mncore2_emuenv_20240826/gpfn3_package_main -i " << asmfile << " -d " << resfile << " >| " << simfile;
 
         int r;
         r = system(assembler.str().c_str());

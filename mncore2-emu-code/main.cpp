@@ -25,22 +25,6 @@ const int nvec = 48;
 const double V = 5.0;
 const double convergence_criterion = 1e-5;
 
-void mncore_kernel(double *LM0, double *LM1)
-{
-    auto result = jacobi();
-    int width = result.size();
-
-    // 2次元配列を1次元配列に変換してLM1に格納
-    int index = 0;
-    for (int i = 0; i < width; i++)
-    {
-        for (int j = 0; j < width; j++)
-        {
-            LM1[index++] = result[i][j];
-        }
-    }
-}
-
 void initialize_grid(int width, std::vector<std::vector<double>> &grid)
 {
     for (int i = 0; i < width; i++)
@@ -88,6 +72,23 @@ std::vector<std::vector<double>> jacobi()
 
         grid.swap(new_grid);
     }
+    return new_grid;
+}
+
+void mncore_kernel(double *LM0, double *LM1)
+{
+    auto result = jacobi();
+    int width = result.size();
+
+    // 2次元配列を1次元配列に変換してLM1に格納
+    int index = 0;
+    for (int i = 0; i < width; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            LM1[index++] = result[i][j];
+        }
+    }
 }
 
 int main()
@@ -99,7 +100,7 @@ int main()
     std::cerr << std::scientific;
     std::cerr << std::setprecision(15);
 
-    for (int i = 0; i < nvec; i++)
+    for (int i = 0; i < 48; i++)
     {
         LM0[i] = 5.0;
         LM1[i] = 5.0;
@@ -116,7 +117,7 @@ int main()
     // MN-Coreの結果とCPU側の結果を比較する
     for (int i = 0; i < 2304; i++)
     {
-        double b_emu = LM1[i];
+        double b_emu = LM0[i];
         double b_ref = LM1_ref[i];
         double diff = (b_emu - b_ref) / b_ref;
         std::cout << i << " " << b_ref << " " << b_emu << " " << diff << "\n";
