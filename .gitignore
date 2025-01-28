@@ -49,3 +49,5 @@ Cargo.lock
 *.pdb
 
 .vscode/
+
+*__tmp__.asm
