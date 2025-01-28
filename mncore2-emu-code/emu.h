@@ -178,6 +178,27 @@ struct pe_emulator
         std::string kernel_string((std::istreambuf_iterator<char>(ifs_kernel)), std::istreambuf_iterator<char>());
         vsm << kernel_string;
 
+        // for(int i = 0; i < 2; i++) 
+        // {
+        //     for (int debug_pe = 0; debug_pe < 4; debug_pe++)
+        //     {
+        //         // if(debug_pe == 0 && debug_mab % 2 == 0) 
+        //         // {
+        //         //     dump_get_d(vsm, 'm', 5, 0, debug_pe, debug_mab);
+        //         // } 
+        //         // else if(debug_pe == 3 && debug_mab % 2 == 1)
+        //         // {
+        //         //     dump_get_d(vsm, 'm', 5, 2, debug_pe, debug_mab);
+        //         // } else 
+        //         // {
+        //         //     dump_get_d(vsm, 'm', 4, 2, debug_pe, debug_mab);
+        //         // }
+
+        //     }
+        //     debug_mab++;
+        // }
+        // debug_mab = 0;
+
         for (int i = 0; i < 8; i++)
         {
             for (int j = 0; j < 4; j++)
@@ -186,6 +207,16 @@ struct pe_emulator
                 {
                     for (int debug_pe = 0; debug_pe < 4; debug_pe++)
                     {
+                        // if(debug_pe == 0 && debug_mab % 2 == 0) 
+                        // {
+                        //     dump_get_d(vsm, 'm', 5, debug_address_offset, debug_pe, debug_mab);
+                        // } 
+                        // else if(debug_pe == 3 && debug_mab % 2 == 1)
+                        // {
+                        //     dump_get_d(vsm, 'm', 5, debug_address_offset+2, debug_pe, debug_mab);
+                        // } else {
+                        //     dump_get_d(vsm, 'm', 4, debug_address_offset+2, debug_pe, debug_mab);
+                        // }
                         dump_get_d(vsm, 'm', 6, debug_address_offset, debug_pe, debug_mab);
                     }
                     debug_mab++;
@@ -228,9 +259,9 @@ struct pe_emulator
         int counter = 0;
         
         std::cerr << counter << std::endl;
-        memcpy(arg_LM0, values.data(), sizeof(double) * 2048);
+        memcpy(arg_LM0, values.data(), sizeof(double) * 2304);
         std::cerr << "this is nn " << nn << std::endl;
-        memcpy(arg_LM1, values.data() + nn, sizeof(double) * 2048);
+        memcpy(arg_LM1, values.data() + nn, sizeof(double) * 2304);
 
         vsm.str("");
         vsm.clear();

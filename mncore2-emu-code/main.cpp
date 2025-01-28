@@ -36,22 +36,23 @@ void initialize_grid(int width, std::vector<std::vector<double>> &grid)
 
 std::vector<std::vector<double>> jacobi()
 {
-    int width = 48;
-    std::vector<std::vector<double>> grid(width, std::vector<double>(width, 0.0));
-    std::vector<std::vector<double>> new_grid(width, std::vector<double>(width, 0.0));
+    int colmn = 34;
+    int row = 34;
+    std::vector<std::vector<double>> grid(row, std::vector<double>(colmn, 0.0));
+    std::vector<std::vector<double>> new_grid(row, std::vector<double>(colmn, 0.0));
 
-    initialize_grid(width, grid);
+    initialize_grid(colmn, grid);
 
     double delta = 1.0; // ループに入る前のチェック用
 
     // Perform the update
     while (delta > convergence_criterion)
     {
-        for (int i = 0; i < width; i++)
+        for (int i = 0; i < row; i++)
         {
-            for (int j = 0; j < width; j++)
+            for (int j = 0; j < colmn; j++)
             {
-                if (i == 0 || i == width - 1 || j == 0 || j == width - 1)
+                if (i == 0 || i == row - 1 || j == 0 || j == colmn - 1)
                 {
                     new_grid[i][j] = grid[i][j];
                 }
@@ -62,9 +63,9 @@ std::vector<std::vector<double>> jacobi()
             }
         }
         delta = 0.0;
-        for (int i = 0; i < width; i++)
+        for (int i = 0; i < row; i++)
         {
-            for (int j = 0; j < width; j++)
+            for (int j = 0; j < colmn; j++)
             {
                 delta = std::max(delta, std::abs(grid[i][j] - new_grid[i][j]));
             }
@@ -78,13 +79,15 @@ std::vector<std::vector<double>> jacobi()
 void mncore_kernel(double *LM0, double *LM1)
 {
     auto result = jacobi();
-    int width = result.size();
+    //int width = result.size();
+    int column = 34;
+    int row = 34;
 
     // 2次元配列を1次元配列に変換してLM1に格納
     int index = 0;
-    for (int i = 0; i < width; i++)
+    for (int i = 0; i < row; i++)
     {
-        for (int j = 0; j < width; j++)
+        for (int j = 0; j < column; j++)
         {
             LM1[index++] = result[i][j];
         }
@@ -100,7 +103,7 @@ int main()
     std::cerr << std::scientific;
     std::cerr << std::setprecision(15);
 
-    for (int i = 0; i < 48; i++)
+    for (int i = 0; i < 34; i++)
     {
         LM0[i] = 5.0;
         LM1[i] = 0.0;
@@ -109,7 +112,7 @@ int main()
     memcpy(LM0_ref, LM0, sizeof(double) * n);
     memcpy(LM1_ref, LM1, sizeof(double) * n);
 
-    emu.execute_kernel("source.vsm", LM0, LM1, nvec);
+    emu.execute_kernel("source-test.vsm", LM0, LM1, nvec);
 
     for(int i = 0; i < 100; i++) {
         std::cerr << "LM0[" << i << "] = " << LM0[i] << ", LM1[" << i << "] = " << LM1[i] << std::endl;
@@ -121,7 +124,7 @@ int main()
     // MN-Coreの結果とCPU側の結果を比較する
     for (int i = 0; i < 2304; i++)
     {
-        double b_emu = LM1[i];
+        double b_emu = LM0[i];
         double b_ref = LM1_ref[i];
         double diff = (b_emu - b_ref) / b_ref;
         std::cout << i << " " << b_ref << " " << b_emu << " " << diff << "\n";
