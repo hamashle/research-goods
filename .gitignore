@@ -50,4 +50,4 @@ Cargo.lock
 
 .vscode/
 
-*__tmp__.asm
+__tmp__.asm
