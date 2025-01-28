@@ -1,0 +1,238 @@
+### ラプラス方程式の加算部分の実装
+## lm14~20
+dpassa $lm2v $ln2v
+nop
+nop
+dvadd $ln2 $lm12 $lr14
+dvadd $lm16 $mauf $lr14
+dvadd $lm26 $mauf $lr14
+nop
+
+### 1/4倍
+imm ui"0x3fd00000" $n12
+nop
+nop
+dvmulu $lr14 $ln12 $nowrite
+dvfmad $lr14 $ln12 $mauf $lm14
+nop
+nop
+
+
+dvadd $ln4 $lm14 $lr16
+dvadd $lm18 $mauf $lr16
+dvadd $lm28 $mauf $lr16
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr16 $ln12 $nowrite
+dvfmad $lr16 $ln12 $mauf $lm16
+nop
+nop
+
+
+dvadd $ln6 $lm16 $lr18
+dvadd $lm20 $mauf $lr18
+dvadd $lm30 $mauf $lr18
+nop
+nop
+
+### 1/4倍
+dvmulu $lr18 $ln12 $nowrite
+dvfmad $lr18 $ln12 $mauf $lm18
+nop
+nop
+
+
+dvadd $ln8 $lm18 $lr20
+dvadd $lm22 $mauf $lr20
+dvadd $lm32 $mauf $lr20
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr20 $ln12 $nowrite
+dvfmad $lr20 $ln12 $mauf $lm20
+nop
+nop
+
+
+###################################################
+
+## lm26~28
+dpassa $lm14v $ln14v
+nop
+nop
+dvadd $ln14 $lm24 $lr26
+dvadd $lm28 $mauf $lr26
+dvadd $lm38 $mauf $lr26
+nop
+nop
+
+### 1/4倍
+dvmulu $lr26 $ln12 $nowrite
+dvfmad $lr26 $ln12 $mauf $lm26
+nop
+nop
+
+
+dvadd $ln16 $lm26 $lr28
+dvadd $lm30 $mauf $lr28
+dvadd $lm40 $mauf $lr28
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr28 $ln12 $nowrite
+dvfmad $lr28 $ln12 $mauf $lm28
+nop
+nop
+
+
+dvadd $ln18 $lm28 $lr30
+dvadd $lm32 $mauf $lr30
+dvadd $lm42 $mauf $lr30
+nop
+nop
+
+### 1/4倍
+dvmulu $lr30 $ln12 $nowrite
+dvfmad $lr30 $ln12 $mauf $lm30
+nop
+nop
+
+
+dvadd $ln20 $lm30 $lr32
+dvadd $lm34 $mauf $lr32
+dvadd $lm44 $mauf $lr32
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr32 $ln12 $nowrite
+dvfmad $lr32 $ln12 $mauf $lm32
+nop
+nop
+
+
+###################################################
+
+## lm38~44
+dpassa $lm26v $ln26v
+nop
+nop
+dvadd $ln26 $lm36 $lr38
+dvadd $lm40 $mauf $lr38
+dvadd $lm50 $mauf $lr38
+nop
+nop
+
+### 1/4倍
+dvmulu $lr38 $ln12 $nowrite
+dvfmad $lr38 $ln12 $mauf $lm38
+nop
+nop
+
+
+dvadd $ln28 $lm38 $lr40
+dvadd $lm42 $mauf $lr40
+dvadd $lm52 $mauf $lr40
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr40 $ln12 $nowrite
+dvfmad $lr40 $ln12 $mauf $lm40
+nop
+nop
+
+
+dvadd $ln30 $lm40 $lr42
+dvadd $lm44 $mauf $lr42
+dvadd $lm54 $mauf $lr42
+nop
+nop
+
+### 1/4倍
+dvmulu $lr42 $ln12 $nowrite
+dvfmad $lr42 $ln12 $mauf $lm42
+nop
+nop
+
+
+dvadd $ln32 $lm42 $lr44
+dvadd $lm46 $mauf $lr44
+dvadd $lm56 $mauf $lr44
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr44 $ln12 $nowrite
+dvfmad $lr44 $ln12 $mauf $lm44
+nop
+nop
+
+###################################################
+
+## lm50~52
+dpassa $lm38v $ln38v
+nop
+nop
+dvadd $ln38 $lm48 $lr50
+dvadd $lm52 $mauf $lr50
+dvadd $lm62 $mauf $lr50
+nop
+nop
+
+### 1/4倍
+dvmulu $lr50 $ln12 $nowrite
+dvfmad $lr50 $ln12 $mauf $lm50
+nop
+nop
+
+
+dvadd $ln40 $lm50 $lr52
+dvadd $lm54 $mauf $lr52
+dvadd $lm64 $mauf $lr52
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr52 $ln12 $nowrite
+dvfmad $lr52 $ln12 $mauf $lm52
+nop
+nop
+
+
+dvadd $ln42 $lm52 $lr54
+dvadd $lm56 $mauf $lr54
+dvadd $lm66 $mauf $lr54
+nop
+nop
+
+### 1/4倍
+dvmulu $lr54 $ln12 $nowrite
+dvfmad $lr54 $ln12 $mauf $lm54
+nop
+nop
+
+
+dvadd $ln44 $lm54 $lr56
+dvadd $lm58 $mauf $lr56
+dvadd $lm68 $mauf $lr56
+nop
+nop
+
+
+### 1/4倍
+dvmulu $lr56 $ln12 $nowrite
+dvfmad $lr56 $ln12 $mauf $lm56
+nop
+nop

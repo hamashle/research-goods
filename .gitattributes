@@ -1,0 +1,2 @@
+*.tmp filter=lfs diff=lfs merge=lfs -text
+mncore2-emu-code/__tmp__.* filter=lfs diff=lfs merge=lfs -text
