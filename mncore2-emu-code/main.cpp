@@ -87,12 +87,11 @@ void exchange_boundaries(int width, std::vector<std::vector<double>> &grid)
 
 std::vector<std::vector<double>> jacobi()
 {
-    int colmn = 48;
-    int row = 48;
-    std::vector<std::vector<double>> grid(row, std::vector<double>(colmn, 0.0));
-    std::vector<std::vector<double>> new_grid(row, std::vector<double>(colmn, 0.0));
+    int width = 48;
+    std::vector<std::vector<double>> grid(width, std::vector<double>(width, 0.0));
+    std::vector<std::vector<double>> old_grid = grid;
 
-    initialize_grid(colmn, grid);
+    initialize_grid(width, grid);
 
     double delta = 1.0; // ループに入る前のチェック用
 
@@ -130,8 +129,8 @@ void mncore_kernel(double *LM0, double *LM1)
 {
     auto result = jacobi();
     // int width = result.size();
-    int column = 34;
-    int row = 34;
+    int column = 48;
+    int row = 48;
 
     // 2次元配列を1次元配列に変換してLM1に格納
     int index = 0;
