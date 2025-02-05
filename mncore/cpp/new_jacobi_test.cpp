@@ -12,10 +12,9 @@ void initialize_grid(int width, std::vector<std::vector<double>> &grid)
     for (int i = 0; i < width; i++)
     {
         grid[0][i] = V; // 上端の初期値を設定
-        grid[0][i] = V;
-        grid[1][i] = 1.0 * i;
-        grid[3][i] = 3.0 * i;
-        grid[4][i] = 4.0 * i;
+        grid[1][i] = 1.0 * (i % 6);
+        grid[3][i] = 3.0 * (i % 6);
+        grid[4][i] = 4.0 * (i % 6);
     }
 }
 
