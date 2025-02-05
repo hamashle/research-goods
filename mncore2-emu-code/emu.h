@@ -75,21 +75,21 @@ void dump_set_d_flexible_mab_pe(std::ostringstream &vsm, char mem, double *x, in
                 union binary64 tmp;
                 tmp.v = 1.0 * i;
                 vsm << "d set $l" << mem << (12 + i * 2) << "n0c0b0m" << mab << "p" << peid << " 1 "
-                    << std::hex << tmp.i << std::dec << "\n";
+                    << std::hex << std::setfill('0') << std::setw(16) << tmp.i << std::dec << "\n";
             }
             for (int i = 0; i <= 5; i++)
             {
                 union binary64 tmp;
                 tmp.v = 3.0 * i;
                 vsm << "d set $l" << mem << (36 + i * 2) << "n0c0b0m" << mab << "p" << peid << " 1 "
-                    << std::hex << tmp.i << std::dec << "\n";
+                    << std::hex << std::setfill('0') << std::setw(16) << tmp.i << std::dec << "\n";
             }
             for (int i = 0; i <= 5; i++)
             {
                 union binary64 tmp;
                 tmp.v = 4.0 * i;
                 vsm << "d set $l" << mem << (48 + i * 2) << "n0c0b0m" << mab << "p" << peid << " 1 "
-                    << std::hex << tmp.i << std::dec << "\n";
+                    << std::hex << std::setfill('0') << std::setw(16) << tmp.i << std::dec << "\n";
             }
         }
     }
