@@ -322,7 +322,7 @@ d set $lr38m15p3 1 000000000000003E #PEID=000000000000003F (LEFT=000000000000003
 
 ############################################# halo-exchange
 lpassa $peid $ln0v
-l1bmd $lr32v $lb0 # 64 * 4 
+l1bmd $lr32v $lb0    # 64 * 4 
 l1bmd $lm14v $lb256 # 64 * 4個分書き込まれる $lmv $address の部分
 nop
 nop
